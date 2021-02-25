@@ -1,12 +1,12 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `yujolog`,
   },
   plugins: [
     {
@@ -15,22 +15,22 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
+            title: `🏠 Home`,
             slug: `/blog`,
           },
           {
-            title: `About`,
+            title: `🔎 About`,
             slug: `/about`,
+          },
+          {
+            title: `🗂 Tags`,
+            slug: `/tags`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Github`,
+            url: `https://github.com/yujo11`,
           },
         ],
       },
@@ -78,4 +78,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
