@@ -6,11 +6,7 @@ lang: 'en'
 
 # Your name
 
-<div align="center">
-
-Hi!
-
-🙋‍♂️ My name is Yunho Jo, Just call me yujo
+안녕하세요! yujo입니다! 블로그를 방문해주셔서 감사합니다!
 
 🌱 I’m currently learning
 
@@ -20,8 +16,6 @@ Hi!
 
 🔎 Interest these days
 
+- 🧪 BDD
 - 🌏 Semantic Web
 - 🌏 Web Accessibility
-- 🧪 BDD(cypress)
-
-</div>
