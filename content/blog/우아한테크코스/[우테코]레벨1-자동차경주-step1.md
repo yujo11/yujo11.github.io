@@ -9,7 +9,19 @@ draft: false
   <img width="200px;" src="https://user-images.githubusercontent.com/50367798/106415730-2645a280-6493-11eb-876c-ef7172652261.png"/>
 </p>
 
-# 자동차 경주 게임
+# 자동차 경주 게임 step1
+
+## 0. 구현 요구사항
+
+### 🎯 step1
+
+- [x] 주어진 횟수 동안 n대의 자동차는 전진 또는 멈출 수 있다.
+- [x] 자동차에 이름을 부여할 수 있다. 전진하는 자동차를 출력할 때 자동차 이름을 같이 출력한다.
+- [x] 자동차 이름은 쉼표(,)를 기준으로 구분하며 이름은 5자 이하만 가능하다.
+- [x] 사용자는 몇 번의 이동을 할 것인지를 입력할 수 있어야 한다.
+- [x] 전진하는 조건은 0에서 9 사이에서 random 값을 구한 후 random 값이 4 이상일 경우 전진하고, 3 이하의 값이면 멈춘다.
+- [x] 자동차 경주 게임을 완료한 후 누가 우승했는지를 알려준다. 우승자는 한 명 이상일 수 있다.
+- [x] 우승자가 여러명일 경우 ,를 이용하여 구분한다.
 
 ## 1. 진행하며 고민한 점들
 
@@ -195,3 +207,8 @@ it('음수와 공백을 시도 횟수로 입력 시, 경고메세지가 출력�
 ![](images/racingcar/step1-defaultparam.png)
 
 리뷰어 분의 말대로 범용성을 생각하면 `default parameter`를 사용하지 않고 인자를 전달 받는게 훨씬 나을거라는 생각을 했습니다. `utils` 폴더에 생성한 것도 범용적으로 사용하기 위함이었는데 `default parameter`를 사용함으로써 제한적으로 사용된다는 점을 생각하지 못 했습니다. 피드백을 반영해 `default parameter`를 제거했습니다.
+
+## 3. 링크
+
+- [전체 코드 링크](https://github.com/yujo11/javascript-racingcar/tree/yujo42)
+- [PR 링크](https://github.com/woowacourse/javascript-racingcar/pull/5)
