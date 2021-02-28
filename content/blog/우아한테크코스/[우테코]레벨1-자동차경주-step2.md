@@ -1,5 +1,5 @@
 ---
-title: '[우테코]레벨1 자동차 경주 게임 step2'
+title: '[우테코]레벨1 자동차 경주 게임 step2 후기'
 date: 2021-02-12
 category: '우아한 테크코스'
 draft: false
