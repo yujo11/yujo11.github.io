@@ -1,6 +1,6 @@
 ---
 title: 'about'
-date: 2019-1-27 16:21:13
+date: 2021-2-28 16:21:13
 lang: 'en'
 ---
 
@@ -8,6 +8,20 @@ lang: 'en'
 
 <div align="center">
 
-_Thank you for reading my resume. If you want to contact me, Please send me an email._
+Hi!
+
+🙋‍♂️ My name is Yunho Jo, Just call me yujo
+
+🌱 I’m currently learning
+
+- HTML/CSS
+- JavaScript
+- React
+
+🔎 Interest these days
+
+- 🌏 Semantic Web
+- 🌏 Web Accessibility
+- 🧪 BDD(cypress)
 
 </div>

@@ -1,7 +1,7 @@
 module.exports = {
   title: `yujolog`,
   description: `Blog posted about ...`,
-  author: `[yujo11]`,
+  author: `[yujo]`,
   introduction: `📝 배우고 느낀 점을 기록하고 공유하는 블로그`,
   siteUrl: `https://yujo11.github.io/`, // Your blog site url
   social: {
