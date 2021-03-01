@@ -180,11 +180,49 @@ export const renderRankCount = rankCountMap => {
   const $$resultRankCount = $$('.result-rank-count')
   $$resultRankCount.forEach(($resultRankCount, index) => {
     $resultRankCount.innerText = `${rankCountMap.get(
-      $$resultRankCount.length - index
+      $$resultRankCount.length - index // <-- 매직넘버를 사용했던 부분
     )}개`
   })
 }
 ```
+
+### 2-3. 웹 접근성
+
+> 추가로, 요구사항에는 없지만, 키보드 (엔터, 탭, ESC 등)로만 앱 전체를 조작할 수 있게 개선해보면 어떨까요?
+
+위와 같은 리뷰를 받고 기존에 추가했던 UI/UX 관련 코드 외에도 키보드로 조작 가능하게 변경해봤습니다. `handleAccessibility`라는 모듈을 추가하고 다음과 같이 코드를 작성했습니다.
+
+```js
+import { $ } from '../utils/querySelector.js'
+import { closeModal } from '../view/viewModalPage.js'
+import { restartLottoGame } from './handleModalPage.js'
+
+export const handleAccessibility = ({ key }, lotto) => {
+  if (!$('.modal').classList.contains('open')) {
+    return
+  }
+
+  if (key === 'Escape') {
+    closeModal()
+    return
+  }
+
+  if (key === ' ') {
+    restartLottoGame()
+    lotto.clear()
+    closeModal()
+    $('#purchase-price-input-form__input').focus()
+  }
+}
+```
+
+기존 기능들을 key입력으로도 실행가능하게 이벤트를 등록했는데 생각보다 어렵지 않게 구현할 수 있었습니다. 웹 접근성에 대해 다시 한번 생각해보게 되는 도움이 많이 된 피드백이었습니다.
+
+### 2-4. 인간의 욕심은 끝이 없고...
+
+![](./images/lotto/step2-human.png)
+
+이 부분은 명확한 제 실수라 할 말이 없었습니다. 이전에도 같은 문제로 지적을 받았는데 앞으로 한번 지적받은 부분은 다시 지적받지 않도록 더욱 신경써야겠다는 다짐을 했습니다.
 
 ## 3. 코드 구조 시각화
 
