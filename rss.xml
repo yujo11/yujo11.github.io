@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Mar 2021 08:59:45 GMT</lastBuildDate><item><title><![CDATA[about]]></title><description><![CDATA[yujo 안녕하세요! yujo입니다! 블로그를 방문해주셔서 감사합니다! 🌱 I’m currently learning HTML/CSS JavaScript React 🔎 Interest these days 🧪 BDD 🌏 Semantic Web…]]></description><link>https://yujo11.github.io/resume-en/</link><guid isPermaLink="false">https://yujo11.github.io/resume-en/</guid><pubDate>Sun, 28 Feb 2021 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;yujo&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#yujo&quot; aria-label=&quot;yujo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;yujo&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Mar 2021 10:13:32 GMT</lastBuildDate><item><title><![CDATA[about]]></title><description><![CDATA[yujo 안녕하세요! yujo입니다! 블로그를 방문해주셔서 감사합니다! 🌱 I’m currently learning HTML/CSS JavaScript React 🔎 Interest these days 🧪 BDD 🌏 Semantic Web…]]></description><link>https://yujo11.github.io/resume-en/</link><guid isPermaLink="false">https://yujo11.github.io/resume-en/</guid><pubDate>Sun, 28 Feb 2021 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;yujo&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#yujo&quot; aria-label=&quot;yujo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;yujo&lt;/h1&gt;
 &lt;p&gt;안녕하세요! yujo입니다! 블로그를 방문해주셔서 감사합니다!&lt;/p&gt;
 &lt;p&gt;🌱 I’m currently learning&lt;/p&gt;
 &lt;ul&gt;
@@ -26,7 +26,157 @@
 &lt;li&gt;🌏 Web Accessibility&lt;/li&gt;
 &lt;li&gt;🧪 BDD(cypress)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨1 행운의 로또 step2 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯🎯 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-행운의로또-step2/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-행운의로또-step2/</guid><pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨1 행운의 로또 step3 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯🎯🎯 step3 수동 구매 소비자는 수동 구매(스스로 구매 번호를 입력)를 할 수 있어야 한다. 수동 구매를 위한 input UI…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-행운의로또-step3/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-행운의로또-step3/</guid><pubDate>Sat, 27 Feb 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 400px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEZklEQVQ4y21UW0iVWRRe5z8ZI+KAWF5S815eKstLXvIyat5KZcJM9EF7SFDxQfCGBJqhFvli6Igo6ohhiUgoaQqBDaNEiqgPM2r4Ug5e6MUHhzxHz17zrX9UClyw2P/ee+1vf99a699E31lfXx91dnZSe3u77v39/drTp0+NZ86cMVy8eNHQ0dFxamJiQvv48SOtrq7SmzdvaH5+nk60nJwcqq6upubmZqqoqNCwZBgeHqbGxkby9/enxMRE6u3tpYWFBT1+enpam5yc1Pc/fPjwI9jly5f1Q7dv36bs7GytqalJXx8fH48Dq6bnz58PdHV1vRgaGmoAYKLsff78mUZGRox1dXV67DHo6dOnCXLIz8+PMjIyjACk1tZWz6KiorGSkhLGyGDPWVlZXFxczI8ePeKXL1/+CcAgkT44OGisr6+ntrY2GhsbI/L19dXBoqOjtevXr1NCQkJgfHz8NqQw2Fg2NjbMKysr+0jDfmRkpBkqLPfv32cAfFtcXIyfnZ2l0dFRI9hKzok8PT0pICDA4OXlRbm5udaY/9XQ0MDr6+umd+/eKchUy8vLam9vTz148EABVKWlpZnv3r3LUPJ1d3fXZWdnh96/f2/Axf8DIn9SSXJzc6sCU1ZKmVAcfvXqlXr8+LGCLBYbGBhQwcHB6ubNm5ycnGwqKChgFOq3J0+eUE1Njfb27VvSiwGJhHiDvb39Ynl5OZtMpoPS0lLV09OjCgsLGZLYYrHw69evOTQ0VMXFxamkpCQLmDJSsQkFPy8tLVFLS4tBCmIIDAwk3OgGlv8+fPiQ19bWVGxsrPr06RPfu3ePJQViz549Y8Sy7AkoWonz8vIENKKyspJQRI18fHw0qTJaJ+j8+fNmMODNzU01NTWlqqqqGI3OZrOZ5+bmWNIREhLCyKN865cKaGpqahqcUlJStGOGly5d8kBhvjk6OvKtW7fUzMyM2t7e5i9fvnB3dzffuHGDr1y5wuHh4eIqIiJCCXhQUBCDTBTOCymNrl69SmgDqq2tPQW2f6Mw7OTkZHF1dVUAUAhkDw8PRifwtWvXGPEKIAokLBcuXGC03VeMdnBRa6D09HSptNHb25tQwQYBBJgJ8hnfCntKDh4eVuKIZawfxfSeO3eOXFxcNHd3d6LMzExCxQxoAcKfYI+q/wOG7OzsbEagQqAStt85Y82MfUZ6dhHrAye4hjkREkvIB0GOFhUVReixGFDfk1w6ODjsH/oB5gdH87NnzzI6QvZ/lf7F3IhL9J6msrIy/V+2tbUlSDECWC4JQYEWDlmwABw5QGRcwfgL+pYAqMlZAdQli925c+f45UGOjGFhYYR3z4iLchD0O/I0Bal/IAUv4PnI508AFWbyzBFyKZJ/fMLQQ/pobW1NqK48rFI1fX5kNjY2+kGRJmB2dnaUn59Peu5OspiYGJGg0xfpkgIrKysNPwltbW0JuAZAI1JBaCU9TsBk/0STDXEBxT+sr6GV9OdNnjlhfGTyBpxk/wHeHxCCgvHvWAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;lotto ball&quot; title=&quot;lotto ball&quot; src=&quot;/static/9336047b61e8ed960d3dfdab2859ac25/e17e5/lotto_ball.png&quot; srcset=&quot;/static/9336047b61e8ed960d3dfdab2859ac25/5a46d/lotto_ball.png 300w,
+/static/9336047b61e8ed960d3dfdab2859ac25/e17e5/lotto_ball.png 400w&quot; sizes=&quot;(max-width: 400px) 100vw, 400px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+&lt;/p&gt;
+&lt;h2 align=&quot;middle&quot;&gt;level1 - 행운의 로또&lt;/h2&gt;
+&lt;p align=&quot;middle&quot;&gt;자바스크립트로 구현 하는 로또 어플리케이션&lt;/p&gt;
+&lt;h2 id=&quot;0-구현-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot;0 구현 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 구현 요구사항&lt;/h2&gt;
+&lt;h3 id=&quot;-step3-수동-구매&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step3-%EC%88%98%EB%8F%99-%EA%B5%AC%EB%A7%A4&quot; aria-label=&quot; step3 수동 구매 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯🎯🎯 step3 수동 구매&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 소비자는 수동 구매(스스로 구매 번호를 입력)를 할 수 있어야 한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;수동 구매를 위한 input UI는 스스로 구현한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 수동 구매 후 남는 금액이 있다면 자동으로 구매할 수 있어야 한다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 위 기능들이 정상적으로 동작하는지 Cypress를 이용해 테스트한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-진행하며-고민하고-배운-점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A7%84%ED%96%89%ED%95%98%EB%A9%B0-%EA%B3%A0%EB%AF%BC%ED%95%98%EA%B3%A0-%EB%B0%B0%EC%9A%B4-%EC%A0%90&quot; aria-label=&quot;1 진행하며 고민하고 배운 점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 진행하며 고민하고 배운 점&lt;/h2&gt;
+&lt;h3 id=&quot;ui&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ui&quot; aria-label=&quot;ui permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UI&lt;/h3&gt;
+&lt;p&gt;step3을 진행하면서 기존에 자동으로 구매되던 로또를 수동/자동을 선택가능하게 변경해야 했습니다.&lt;/p&gt;
+&lt;p&gt;여러 방법을 생각하다가 toggle 버튼을 통해 자동, 수동을 움직일 수 있게 하면 직관적이고 좋을거 같다는 생각이 들어 해당 아이디어를 반영 했습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB4klEQVQ4y4VT247SUBTtJ/gL/oS/4Df46vf4jAnBkPDCF5iMzouQiC8YnOFScGIpbYdSYCi9X07bNWcfbS11Jq5kZe+ey+7aa7dSURQgUCxJiOMYQRDAtm2cz2cRwzDE6XQS6+WdJqRmsSzLxEav10On00Gr1UK73Ua/38dgMEC328VwOBRn8jz/p6j01FsIx+NRqHJdV6hijFWKPc8TZzJ+l+Wctc4qhZqmQZZlzGYzLJdLTKdTERVFEUqaeEoH1ZHKB9M0YRiG8Mn3fUHKieRnkiSClEc8IonxfnPAq9EKb241OCz7q5BgWZYgtZam6QXLYiXLgu8UCy+/zPH6uwK7XrDuYzOvT/4ixzMtN4dCfpFvi8UCuq5jMplgPB6LVkvQPtmzVlU4fEAaz0ufK4Wlb9TScxAKabr80xLWcMYpn34UXU6ZsRTfRl/x+dMV5rMp99LEfr+DteOD0jVstwbiKMT/UE2ZcUPXuoXFTxWb+wPmqzVWv3TcrQ0R5bsNzIMDPy7ghpmgF2RYeTGu+frI9pHmlcICMQNk9QG6+QD1/ojNluc7G06YI0gBn7tAue2z3ww4bYa3NwakDx/x4voG+7Q25ZxXd/ghIr3dKflnrWJtjxSqQYKRE+KHG4m/hfAIsPDfvY4R4L8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step3 auto&quot;
+        title=&quot;step3 auto&quot;
+        src=&quot;/static/48ec5d96d7dd4af7d20caa9d3113aa9b/c1b63/step3-auto.png&quot;
+        srcset=&quot;/static/48ec5d96d7dd4af7d20caa9d3113aa9b/5a46d/step3-auto.png 300w,
+/static/48ec5d96d7dd4af7d20caa9d3113aa9b/0a47e/step3-auto.png 600w,
+/static/48ec5d96d7dd4af7d20caa9d3113aa9b/c1b63/step3-auto.png 1200w,
+/static/48ec5d96d7dd4af7d20caa9d3113aa9b/d61c2/step3-auto.png 1800w,
+/static/48ec5d96d7dd4af7d20caa9d3113aa9b/263f4/step3-auto.png 1996w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 88.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAACf0lEQVQ4y5VT2W4aUQyd9/5f+z99aho+gIjySqtIfamK1CVSlEooD6AAoS1iKVsCAwz7Mtud4dQ2XBhoqqqWjuy7zLn2scfAzjabzR7RPd/3oZQSBEGAMAwF0W+iZugDfZE/ZEulUri4uEA8HkcsFsPl5SXS6TQSiQSSySRms9me9IjwdEPbw8ODwLIsVCoVTCYTTKdTjEYjgX5YhVQFIdjxSIZ82Gg0BPxxvV5HrVZDu91Gs9ncl/gvC4lUCFkb/pgzGg6HGAwGME1TYs5wvV6Llp7nCVxCQOux7SL5OMF5Y4Cr8fKQIRtnx0SnDWLopmh4XG6g8GMyx7Orexjvb/Gi1DkQ6oZwppwBx7pRWmMh2mXIsTxE510/hOkprILwuCnaM0m/30e325VyWYpyuSxla7NtWySZz+dwlwvcLRxUVs7TXeYstY7c1V6vJ6SO4+zvMHmn08F4PMaI8Nac4tqa/zmHLPzfxui/uswvZjIZ3Nx8k7Fhnbic5XIpfrVaCXit50/ry+AZDKNz6NMlJiqXf6JaraLVasmaO18oFJDP55HL5VAsFo+0PP1NGUcaPlUsy8CE2WxWmqWzY62jcmmePWF/6sEkzNc8uC4c15UBtqkZHPsqkJj3PHqEvbvzvK92D+wJZwuFtR2SVh49G3AaCImYBxjK50Hcem6c70k94vWZJuQ6KWG0Fh6qExdDV6G/dmASLBpYc2Wj7/qwgg16FA8cj+54Eg9pn9ddihcqODSltHRgfLnf4lORQP7zLv76Hca7axhvPsBI39F+abuvz9l/zOP5feTXG/kKr1sWXjWHOCN/1oyA13UTZ9VHWkfPt/E54eWvAdLWQgh/AxWOSPNNOgBGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step3 manual&quot;
+        title=&quot;step3 manual&quot;
+        src=&quot;/static/037b3823d8831f8680df5abb2b3bed5b/c1b63/step3-manual.png&quot;
+        srcset=&quot;/static/037b3823d8831f8680df5abb2b3bed5b/5a46d/step3-manual.png 300w,
+/static/037b3823d8831f8680df5abb2b3bed5b/0a47e/step3-manual.png 600w,
+/static/037b3823d8831f8680df5abb2b3bed5b/c1b63/step3-manual.png 1200w,
+/static/037b3823d8831f8680df5abb2b3bed5b/d61c2/step3-manual.png 1800w,
+/static/037b3823d8831f8680df5abb2b3bed5b/ec09f/step3-manual.png 1916w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-코드-리뷰-및-피드백&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-%ED%94%BC%EB%93%9C%EB%B0%B1&quot; aria-label=&quot;2 코드 리뷰 및 피드백 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 코드 리뷰 및 피드백&lt;/h2&gt;
+&lt;h3 id=&quot;2-1-불필요한-코드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-1-%EB%B6%88%ED%95%84%EC%9A%94%ED%95%9C-%EC%BD%94%EB%93%9C&quot; aria-label=&quot;2 1 불필요한 코드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-1. 불필요한 코드&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABvklEQVQoz42S646bMBBGef9Ha1Wpq11tN/eEAAkGbBPuGHM6kFX/bCsVdDSjQYy/+TxB3w+U9oEx5Uqea7S2K0teVQ2lSTFFjBsdo5sYx78gdTd5gst456Xf8tYeiGzM1UbsTciuuLDJThz0lUOxIzR78i4jbDKO5Z2DvbO3tzUey5RLo7C+JtgT8Y13vs+/uHYxYR2zq+5sTMy2vLFtY97MmVdz4qNJOIqA85QKipPEcFYrF0HNluAsCl7TD5Ixo6gLGVuRFIp9FJJoRfwouWjDWWsuYk1SVWTdQk3aVNRzy8O3WFfR+l4Ubvf8/PEinpUU4pt91DRNKzT87zP7mWEYmWcIPks8ooQ6LyiTO3UhlyGKqiXaGqtrjKALyYuKJrrRhBF1cmNqW3zbMXcdk3MES9dmrDlXB7ImlZ9joixkc91yvB1lXMVWiQXCR6rY3FPSIiLTEUp81r3GDEZiQe/6peHM8k6rzidecFJ3XlZh9s/8D379vvDoWnJryYyhWhR6/xx5GBxKTs+zHKXkcvIMLyc/3Zi/sIoQ37zs3ST7t+Cl2VIPxkEWt8xkMUWJGwW3Mnv36e5X/nk50vA33V3/SPmv4tgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step3 feedback1&quot;
+        title=&quot;step3 feedback1&quot;
+        src=&quot;/static/8830fb71e17e9184115bde0f9494931b/c1b63/step3-feedback1.png&quot;
+        srcset=&quot;/static/8830fb71e17e9184115bde0f9494931b/5a46d/step3-feedback1.png 300w,
+/static/8830fb71e17e9184115bde0f9494931b/0a47e/step3-feedback1.png 600w,
+/static/8830fb71e17e9184115bde0f9494931b/c1b63/step3-feedback1.png 1200w,
+/static/8830fb71e17e9184115bde0f9494931b/e405b/step3-feedback1.png 1566w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;불필요한 코드가 들어가 불필요한 연산이 이루어지고 있었다.&lt;/p&gt;
+&lt;p&gt;리팩터링 할 때는 발견하지 못 했던 부분인데 불필요한 코드로 불필요한 연산을 하지 않도록 주의하자.&lt;/p&gt;
+&lt;h3 id=&quot;2-2-let-const&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-2-let-const&quot; aria-label=&quot;2 2 let const permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-2. let, const&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 34.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABM0lEQVQoz42R2U7DMBBF+/+/hUA8sKiAhFpAKolT20njpUmbktQ+OCli6ROWjsa+8txra2beN1jrsc5TW4dJ1aRaG8u+6/B2zdZphmNgGI70vxjOiDEyezi8MN8vWbUFRauRe41oK/J2w7ozZC5LeoEeDKo3VNGz+aIM7ps6bAmj4S0LruMTb32OqN94LhfM5St3YsljtWKucu7LFbd6wY165cnnLHZi4j2kcFJ4QsY6GYZkmD2w/ijZHByuMRRGk1UFa6uodhbpqkmb8Ba9a/BDm9jRhD1t7HB9Qxu605evLi6RQpK95yhVUuoKkRd4t+VfK0J/6IkhngxHTSpNLgRSKpRO+1xMtTaGclNPg4npBalnavrD6MiPPts6lSYYT1Hn4elCGJPDMR3CdGPUOKu/+QRuIRiZt/2dJQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step3 feedback2&quot;
+        title=&quot;step3 feedback2&quot;
+        src=&quot;/static/a50726fe47db9bf90516aea9c84b1fff/c1b63/step3-feedback2.png&quot;
+        srcset=&quot;/static/a50726fe47db9bf90516aea9c84b1fff/5a46d/step3-feedback2.png 300w,
+/static/a50726fe47db9bf90516aea9c84b1fff/0a47e/step3-feedback2.png 600w,
+/static/a50726fe47db9bf90516aea9c84b1fff/c1b63/step3-feedback2.png 1200w,
+/static/a50726fe47db9bf90516aea9c84b1fff/35890/step3-feedback2.png 1582w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;해당 변수의 횟수만큼 반복해야 하는 작업이 있어 &lt;code class=&quot;language-text&quot;&gt;let&lt;/code&gt;으로 선언한 다음 &lt;code class=&quot;language-text&quot;&gt;while(var--)&lt;/code&gt; 같이 사용하고 싶어서 &lt;code class=&quot;language-text&quot;&gt;let&lt;/code&gt;을 사용했다. 사실 &lt;code class=&quot;language-text&quot;&gt;for&lt;/code&gt;문을 사용해도 되는 부분이었는데 왠지 &lt;code class=&quot;language-text&quot;&gt;for&lt;/code&gt;문을 쓰기 싫어서 고민 끝에 &lt;code class=&quot;language-text&quot;&gt;let&lt;/code&gt;으로 선언하는 방법을 생각했는데 장고 끝에 악수를 둬버렸다.&lt;/p&gt;
+&lt;h2 id=&quot;3-코드-구조-시각화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%BD%94%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EC%8B%9C%EA%B0%81%ED%99%94&quot; aria-label=&quot;3 코드 구조 시각화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 코드 구조 시각화&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9ElEQVQ4y5VU6Y6bQAzm/V9t1Wp/JdAQwh3CFRgC4f5qW01AZNN2LVkjNDP+DnvQ5nnGNjmmaUaS5gjPEYLwDHWrUd9b9P0g++/uadjEY6NtO5iWjd1uh/1eh3k8Ik5TlNUNDRV+nFvf49QGYtKOMzrKnvJxrO16eEEI63SC47q02sJ0nCYpmGY5oojYBwGyLHsW1lQ74HNn4OPHTwRZibxQMA+Hp1Rmp+sG/CDCnVhzFqpCFCewbYf29jjRmudXdF0LjZldrgpulKDuR2EwDoOwkIK6DsP4BdtxcY4uBFgiTlJYlgXTNAXc8wPUdYNxHBYPWSLnnQpxsPmuF+B4tOjyCQe6yAAM1DR3VFWFsiwl+fsp+WHuOI7I8lzQffLlWlSEHEpBbsjBPCIkFc0fwK+aKU1ZxmSCUoqyIj9yDMMoDWIL+MhAgAXJZa/yayHAithNsr+MjrYelXW0bSuyuq6TdSBfGSil0WmaRlbuLhdc13gyXKPwUDMbZhwnCTzPE8bvYk1I+2qDF5ZWFIU0xqU53ErbvpCXl7L2MiF/rkUp0i6XWEaEAdZK3oX2ym4W35I0o2IXeQlxHNOc1S9s/lpwW/RGPwMeJUVvl2fQ9/3ns/xvhms5ZamEYUSSDcOQV8EWfIvhcni5wPKZneM4Mj7/Kvgb4gzYyj/QBMcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step3 visual&quot;
+        title=&quot;step3 visual&quot;
+        src=&quot;/static/6fe4212081097f8d5645bf677d2d9de2/c1b63/step3-visual.png&quot;
+        srcset=&quot;/static/6fe4212081097f8d5645bf677d2d9de2/5a46d/step3-visual.png 300w,
+/static/6fe4212081097f8d5645bf677d2d9de2/0a47e/step3-visual.png 600w,
+/static/6fe4212081097f8d5645bf677d2d9de2/c1b63/step3-visual.png 1200w,
+/static/6fe4212081097f8d5645bf677d2d9de2/d61c2/step3-visual.png 1800w,
+/static/6fe4212081097f8d5645bf677d2d9de2/97a96/step3-visual.png 2400w,
+/static/6fe4212081097f8d5645bf677d2d9de2/fcdaa/step3-visual.png 2892w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-링크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EB%A7%81%ED%81%AC&quot; aria-label=&quot;4 링크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 링크&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/javascript-lotto/tree/step3&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/javascript-lotto/pull/57&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨1 행운의 로또 step2 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯🎯 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-행운의로또-step2/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-행운의로또-step2/</guid><pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 400px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEZklEQVQ4y21UW0iVWRRe5z8ZI+KAWF5S815eKstLXvIyat5KZcJM9EF7SFDxQfCGBJqhFvli6Igo6ohhiUgoaQqBDaNEiqgPM2r4Ug5e6MUHhzxHz17zrX9UClyw2P/ee+1vf99a699E31lfXx91dnZSe3u77v39/drTp0+NZ86cMVy8eNHQ0dFxamJiQvv48SOtrq7SmzdvaH5+nk60nJwcqq6upubmZqqoqNCwZBgeHqbGxkby9/enxMRE6u3tpYWFBT1+enpam5yc1Pc/fPjwI9jly5f1Q7dv36bs7GytqalJXx8fH48Dq6bnz58PdHV1vRgaGmoAYKLsff78mUZGRox1dXV67DHo6dOnCXLIz8+PMjIyjACk1tZWz6KiorGSkhLGyGDPWVlZXFxczI8ePeKXL1/+CcAgkT44OGisr6+ntrY2GhsbI/L19dXBoqOjtevXr1NCQkJgfHz8NqQw2Fg2NjbMKysr+0jDfmRkpBkqLPfv32cAfFtcXIyfnZ2l0dFRI9hKzok8PT0pICDA4OXlRbm5udaY/9XQ0MDr6+umd+/eKchUy8vLam9vTz148EABVKWlpZnv3r3LUPJ1d3fXZWdnh96/f2/Axf8DIn9SSXJzc6sCU1ZKmVAcfvXqlXr8+LGCLBYbGBhQwcHB6ubNm5ycnGwqKChgFOq3J0+eUE1Njfb27VvSiwGJhHiDvb39Ynl5OZtMpoPS0lLV09OjCgsLGZLYYrHw69evOTQ0VMXFxamkpCQLmDJSsQkFPy8tLVFLS4tBCmIIDAwk3OgGlv8+fPiQ19bWVGxsrPr06RPfu3ePJQViz549Y8Sy7AkoWonz8vIENKKyspJQRI18fHw0qTJaJ+j8+fNmMODNzU01NTWlqqqqGI3OZrOZ5+bmWNIREhLCyKN865cKaGpqahqcUlJStGOGly5d8kBhvjk6OvKtW7fUzMyM2t7e5i9fvnB3dzffuHGDr1y5wuHh4eIqIiJCCXhQUBCDTBTOCymNrl69SmgDqq2tPQW2f6Mw7OTkZHF1dVUAUAhkDw8PRifwtWvXGPEKIAokLBcuXGC03VeMdnBRa6D09HSptNHb25tQwQYBBJgJ8hnfCntKDh4eVuKIZawfxfSeO3eOXFxcNHd3d6LMzExCxQxoAcKfYI+q/wOG7OzsbEagQqAStt85Y82MfUZ6dhHrAye4hjkREkvIB0GOFhUVReixGFDfk1w6ODjsH/oB5gdH87NnzzI6QvZ/lf7F3IhL9J6msrIy/V+2tbUlSDECWC4JQYEWDlmwABw5QGRcwfgL+pYAqMlZAdQli925c+f45UGOjGFhYYR3z4iLchD0O/I0Bal/IAUv4PnI508AFWbyzBFyKZJ/fMLQQ/pobW1NqK48rFI1fX5kNjY2+kGRJmB2dnaUn59Peu5OspiYGJGg0xfpkgIrKysNPwltbW0JuAZAI1JBaCU9TsBk/0STDXEBxT+sr6GV9OdNnjlhfGTyBpxk/wHeHxCCgvHvWAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;lotto ball&quot; title=&quot;lotto ball&quot; src=&quot;/static/9336047b61e8ed960d3dfdab2859ac25/e17e5/lotto_ball.png&quot; srcset=&quot;/static/9336047b61e8ed960d3dfdab2859ac25/5a46d/lotto_ball.png 300w,
@@ -267,225 +417,6 @@
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;이 부분은 명확한 제 실수라 할 말이 없었습니다. 이전에도 같은 문제로 지적을 받았는데 앞으로 한번 지적받은 부분은 다시 지적받지 않도록 더욱 신경써야겠다는 다짐을 했습니다.&lt;/p&gt;
-&lt;h2 id=&quot;3-코드-구조-시각화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%BD%94%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EC%8B%9C%EA%B0%81%ED%99%94&quot; aria-label=&quot;3 코드 구조 시각화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 코드 구조 시각화&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAABn0lEQVQ4y51Ti46CQAzk/39PjSYnIiggsojyWl4619bbO6LAXa5JI2B32s7MWo/HA6/JYX6HMVb7es76rbDrOsn7/Y65MPXW2CQmsryA53lwXRdBEKJuWjnUEzg36Ps7NWuloQmZME1TbLdbKJWg0hpxrChjRGeFzWaD1WqFD/rfJ1BuUlYaWVbgfI6lGTfN6Xvbtk9ApRSWyxUBX6hrL++cJwK0dw52zp4a2gJYlBrqcoVt21iv15I8TETgRZ7/rNx2PXTdoKG1uv7JV5LywR0cx8GWAJy9iyhOpKaqKsmyLKFpq++VDZlPTnopSK83BOEJsbrgesvpoJY1SwIoympelOGLCJFlSJILoigSYBYgSRTCMJSJ/CCQZyPEm22GKk8pzmTzWgzSNI3klF/fJhx2ZBoYhAGn1nwNa6pI1/WX2okoyRQYc8/dKOvtWtFzzWDEo3c44Hg8Cmcs1hjg5ITDopz8xILwugzu+z6Z1xXu5rieXbnSNV23AKfoTICBGJmn/NeERhAWgz24J0MvFgsciII/A86pZ+zy6r2x+AQVRuEq0527TgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;step2 visual&quot;
-        title=&quot;step2 visual&quot;
-        src=&quot;/static/1341b26dc811470d5047c9d5fbccc947/c1b63/step2-visual.png&quot;
-        srcset=&quot;/static/1341b26dc811470d5047c9d5fbccc947/5a46d/step2-visual.png 300w,
-/static/1341b26dc811470d5047c9d5fbccc947/0a47e/step2-visual.png 600w,
-/static/1341b26dc811470d5047c9d5fbccc947/c1b63/step2-visual.png 1200w,
-/static/1341b26dc811470d5047c9d5fbccc947/d61c2/step2-visual.png 1800w,
-/static/1341b26dc811470d5047c9d5fbccc947/97a96/step2-visual.png 2400w,
-/static/1341b26dc811470d5047c9d5fbccc947/79daf/step2-visual.png 2792w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&quot;4-링크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EB%A7%81%ED%81%AC&quot; aria-label=&quot;4 링크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 링크&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/javascript-lotto/tree/step2&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/javascript-lotto/pull/28&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨1 행운의 로또 step2 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯🎯 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-행운의로또-step3/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-행운의로또-step3/</guid><pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 400px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEZklEQVQ4y21UW0iVWRRe5z8ZI+KAWF5S815eKstLXvIyat5KZcJM9EF7SFDxQfCGBJqhFvli6Igo6ohhiUgoaQqBDaNEiqgPM2r4Ug5e6MUHhzxHz17zrX9UClyw2P/ee+1vf99a699E31lfXx91dnZSe3u77v39/drTp0+NZ86cMVy8eNHQ0dFxamJiQvv48SOtrq7SmzdvaH5+nk60nJwcqq6upubmZqqoqNCwZBgeHqbGxkby9/enxMRE6u3tpYWFBT1+enpam5yc1Pc/fPjwI9jly5f1Q7dv36bs7GytqalJXx8fH48Dq6bnz58PdHV1vRgaGmoAYKLsff78mUZGRox1dXV67DHo6dOnCXLIz8+PMjIyjACk1tZWz6KiorGSkhLGyGDPWVlZXFxczI8ePeKXL1/+CcAgkT44OGisr6+ntrY2GhsbI/L19dXBoqOjtevXr1NCQkJgfHz8NqQw2Fg2NjbMKysr+0jDfmRkpBkqLPfv32cAfFtcXIyfnZ2l0dFRI9hKzok8PT0pICDA4OXlRbm5udaY/9XQ0MDr6+umd+/eKchUy8vLam9vTz148EABVKWlpZnv3r3LUPJ1d3fXZWdnh96/f2/Axf8DIn9SSXJzc6sCU1ZKmVAcfvXqlXr8+LGCLBYbGBhQwcHB6ubNm5ycnGwqKChgFOq3J0+eUE1Njfb27VvSiwGJhHiDvb39Ynl5OZtMpoPS0lLV09OjCgsLGZLYYrHw69evOTQ0VMXFxamkpCQLmDJSsQkFPy8tLVFLS4tBCmIIDAwk3OgGlv8+fPiQ19bWVGxsrPr06RPfu3ePJQViz549Y8Sy7AkoWonz8vIENKKyspJQRI18fHw0qTJaJ+j8+fNmMODNzU01NTWlqqqqGI3OZrOZ5+bmWNIREhLCyKN865cKaGpqahqcUlJStGOGly5d8kBhvjk6OvKtW7fUzMyM2t7e5i9fvnB3dzffuHGDr1y5wuHh4eIqIiJCCXhQUBCDTBTOCymNrl69SmgDqq2tPQW2f6Mw7OTkZHF1dVUAUAhkDw8PRifwtWvXGPEKIAokLBcuXGC03VeMdnBRa6D09HSptNHb25tQwQYBBJgJ8hnfCntKDh4eVuKIZawfxfSeO3eOXFxcNHd3d6LMzExCxQxoAcKfYI+q/wOG7OzsbEagQqAStt85Y82MfUZ6dhHrAye4hjkREkvIB0GOFhUVReixGFDfk1w6ODjsH/oB5gdH87NnzzI6QvZ/lf7F3IhL9J6msrIy/V+2tbUlSDECWC4JQYEWDlmwABw5QGRcwfgL+pYAqMlZAdQli925c+f45UGOjGFhYYR3z4iLchD0O/I0Bal/IAUv4PnI508AFWbyzBFyKZJ/fMLQQ/pobW1NqK48rFI1fX5kNjY2+kGRJmB2dnaUn59Peu5OspiYGJGg0xfpkgIrKysNPwltbW0JuAZAI1JBaCU9TsBk/0STDXEBxT+sr6GV9OdNnjlhfGTyBpxk/wHeHxCCgvHvWAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;lotto ball&quot; title=&quot;lotto ball&quot; src=&quot;/static/9336047b61e8ed960d3dfdab2859ac25/e17e5/lotto_ball.png&quot; srcset=&quot;/static/9336047b61e8ed960d3dfdab2859ac25/5a46d/lotto_ball.png 300w,
-/static/9336047b61e8ed960d3dfdab2859ac25/e17e5/lotto_ball.png 400w&quot; sizes=&quot;(max-width: 400px) 100vw, 400px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-    &lt;/span&gt;
-&lt;/p&gt;
-&lt;h2 align=&quot;middle&quot;&gt;level1 - 행운의 로또&lt;/h2&gt;
-&lt;p align=&quot;middle&quot;&gt;자바스크립트로 구현 하는 로또 어플리케이션&lt;/p&gt;
-&lt;h2 id=&quot;0-구현-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot;0 구현 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 구현 요구사항&lt;/h2&gt;
-&lt;h3 id=&quot;-step2-당첨-결과-기능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step2-%EB%8B%B9%EC%B2%A8-%EA%B2%B0%EA%B3%BC-%EA%B8%B0%EB%8A%A5&quot; aria-label=&quot; step2 당첨 결과 기능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯🎯 step2 당첨 결과 기능&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 결과 확인하기 버튼을 누르면 당첨 통계, 수익률을 모달로 확인할 수 있다.&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 로또 당첨 금액은 고정되어 있는 것으로 가정한다.&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 다시 시작하기 버튼을 누르면 초기화 되서 다시 구매를 시작할 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;1-진행하며-고민하고-배운-점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A7%84%ED%96%89%ED%95%98%EB%A9%B0-%EA%B3%A0%EB%AF%BC%ED%95%98%EA%B3%A0-%EB%B0%B0%EC%9A%B4-%EC%A0%90&quot; aria-label=&quot;1 진행하며 고민하고 배운 점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 진행하며 고민하고 배운 점&lt;/h2&gt;
-&lt;h3 id=&quot;1-1-mvc에서-model의-역할&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-1-mvc%EC%97%90%EC%84%9C-model%EC%9D%98-%EC%97%AD%ED%95%A0&quot; aria-label=&quot;1 1 mvc에서 model의 역할 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-1. MVC에서 Model의 역할&lt;/h3&gt;
-&lt;p&gt;지난 stpe1 PR에서 Model이 Controller의 역할까지 수행하고 있다는 점을 지적 받았습니다. 지적을 받고 모델이 데이터만을 가지고 있도록 아래와 같이 간소화 시켰습니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Lotto&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tickets &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;purchasePrice &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Ticket&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;numbers &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;winningRank &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;profit &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이렇게 간소화 시켜서 생성자로 새로운 인스턴스를 생성하는 역할만 하도록 했는데 한가지 문제가 생겼습니다. 생성한 모델의 내부 프로퍼티를 변경할 때 &lt;code class=&quot;language-text&quot;&gt;Lotto.purchasePrice = 1000;&lt;/code&gt;처럼 외부에서 직접 프로퍼티의 이름을 명시하고 값을 변경해야 하는 문제였습니다. 이런 식으로 값을 변경하다보니 &lt;code class=&quot;language-text&quot;&gt;numbers&lt;/code&gt;를 &lt;code class=&quot;language-text&quot;&gt;number&lt;/code&gt;로 적어 새로운 프로퍼티가 생성하는 등 여러 휴먼 에러를 겪었습니다.&lt;/p&gt;
-&lt;p&gt;그래서 페어인 심바와 논의 끝에 model 내부에 &lt;code class=&quot;language-text&quot;&gt;get&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;set&lt;/code&gt; 메서드를 모델 내부에 정의해서 프로퍼티를 변경할 일이 있을 때는 무조건 내부 메서드를 통해 변경이 가능하도록 수정했습니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Lotto&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;getTickets&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tickets
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;setPurchasePrice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;purchasePrice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;purchasePrice &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; purchasePrice
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;addTicket&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;ticket&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tickets&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ticket&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tickets &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;purchasePrice &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Ticket&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;numbers &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;winningRank &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;profit &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;setNumbers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;numbers &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; numbers
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;getNumbers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;numbers
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;setWinningRank&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;winningRank&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;winningRank &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; winningRank
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;setProfit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;profit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;profit &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; profit
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;내부 프로퍼티를 변경하거나 해당 값을 외부에서 사용할 때 내부 메서드를 통해 접근하면서 휴먼 에러를 줄일 수 있었고 코드의 가독성도 높일 수 있었습니다.&lt;/p&gt;
-&lt;h3 id=&quot;1-2-uiux에-대한-고민&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-2-uiux%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EB%AF%BC&quot; aria-label=&quot;1 2 uiux에 대한 고민 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-2. UI/UX에 대한 고민&lt;/h3&gt;
-&lt;p&gt;코치인 포코와 얘기하던 중 FE를 지망하는데 E에만 신경 쓰고 F에는 신경을 안 쓰는거 같다는 말을 들었습니다. 미션을 진행하면서 다른 크루들이 적용하는 MVC패턴, Flux패턴을 어떻게 코드에 적용할까에 대한 고민에만 빠져 UI/UX에 신경을 안 쓰고 있다는걸 느꼈습니다.&lt;/p&gt;
-&lt;p&gt;UI/UX에 대한 고민을 하며 아래와 같이 코드를 수정했습니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;d-flex&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;purchase-price-input-form__input&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;step&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;any&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;number&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;w-100 mr-2 pl-2&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;구입 금액&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;required&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;autofocus&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;purchase-price-input-form__button&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;submit&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;btn btn-cyan&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-    확인
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;input&amp;gt;&lt;/code&gt; 태그에 &lt;code class=&quot;language-text&quot;&gt;autofocus&lt;/code&gt;를 추가해 페이지 최초 로딩시 input에 focus가 되게 하고 &lt;code class=&quot;language-text&quot;&gt;required&lt;/code&gt; 옵션을 통해 입력값이 있는 경우에만 제출되도록 변경했습니다.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;button&amp;gt;&lt;/code&gt; 태그의 type도 submit으로 변경해 click 뿐만 아니라 ‘Enter’ 키 입력으로도 제출할 수 있도록 변경했습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;2-코드-리뷰-및-피드백&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-%ED%94%BC%EB%93%9C%EB%B0%B1&quot; aria-label=&quot;2 코드 리뷰 및 피드백 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 코드 리뷰 및 피드백&lt;/h2&gt;
-&lt;h3 id=&quot;2-1-중복을-줄이자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-1-%EC%A4%91%EB%B3%B5%EC%9D%84-%EC%A4%84%EC%9D%B4%EC%9E%90&quot; aria-label=&quot;2 1 중복을 줄이자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-1. 중복을 줄이자&lt;/h3&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 53%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABc0lEQVQoz4VSCW7jMBDz/1/W7hsaNGkT+JBkyZZ1H9yRg6ZB080OQBCyOMSYo07JFXJeoOQCYxy0GrGIM3LOhIKcClK68jPsGtJ3k5/BCDpaCC1xHD7xPvZgeqVvDiZ72EL44nvc3TVdyBHdJTF8WDKwEmwT6LXGZfPotw3cb9DFYqvuKUxjOPgS0B0PRyQfYTaDHDNQKnIIxAV71f+jpLyj1oru5c8rmJQYOYdQCmrVEHR2ZNr05YnX111ICT5GmoUM2xDmPMCyGcvIoCaBYBKSNqjGAtajWvcUTQPnUWiRXXL074c3pHHENvS4vJ1wOgwYPnqofkIUAmn+HVnON6TGNGkXa8Kp0FKq3Ld9XjjOq8QUF4isMRcNWR8xlxVToKioZwwzaVekQhO2IGNMiCHSW8r72Nd0WkB1D/onWnBNqxYypvcr1QJP/YUW2gUKk3MBxvjOnI3Ijl+D/4fhzfhH7UvR+tp8X9/ix6abBo/mjf8CY1xY8wggQkwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;step2 duplicate&quot;
-        title=&quot;step2 duplicate&quot;
-        src=&quot;/static/83ba2ff969eb306864f62bd88d5ec174/c1b63/step2-duplicate.png&quot;
-        srcset=&quot;/static/83ba2ff969eb306864f62bd88d5ec174/5a46d/step2-duplicate.png 300w,
-/static/83ba2ff969eb306864f62bd88d5ec174/0a47e/step2-duplicate.png 600w,
-/static/83ba2ff969eb306864f62bd88d5ec174/c1b63/step2-duplicate.png 1200w,
-/static/83ba2ff969eb306864f62bd88d5ec174/10ab7/step2-duplicate.png 1552w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;게임을 다시 시작할 때 Lotto 인스턴스를 초기화 하기 위해 아래와 같이 &lt;code class=&quot;language-text&quot;&gt;clear()&lt;/code&gt;라는 메서드를 사용했습니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Lotto&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tickets &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;purchasePrice &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tickets &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;purchasePrice &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;clear()&lt;/code&gt; 메서드와 &lt;code class=&quot;language-text&quot;&gt;constructor()&lt;/code&gt;메서드의 코드 내용이 동일한데 이 부분을 간과하고 있었습니다. 리뷰어 분의 피드백을 반영해 아래와 같이 수정했습니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Lotto&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
-
-  &lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tickets &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;purchasePrice &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;2-2-매직넘버&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-2-%EB%A7%A4%EC%A7%81%EB%84%98%EB%B2%84&quot; aria-label=&quot;2 2 매직넘버 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-2. 매직넘버&lt;/h3&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 31.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABH0lEQVQY032Q2W6DMBRE+f9Pq1plIXtKlgJ2QoAQIKaA8eltUlV9qqWju4w1I9u73ktUnqCzBKXVg2tRcNJ7tNph2paqMVSmFu7cZW76Tmj/8Jxb2+Ot7IEXO2fcbQnLkI9LwEaYieFcHwiKE4vswOS0ZXrZsS5jIptwIkcLymUPIpeSuRIvQDFiiz8EhN2Z2XnNazhjopf4Scg0ifAl4C1aMFIrxmrDsoh4ryN2RhGLkSIj5sdwsvIZr33SKicvCzIhyVPOaULddtRd/3hO3dSUpqI2BtN1jy+oPw09lsa2z95ZPBUrjvsjcaQIwxitz6SpJMo+k1rdbjhr+e+4wWF7i3MOD0lo+wYnwjAM2MEyiPAtdr3k2+fF//g1lv4LH5/JJzYq0QgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;step2 magic&quot;
-        title=&quot;step2 magic&quot;
-        src=&quot;/static/d3bdc5937b337aec03915c4baa5add11/c1b63/step2-magic.png&quot;
-        srcset=&quot;/static/d3bdc5937b337aec03915c4baa5add11/5a46d/step2-magic.png 300w,
-/static/d3bdc5937b337aec03915c4baa5add11/0a47e/step2-magic.png 600w,
-/static/d3bdc5937b337aec03915c4baa5add11/c1b63/step2-magic.png 1200w,
-/static/d3bdc5937b337aec03915c4baa5add11/0c1c2/step2-magic.png 1542w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;‘이 정도는 상수로 분리하지 않아도 괜찮지 않을까…?’ 라는 안일한 생각으로 넘어갔던 부분이었습니다. 리뷰어 분의 피드백을 받고 저 매직넘버를 어떻게 분리할건지에 대한 고민을 했는데 예상외로 간단했습니다. NodeList를 순회하기 떄문에 매직넘버대신 파싱해온 NodeList의 length를 넣는 방법으로 해결했습니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;renderRankCount&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;rankCountMap&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $$resultRankCount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;.result-rank-count&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  $$resultRankCount&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;$resultRankCount&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; index&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    $resultRankCount&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerText &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;rankCountMap&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-      $$resultRankCount&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; index
-    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;개&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;3-코드-구조-시각화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%BD%94%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EC%8B%9C%EA%B0%81%ED%99%94&quot; aria-label=&quot;3 코드 구조 시각화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 코드 구조 시각화&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
