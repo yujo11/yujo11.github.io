@@ -10,12 +10,6 @@ draft: false
 </p>
 <h2 align="middle">level1 - 행운의 로또</h2>
 <p align="middle">자바스크립트로 구현 하는 로또 어플리케이션</p>
-<p align="middle">
-<img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" alt="template version"/>
-<img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/>
-<img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/>
-<img src="https://img.shields.io/badge/language-js-yellow.svg?style=flat-square"/>
-</p>
 
 ## 0. 구현 요구사항
 

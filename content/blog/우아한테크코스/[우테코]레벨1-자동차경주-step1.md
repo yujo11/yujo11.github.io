@@ -10,10 +10,6 @@ draft: false
 </p>
 <h2 align="middle">level1 - 자동차 경주 게임</h2>
 <p align="middle">자바스크립트로 구현 하는 자동차 경주 게임</p>
-<p align="middle">
-<img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" alt="template version"/>
-<img src="https://img.shields.io/badge/language-html-blue.svg?style=flat-square"/>
-</p>
 
 ## 0. 구현 요구사항
 
