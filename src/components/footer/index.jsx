@@ -5,7 +5,11 @@ import './index.scss'
 export const Footer = () => (
   <footer className="footer">
     ©
-    <a href="https://github.com/yujo11" target="_blank">
+    <a
+      href="https://github.com/yujo11"
+      target="_blank"
+      rel="noopener norefferer"
+    >
       yujo
     </a>
     , Built with{' '}
