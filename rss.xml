@@ -1,4 +1,333 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Mar 2021 18:11:10 GMT</lastBuildDate><item><title><![CDATA[Webpack 사용해보기]]></title><description><![CDATA[webpack 사용해보기 1. webpack 세팅하기 1-1. web]]></description><link>https://yujo11.github.io/webpack/webpack-사용해보기/</link><guid isPermaLink="false">https://yujo11.github.io/webpack/webpack-사용해보기/</guid><pubDate>Mon, 01 Mar 2021 23:03:14 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 07 Mar 2021 14:19:54 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨1 유튜브 강의실 step1 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯 step1 유튜브 검색 API…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step1-후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step1-후기/</guid><pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+  &lt;img width=&quot;200px;&quot; src=&quot;https://github.com/yujo11/javascript-youtube-classroom/raw/main/src/images/readme/laptop_with_youtube_logo.png&quot;&gt;
+&lt;/p&gt;
+&lt;h2 align=&quot;middle&quot;&gt;level1 - 나만의 유튜브 강의실&lt;/h2&gt;
+&lt;p align=&quot;middle&quot;&gt;자바스크립트와 외부 API를 이용해 구현 하는 나만의 유튜브 강의실&lt;/p&gt;
+&lt;h2 id=&quot;0-구현-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot;0 구현 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 구현 요구사항&lt;/h2&gt;
+&lt;h3 id=&quot;-step1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step1&quot; aria-label=&quot; step1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯 step1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://developers.google.com/youtube/v3/getting-started?hl=ko&quot;&gt;유튜브 검색 API&lt;/a&gt;를 통해서, 내가 추가로 보고 싶은 영상들을 검색할 수 있다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 검색 시 엔터키를 눌렀을 때와 마우스로 검색 버튼을 눌렀을 때 검색 동작이 이루어진다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 로딩컴포넌트: 데이터를 불러오는 중일 때, 현재 데이터를 불러오는 중임을 skeleton UI로 보여준다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 검색 결과가 없는 경우 결과 없음 이미지를 추가하여, 사용자에게 메시지를 보여준다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 검색 결과 없음 이미지는 &lt;code class=&quot;language-text&quot;&gt;src/images/status/not_found.png&lt;/code&gt; 경로에 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 최초 검색결과는 10개까지만 보여준다. 더 많은 데이터는 스크롤을 내릴 때 추가로 불러온다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;검색 결과 화면에서 유저가 브라우저 스크롤 바를 끝까지 이동시켰을 경우, 그다음 10개 아이템을 추가로 api요청하여 불러온다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 내가 검색한 영상들의 json 데이터를 &lt;code class=&quot;language-text&quot;&gt;저장&lt;/code&gt;할 수 있다. (실제 저장이 아닌 영상 id를 Web Storage에 저장). 단 이미 저장된 경우는 저장 버튼이 보이지 않게 한다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 저장 가능한 최대 동영상의 갯수는 100개이다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 검색 모달에 다시 접근했을 때 가장 마지막에 검색한 키워드로 검색한 결과를 보여준다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 최근 검색 키워드를 3개까지 화면상에 검색창 하단에 보여준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-진행하며-고민하고-배운-점-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A7%84%ED%96%89%ED%95%98%EB%A9%B0-%EA%B3%A0%EB%AF%BC%ED%95%98%EA%B3%A0-%EB%B0%B0%EC%9A%B4-%EC%A0%90-&quot; aria-label=&quot;1 진행하며 고민하고 배운 점  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 진행하며 고민하고 배운 점 👨‍💻&lt;/h2&gt;
+&lt;h3 id=&quot;1-1-dead-line&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-1-dead-line&quot; aria-label=&quot;1 1 dead line permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-1. Dead Line&lt;/h3&gt;
+&lt;p&gt;데드라인 안에 요구사항 구현을 마쳤습니다. 그러나 리팩터링을 진행하기에는 시간이 부족했습니다. 따라서 다음 두가지 중 하나를 선택해야 했습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;구현을 빠르게 마치고 일단 데드라인 안에 제출한다.&lt;/li&gt;
+&lt;li&gt;데드라인을 넘더라도 리팩터링까지 마친 후 제출한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;페어인 브랜과 많은 논의를 했습니다. 논의 끝에 step1에서 다소 만족스럽지 못한 코드를 제출하더라도 이후 step2, step3를 진행하면서 개선할 수 있다는 쪽으로 의견을 모았습니다. 결국 부랴부랴 기능 구현만 마친 채로 PR을 보냈는데 찝찝함이 많이 남았습니다.&lt;/p&gt;
+&lt;p&gt;초반에 조금 여유를 부리면서 구현을 진행했는데 해당 부분이 결국 독이 되어 돌아온거 같습니다. 다음부터는 전체 일정을 미리 계산해보고 이런 일이 반복되지 않도록 노력해야겠습니다.&lt;/p&gt;
+&lt;h3 id=&quot;1-2-client의-key-관리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-2-client%EC%9D%98-key-%EA%B4%80%EB%A6%AC&quot; aria-label=&quot;1 2 client의 key 관리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-2. Client의 Key 관리&lt;/h3&gt;
+&lt;p&gt;미션을 진행하기 위해 &lt;code class=&quot;language-text&quot;&gt;API_KEY&lt;/code&gt;를 사용해야 하는 상황이었습니다. &lt;code class=&quot;language-text&quot;&gt;API_KEY&lt;/code&gt;를 숨길 수 있는 방법에 대해 많은 고민을 했습니다. &lt;code class=&quot;language-text&quot;&gt;webpack&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;dotenv&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;dotenv-webpack&lt;/code&gt; 등 다양한 방법을 시도해봤지만 결국 Client만 존재하는 경우 환경정보를 숨길 수 없다는 사실을 알게 됐습니다.&lt;/p&gt;
+&lt;p&gt;현재는 API에만 호출제한을 걸어서 데모페이지에서 보내는 요청만 받을 수 있도록 설정을 해뒀지만 이런 상황이 반복되지 않도록 Netlipy나 firebase를 통해 간단하게 서버를 같이 붙일 수 있도록 공부해야겠다는 생각을 했습니다.&lt;/p&gt;
+&lt;h3 id=&quot;1-3-api-명세와-요청횟수-제한&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-3-api-%EB%AA%85%EC%84%B8%EC%99%80-%EC%9A%94%EC%B2%AD%ED%9A%9F%EC%88%98-%EC%A0%9C%ED%95%9C&quot; aria-label=&quot;1 3 api 명세와 요청횟수 제한 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-3. API 명세와 요청횟수 제한&lt;/h3&gt;
+&lt;p&gt;이번 미션을 진행하기 위해 Google의 &lt;a href=&quot;https://developers.google.com/youtube/v3/getting-started?hl=ko&quot;&gt;Youtube Data API&lt;/a&gt;를 사용했습니다. 처음에는 API명세를 살펴보며 request요청을 보내는데만 신경을 썼습니다.&lt;/p&gt;
+&lt;p&gt;기능을 구현하며 이런저런 테스트를 하던중 &lt;code class=&quot;language-text&quot;&gt;403 error&lt;/code&gt;를 만나게 됐습니다. 그제서야 부랴부랴 &lt;a href=&quot;https://developers.google.com/youtube/v3/determine_quota_cost&quot;&gt;API cost&lt;/a&gt;를 확인해봤습니다. Youtube Data API에서 무료로 사용가능한 cost가 10,000이었는데 100의 비용이 드는 &lt;code class=&quot;language-text&quot;&gt;search&lt;/code&gt; request를 보내 금방 cost를 소진해버린 것이었습니다.&lt;/p&gt;
+&lt;p&gt;다음부터는 API를 사용하기 전 요청에 드는 cost와 사용 가능한 cost를 꼭 확인해야겠다는 생각을 했습니다. 또한 API요청 횟수가 제한되어 있다면 mock data를 만들어서 진행하는 방법도 고려해봐야겠습니다.&lt;/p&gt;
+&lt;h3 id=&quot;1-4-scroll-event와-throttling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-4-scroll-event%EC%99%80-throttling&quot; aria-label=&quot;1 4 scroll event와 throttling permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-4. scroll event와 throttling&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 최초 검색결과는 10개까지만 보여준다. 더 많은 데이터는 스크롤을 내릴 때 추가로 불러온다.&lt;/li&gt;
+&lt;li&gt;검색 결과 화면에서 유저가 브라우저 스크롤 바를 끝까지 이동시켰을 경우, 그다음 10개 아이템을 추가로 api요청하여 불러온다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;위 요구사항을 구현하기 위해 &lt;code class=&quot;language-text&quot;&gt;scroll&lt;/code&gt;이벤트를 사용했습니다. 1-3에 적은 것처럼 API요청 횟수가 제한되어 있는 상황이었는데 &lt;code class=&quot;language-text&quot;&gt;scroll&lt;/code&gt; 이벤트가 과도하게 발생하게 되는 문제가 있었습니다. 이벤트를 제한하기 위해 &lt;code class=&quot;language-text&quot;&gt;debounce&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;throttling&lt;/code&gt;를 찾아봤고 &lt;code class=&quot;language-text&quot;&gt;scroll&lt;/code&gt; 이벤트에는 &lt;code class=&quot;language-text&quot;&gt;throttling&lt;/code&gt;이 더 적합하다는 생각이 들었습니다. 아래와 같이 &lt;code class=&quot;language-text&quot;&gt;throttling&lt;/code&gt; 코드를 구현하고 이벤트에 등록해서 사용 했습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;throttling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; timer
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;throttling&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;func&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;timer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    timer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      timer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;add event&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;[data-js=&quot;youtube-search-modal__inner&quot;]&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&apos;scroll&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;throttling&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;onModalScroll&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; event&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;2-코드-리뷰-및-피드백-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-%ED%94%BC%EB%93%9C%EB%B0%B1-&quot; aria-label=&quot;2 코드 리뷰 및 피드백  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 코드 리뷰 및 피드백 📝&lt;/h2&gt;
+&lt;h3 id=&quot;2-1-code-classlanguage-textltbuttongtcode-tag의-default-type&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-1-code-classlanguage-textltbuttongtcode-tag%EC%9D%98-default-type&quot; aria-label=&quot;2 1 code classlanguage textltbuttongtcode tag의 default type permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-1. &lt;code class=&quot;language-text&quot;&gt;&amp;lt;button&amp;gt;&lt;/code&gt; tag의 default type&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA70lEQVQY042Q2U7DMBBF8/+/xgNCSEVQKEtRYyd2ktZZHG8HN+oi6AvXOpqr69F4KYZ5QjQ1at9SaY0ZB6z39NbRT1PGXupgLeM85313YXIzXW9QXcdh6Ck+Y8ldXPHg1mx9haDhw0qee8FmFKzNjte+vNRvX1Omhl3St0RN8YXknhcew1sOFBUd77NgddguA8vceDzkTHkkZ7+55sV+37DZPFG1irrRy7UPw4DUzfJUn8IN4cTZ+xjyd4zMwVF459BVjRByQcrqhKRtW+paoZReMMYQQ2RR4qrsY4yklChC9NjZ8F+l40p/OE2P2f8Ald3OZoBgY0QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;youtube step1 button&quot;
+        title=&quot;youtube step1 button&quot;
+        src=&quot;/static/1959c5b64880894ac98149d74d6068eb/c1b63/youtube-step1-button.png&quot;
+        srcset=&quot;/static/1959c5b64880894ac98149d74d6068eb/5a46d/youtube-step1-button.png 300w,
+/static/1959c5b64880894ac98149d74d6068eb/0a47e/youtube-step1-button.png 600w,
+/static/1959c5b64880894ac98149d74d6068eb/c1b63/youtube-step1-button.png 1200w,
+/static/1959c5b64880894ac98149d74d6068eb/6568d/youtube-step1-button.png 1660w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;HTML을 작성하면서 상당히 많은 태그들을 작성할 때 default type을 활용하여 작성해왔습니다. 그러나 그 default tpye에 대한 관심을 별로 안 가졌던거 같습니다.&lt;/p&gt;
+&lt;p&gt;매번 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;button&amp;gt;&lt;/code&gt;을 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;form&amp;gt;&lt;/code&gt;과 함께 사용할 때 &lt;code class=&quot;language-text&quot;&gt;tpye=&amp;#39;submit&amp;#39;&lt;/code&gt;을 명시해주고는 했는데 이번 피드백을 통해 처음으로 default type이 submit인걸 알게 됐습니다. 앞으로는 무작정 &lt;code class=&quot;language-text&quot;&gt;type&lt;/code&gt;을 부여하기 전 default로 가지고 있는 속성에 대해서도 알아봐야겠습니다.&lt;/p&gt;
+&lt;h3 id=&quot;2-2-template-literal의-과도한-사용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-2-template-literal%EC%9D%98-%EA%B3%BC%EB%8F%84%ED%95%9C-%EC%82%AC%EC%9A%A9&quot; aria-label=&quot;2 2 template literal의 과도한 사용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-2. template literal의 과도한 사용&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABK0lEQVQY02WR226kMBBE+f8/S7RR8jDRipmQCRPAYMDczW2Gs20r2pdYOqp2tasty8E0z9Rt6zFtJ/SUpmHZNtZ9/8Wy7b7n2GRvl8Xnmq5jv98JPh8pr4+QcL+hxpzLUHKda+JZE7l9nxENyvPhVDzPkPPRK9K9oqQjp2E6FoLz8c0T75z2iG9z5ct8EZqUk74RlhEv2YU/KuI5OfNWxpxMzN/myrmX/pASjplcGnMZbwx3S1BUis9EhumMXGWoQpNqzTVJ0KYml+eruhXtKExLUVfoqvRa1AbdtKS5IpHsum8EvTSyOJZhBWVZYWSAkYNVVTHbGTtNotbj6snjavvfX+YFDjzB47gz2gkr4Vk+yLrgj7rwMI6Moh6ph2H0nmP68dZ1xa3HcfAPN/HG+dy7y5gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;youtube step1 generate&quot;
+        title=&quot;youtube step1 generate&quot;
+        src=&quot;/static/a960c0a7eac16de15321411fcc2f56b2/c1b63/youtube-step1-generate.png&quot;
+        srcset=&quot;/static/a960c0a7eac16de15321411fcc2f56b2/5a46d/youtube-step1-generate.png 300w,
+/static/a960c0a7eac16de15321411fcc2f56b2/0a47e/youtube-step1-generate.png 600w,
+/static/a960c0a7eac16de15321411fcc2f56b2/c1b63/youtube-step1-generate.png 1200w,
+/static/a960c0a7eac16de15321411fcc2f56b2/d61c2/youtube-step1-generate.png 1800w,
+/static/a960c0a7eac16de15321411fcc2f56b2/da952/youtube-step1-generate.png 1872w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;template literal을 사용해 아래와 같은 코드를 만들었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;const URL = &amp;amp;maxResults=${YOUTUBE.NUMBER_TO_LOAD}&amp;amp;q=${keyword}&amp;amp;key=${API_KEY}${pageToken}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;늘 사용하던대로 template literal을 사용했는데 피드백을 받고 코드를 다시 보니 상당히 더럽다는 생각을 했습니다. 짧은 String이나 HTML 템플릿을 사용할 때는 가독성이 괜찮았는데 이런 경우에는 오히려 template literal을 사용함으로써 가독성을 해쳤다는 생각이 들었습니다.&lt;/p&gt;
+&lt;p&gt;피드백을 반영해 다음과 같이 queryString을 반환하는 함수를 만들어서 사용하도록 개선했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;getQueryString&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;params&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; queryString &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;?&apos;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; Object&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    queryString &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;key&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;value&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; queryString
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;2-3-localstorage의-key&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-3-localstorage%EC%9D%98-key&quot; aria-label=&quot;2 3 localstorage의 key permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-3. localStorage의 key&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABDUlEQVQY033Q6WrDMBBGUb//q/VHKYQ0JXUTO0ktb5K8yZIX3SpJSyiUDhw+EMMMmsg6R601ZV1TSUWlFE3Xodu7eVmY5hk3/eH7/dondYMZLdF5LXhe3tjORzIjuKiUTR5zCJnKE/s6Z1clnKygQAcqaMi9RqyKPBA3kmptiRIET+x48e+cnOCjTXhVB+IhY6uObMLg/SA4muLmMObE5kwyheVUXHx1z6AISyLd1cTpjqKtKfWVRDbhBNevm4HOjhhn6Y1jCHpjaYcOM41Mfr6x60TvDNM6E03WUmYZn5eMJEkpy4o8LxCZQIWhKtxVSkkta7RW/Cr/yGVe8KsnWtcF63r+Ku/9/3jkT/8X7jLMpNq4rmAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;youtube step1 localstorage&quot;
+        title=&quot;youtube step1 localstorage&quot;
+        src=&quot;/static/47477b2ae26e9d8ab0de5564c0d1d0b2/c1b63/youtube-step1-localstorage.png&quot;
+        srcset=&quot;/static/47477b2ae26e9d8ab0de5564c0d1d0b2/5a46d/youtube-step1-localstorage.png 300w,
+/static/47477b2ae26e9d8ab0de5564c0d1d0b2/0a47e/youtube-step1-localstorage.png 600w,
+/static/47477b2ae26e9d8ab0de5564c0d1d0b2/c1b63/youtube-step1-localstorage.png 1200w,
+/static/47477b2ae26e9d8ab0de5564c0d1d0b2/d61c2/youtube-step1-localstorage.png 1800w,
+/static/47477b2ae26e9d8ab0de5564c0d1d0b2/00e09/youtube-step1-localstorage.png 1854w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;key값을 모두 상수로 분리해 관리하도록 개선했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;LOCAL_STORAGE_KEY&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token constant&quot;&gt;CURRENT_KEYWORD&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;currentKeyword&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token constant&quot;&gt;RECENT_KETWORDS&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;recentKeywords&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token constant&quot;&gt;NEXT_PAGE_TOKEN&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;nextPageToken&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token constant&quot;&gt;SAVED_CLIPS&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;savedClips&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token constant&quot;&gt;RECENT_SEARCH_RESULTS&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;recentSearchResults&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이 부분은 문제가 있다고 인지하고 있었는데 시간이 부족하여 코드에 적용하지 못 했습니다. 리뷰어 분의 시간에도 한계가 있을텐데 지적받지 않아도 될 부분을 지적받아 아쉬움이 남았습니다.&lt;/p&gt;
+&lt;p&gt;다음 step에서는 이런 아쉬움이 남지 않도록 시간을 잘 분배하고 꼼꼼히 리팩터링 후 제출해야겠다는 생각을 했습니다.&lt;/p&gt;
+&lt;h3 id=&quot;2-4-localstorage-사용의-안정성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-4-localstorage-%EC%82%AC%EC%9A%A9%EC%9D%98-%EC%95%88%EC%A0%95%EC%84%B1&quot; aria-label=&quot;2 4 localstorage 사용의 안정성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-4. localStorage 사용의 안정성&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABG0lEQVQY023R126DMBSAYd7/0XpVqSOzalMCRBg8GAYP+Guaq1ax9clLPvI5zryPaD0kPUp3NK2m60d8WNjOHlv+jP1g0abHWkfWTDOvreQgNbkQFLWgbFuUm9HBJwGT3OeJ9yjvEn/nHO00IaxFzjNZQcMTe545cRlLPsQXh+bMris4diUv4sR7+8lRVuzkhTdT8jnUnPuCs72y3S9oKZNqlWRmMpyqPZUV1EYiOk3dKwqlkCl1NRraQWHG9IK+R9oOGx1DnBiTaXXYZca44Xedhdlxu+QU14r8O6cRDSKlfatuaKUZhhFjOpRUhJTiw7ZCDBGWlWxZI+PU4dInxBgIMRJSzWLcih4Sj9ukWm1769bXf7aIbPFWfgAkcc2K4TcsXQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;youtube step1 localstorage2&quot;
+        title=&quot;youtube step1 localstorage2&quot;
+        src=&quot;/static/cac346fbae1c8f4ad6e32d706d79ed80/c1b63/youtube-step1-localstorage2.png&quot;
+        srcset=&quot;/static/cac346fbae1c8f4ad6e32d706d79ed80/5a46d/youtube-step1-localstorage2.png 300w,
+/static/cac346fbae1c8f4ad6e32d706d79ed80/0a47e/youtube-step1-localstorage2.png 600w,
+/static/cac346fbae1c8f4ad6e32d706d79ed80/c1b63/youtube-step1-localstorage2.png 1200w,
+/static/cac346fbae1c8f4ad6e32d706d79ed80/d61c2/youtube-step1-localstorage2.png 1800w,
+/static/cac346fbae1c8f4ad6e32d706d79ed80/6fa81/youtube-step1-localstorage2.png 1856w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이번 미션에서 Web Storage 중 localStorage를 활용하여 정보를 관리하는 부분이 많았습니다. localStorage의 &lt;code class=&quot;language-text&quot;&gt;getItem&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;setItem&lt;/code&gt;을 다음과 같이 util로 분리해서 사용했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;key&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;그러나 이 코드에는 JSON format이 아닌 값을 get할 경우 error가 생길 수 있다는 문제가 있었습니다.&lt;/p&gt;
+&lt;p&gt;이 문제를 해결하기 위해 localStorage에 저장할 때 type 검사를 하는 방어코드를 추가했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;ERROR_MESSAGE&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./constant.js&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;key&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; value &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;string&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;Array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;isArray&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token constant&quot;&gt;ERROR_MESSAGE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;ONLY_STRING_OR_ARRAY_CAN_BE_STORED_IN_LOCAL_STORAGE&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;다음 step을 진행할 때는 페어와 논의를 해서 &lt;code class=&quot;language-text&quot;&gt;get&lt;/code&gt;에도 방어코드를 추가해야겠습니다.&lt;/p&gt;
+&lt;h3 id=&quot;2-5-code-classlanguage-textltagtcode-tag의-code-classlanguage-texttarget_blankcode-옵션이-고려해야할-이슈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-5-code-classlanguage-textltagtcode-tag%EC%9D%98-code-classlanguage-texttarget_blankcode-%EC%98%B5%EC%85%98%EC%9D%B4-%EA%B3%A0%EB%A0%A4%ED%95%B4%EC%95%BC%ED%95%A0-%EC%9D%B4%EC%8A%88&quot; aria-label=&quot;2 5 code classlanguage textltagtcode tag의 code classlanguage texttarget_blankcode 옵션이 고려해야할 이슈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-5. &lt;code class=&quot;language-text&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag의 &lt;code class=&quot;language-text&quot;&gt;target=_blank&lt;/code&gt; 옵션이 고려해야할 이슈&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABPElEQVQoz6VS207DMAzt//8XD0gIpEkT7MJgTbut91ybdk16cNKxJ3hAWDrysdPY7nGSYRwhhELbcQipIJWO3nkP536B9/fz6+SglAGnGtYOSJgrsBp3eO0/cB4bZLbGQV6iz4cmInDWV0jNgqOu8KnLyEvHcZlanK8Nmkkg2SLFA1Z4cRtkcwWGCs/VAY+nHZ6Kd6xFijedYW9P2N2wMXlE4Izu5KiR0b0CHZKcEmt3wP7KUFCn0DG3y2SsX6asPEcD+SPqWdzRzQqJtRZt05KOMiJoOs8z6ePwFwt6etI14XWJ436LsqpRlCVqKt52HcUVjDFR6L7v0VNjQ34YRthhyRmz5L+59zOSUF1TkDKGjjattI6QcplYKUVe0PZVjHU4v3HOBb0IGb8d6c+CJdM0UgFO6/f4rwWpvgCVZmfkavLHwwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;youtube step1 a tag&quot;
+        title=&quot;youtube step1 a tag&quot;
+        src=&quot;/static/57705a6ae4d3b514b5a6760c10d5f964/c1b63/youtube-step1-a-tag.png&quot;
+        srcset=&quot;/static/57705a6ae4d3b514b5a6760c10d5f964/5a46d/youtube-step1-a-tag.png 300w,
+/static/57705a6ae4d3b514b5a6760c10d5f964/0a47e/youtube-step1-a-tag.png 600w,
+/static/57705a6ae4d3b514b5a6760c10d5f964/c1b63/youtube-step1-a-tag.png 1200w,
+/static/57705a6ae4d3b514b5a6760c10d5f964/d61c2/youtube-step1-a-tag.png 1800w,
+/static/57705a6ae4d3b514b5a6760c10d5f964/6fa81/youtube-step1-a-tag.png 1856w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그동안 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag를 사용하면서 &lt;code class=&quot;language-text&quot;&gt;target=_blank&lt;/code&gt; 옵션을 많이 사용해 왔습니다. 그러나 noopener, noreferer, nofollow 옵션에 대해서는 처음으로 알게 됐습니다.&lt;/p&gt;
+&lt;p&gt;아래 글들을 참고하면서 noopener, noreferer, nofollow 에 대해 공부했고 window.opner를 안전하게 보호하기 위해 noopener, noreferer 옵션을 추가 했습니다. 또한 Link Juice를 전달하지 않기 위해 nofollow 옵션 역시 추가했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a
+  href&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://www.youtube.com/&quot;&lt;/span&gt;
+  target&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;_blank&quot;&lt;/span&gt;
+  rel&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;noopener noreferer nofollow&quot;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;channel-name mt-1&quot;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;video&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;snippet&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;channelTitle&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;참고-링크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0-%EB%A7%81%ED%81%AC&quot; aria-label=&quot;참고 링크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고 링크&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://webruden.tistory.com/262&quot;&gt;target=”_blank” 좀 더 알고 사용하자&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://3rabbitz.com/blog_ko/08d34c69855fbcad&quot;&gt;rel 속성 - noreferrer, noopener, nofollow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://behind-the-scenes.net/using-nofollow-noreferrer-and-noopener-rel-attributes/&quot;&gt;Nofollow, noreferrer and noopener / 영문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;2-6-submit-event-객체에서-값-찾기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-6-submit-event-%EA%B0%9D%EC%B2%B4%EC%97%90%EC%84%9C-%EA%B0%92-%EC%B0%BE%EA%B8%B0&quot; aria-label=&quot;2 6 submit event 객체에서 값 찾기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-6. submit event 객체에서 값 찾기&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.333333333333332%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA/UlEQVQY042RW0/DMAyF+/9/HS+IsSGkdUzt0ja3LvfLwUs3NMQLkT4d+yixbKcz1oEL+Yv1aiCkbppShg8J4UZMiPGu5D/Qq4FUGtZ5dPvU48W/Y+96DOIL++GA3XTEGzvilfXY8QGfesSHGpveOLkJrEhcimgMccE5TJiTQsfzijEsmL2Eukpop6GDwRoNuL1CBQdbPWzxMHda/oRDgEeErxEdO/UYT2dMbIYQCtbSBVqDoXH/deqGo3e1VHSrFJjnCRfGSKnTZYOxCQvnDaU17Ug1nwvRYkG7llKilNLq5pxRKxWMkUbyjozSzJRS+4hNn8j5T/4o8tMsxd87As9Y7NVajwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;youtube step1 submit&quot;
+        title=&quot;youtube step1 submit&quot;
+        src=&quot;/static/a86f4c7b53483d2d1c3dd0b8eaf055bb/c1b63/youtube-step1-submit.png&quot;
+        srcset=&quot;/static/a86f4c7b53483d2d1c3dd0b8eaf055bb/5a46d/youtube-step1-submit.png 300w,
+/static/a86f4c7b53483d2d1c3dd0b8eaf055bb/0a47e/youtube-step1-submit.png 600w,
+/static/a86f4c7b53483d2d1c3dd0b8eaf055bb/c1b63/youtube-step1-submit.png 1200w,
+/static/a86f4c7b53483d2d1c3dd0b8eaf055bb/d61c2/youtube-step1-submit.png 1800w,
+/static/a86f4c7b53483d2d1c3dd0b8eaf055bb/00e09/youtube-step1-submit.png 1854w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;onSearchClip&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $input &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;[data-js=youtube-search-modal__input]&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;submit&lt;/code&gt;이벤트에 위와 같은 callback 함수를 등록하고 사용하고 있엇습니다. &lt;code class=&quot;language-text&quot;&gt;submit&lt;/code&gt;된 값을 찾기 위해 DOM에 접근해서 값을 가져왔습니다.&lt;/p&gt;
+&lt;p&gt;피드백을 받고 &lt;code class=&quot;language-text&quot;&gt;submit&lt;/code&gt; 이벤트가 넘겨준 &lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt;객체를 뜯어보니 &lt;code class=&quot;language-text&quot;&gt;event.target.elements&lt;/code&gt;이 제출한 element들을 가지고 있는걸 확인할 수 있었습니다. 코드는 아래와 같이 수정했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;onSearchClip&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $input &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;elements&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;youtube-search-modal__input&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;그동안 &lt;code class=&quot;language-text&quot;&gt;submit&lt;/code&gt;을 사용할 때 불필요하게 DOM에 접근하고는 했었습니다. 다음부터는 무작정 DOM을 파싱하는걸 지양하고 먼저 &lt;code class=&quot;language-text&quot;&gt;event&lt;/code&gt;객체를 확인해보는 습관을 들여야겠습니다.&lt;/p&gt;
+&lt;h2 id=&quot;3-코드-구조-시각화-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%BD%94%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EC%8B%9C%EA%B0%81%ED%99%94-&quot; aria-label=&quot;3 코드 구조 시각화  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 코드 구조 시각화 🔎&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 82.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAABcUlEQVQ4y5WUaY7CMAyFe/8DcA+kHoMfCKSCQPwoArEvXejCZvRZSqfptJnBUuSUxM/Pzw6etNj7/a5827rf71KWpTyfz+o3c99zBZqLdcuyTNbrta4oiqzEmNcW1GSbJIlcr1cFwG+3W9lsNrLb7TTBL4a3203SNNVDPN/sCT4ejxq8WCxktVrp93K51HU+n+XxeEhRFD+A6HA4HCQIAhmNRjKdTmU8HstwOFSQOI6tskgEM0omIYamAFclw4psp9NJLpeLtc/zvFUKzgElFrAKUP5hddF7vZ4MBgNlGoah6mmV7Oow6/V6WeCz2UzZofN+v9eGWYCuOQSMktCIfX0iTDIzi62A9QMukxk9aZph0QRuxnouvdCJ2cO33Wk+gE6GmO/7MplMrA7W2XU9iE7Afr8v8/lcQRCe8aERpkldT9NZMswAYtEYo+PXDPF0z4CgIf8ueJK4yv5zbAChVAAp3bzfrwHNZZgCgIct4C7AD0KMM1981aTJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;youtube step1 visual&quot;
+        title=&quot;youtube step1 visual&quot;
+        src=&quot;/static/8d13caebc6c89a5b2cb2e53d972b78a6/c1b63/youtube_step1_visual.png&quot;
+        srcset=&quot;/static/8d13caebc6c89a5b2cb2e53d972b78a6/5a46d/youtube_step1_visual.png 300w,
+/static/8d13caebc6c89a5b2cb2e53d972b78a6/0a47e/youtube_step1_visual.png 600w,
+/static/8d13caebc6c89a5b2cb2e53d972b78a6/c1b63/youtube_step1_visual.png 1200w,
+/static/8d13caebc6c89a5b2cb2e53d972b78a6/d61c2/youtube_step1_visual.png 1800w,
+/static/8d13caebc6c89a5b2cb2e53d972b78a6/97a96/youtube_step1_visual.png 2400w,
+/static/8d13caebc6c89a5b2cb2e53d972b78a6/09d8d/youtube_step1_visual.png 3012w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-링크-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EB%A7%81%ED%81%AC-&quot; aria-label=&quot;4 링크  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 링크 🔗&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/javascript-youtube-classroom/tree/step1&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/javascript-youtube-classroom/pull/1&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Webpack 사용해보기]]></title><description><![CDATA[webpack 사용해보기 1. webpack 세팅하기 1-1. web]]></description><link>https://yujo11.github.io/webpack/webpack-사용해보기/</link><guid isPermaLink="false">https://yujo11.github.io/webpack/webpack-사용해보기/</guid><pubDate>Mon, 01 Mar 2021 23:03:14 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 820px; &quot;
     &gt;
