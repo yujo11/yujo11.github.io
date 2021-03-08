@@ -1,4 +1,261 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 07 Mar 2021 14:19:54 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨1 유튜브 강의실 step1 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯 step1 유튜브 검색 API…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step1-후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step1-후기/</guid><pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 08 Mar 2021 14:03:32 GMT</lastBuildDate><item><title><![CDATA[window-opener]]></title><description><![CDATA[Window.opener() Window.opener()  인터페이스의 속성은 을 사용해 현재 열었던 창의 참조를 반환합니다.]]></description><link>https://yujo11.github.io/web/window-opener/</link><guid isPermaLink="false">https://yujo11.github.io/web/window-opener/</guid><pubDate>Mon, 08 Mar 2021 09:03:18 GMT</pubDate><content:encoded>&lt;h1 id=&quot;windowopener&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#windowopener&quot; aria-label=&quot;windowopener permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Window.opener()&lt;/h1&gt;
+&lt;h2 id=&quot;windowopener-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#windowopener-1&quot; aria-label=&quot;windowopener 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Window.opener()&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Window&lt;/code&gt; 인터페이스의 &lt;code class=&quot;language-text&quot;&gt;opener&lt;/code&gt;속성은 &lt;code class=&quot;language-text&quot;&gt;open()&lt;/code&gt;을 사용해 현재 열었던 창의 참조를 반환합니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[블랙커피 프론트엔드 스터디 레벨1 후기]]></title><description><![CDATA[블랙커피 프론트엔드 스터디 레벨1 후기 ☕️ 블랙커피 프론트엔드 스터디?  블랙커피 프론트엔드 스터디는 nextstep…]]></description><link>https://yujo11.github.io/블랙커피/블랙커피-프론트엔드-스터디-레벨1-후기/</link><guid isPermaLink="false">https://yujo11.github.io/블랙커피/블랙커피-프론트엔드-스터디-레벨1-후기/</guid><pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABz0lEQVQoz5VSyYoiQRCt//QLBEHw4kUEDx7F4zh40L6oBxkVUXGbRrtBLbeqUbQ9uIxil1MILrhvbyrCKaEPDT0Jr/JVRubLeBEp4Ivjdrt9mD+LC0TO5zPjcrkwrtfrgxMoRmv6od1uh8VigcNhj9PpxHt0UQH/OVarFVqtX5hMJlAUBbIsoVarauKHe4Z0QzAYhN/vRyKRQCQSgSiKSKVSzOPxOEKhEEqlEh9YLpfM+/0+i47HY02wBlX9cxfcbDYwGo2w2WxwOBywWCzw+Xyw2+0wm81wOp2wWq3wer2PDPP5PAvOZgre3rp4fv6J/X5/FyRiMplgMBg4q0AgAJfLBbfbzf/6oBpSLUno9fUFo9EIlEyz0UCn09HEZ3dB8q7barfb6Ha7DOLz+fxDB0n0tyZUrVbZKl3QarWgvL9jOp1yswRVVZHNZhEOhxGLxbDdbrlzx+OROVlcr9cMql+v14MsSVxn4qJYQbFY5HpS1gJ9CHQjLQ4GgweGwyHHaNZRLpeR1JpHjaAzsiyj2Wyyq4ZmX6jX6yDQBp1/BkmSkU6n4fF8QzQaRaFQYHc0VyoVjgm08FXkcjlkMpl/z+sHvns8eNKeWzKZ5DgJ/gUbcAkYkRuQUgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;blackcoffee forntend&quot;
+        title=&quot;blackcoffee forntend&quot;
+        src=&quot;/static/e6862f7676a8f73b6fed372babf30500/c1b63/blackcoffee-forntend.png&quot;
+        srcset=&quot;/static/e6862f7676a8f73b6fed372babf30500/5a46d/blackcoffee-forntend.png 300w,
+/static/e6862f7676a8f73b6fed372babf30500/0a47e/blackcoffee-forntend.png 600w,
+/static/e6862f7676a8f73b6fed372babf30500/c1b63/blackcoffee-forntend.png 1200w,
+/static/e6862f7676a8f73b6fed372babf30500/d61c2/blackcoffee-forntend.png 1800w,
+/static/e6862f7676a8f73b6fed372babf30500/97a96/blackcoffee-forntend.png 2400w,
+/static/e6862f7676a8f73b6fed372babf30500/d1ecc/blackcoffee-forntend.png 5664w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;블랙커피-프론트엔드-스터디-레벨1-후기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%94%EB%9E%99%EC%BB%A4%ED%94%BC-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%A0%88%EB%B2%A81-%ED%9B%84%EA%B8%B0&quot; aria-label=&quot;블랙커피 프론트엔드 스터디 레벨1 후기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;블랙커피 프론트엔드 스터디 레벨1 후기&lt;/h1&gt;
+&lt;h2 id=&quot;️-블랙커피-프론트엔드-스터디&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EF%B8%8F-%EB%B8%94%EB%9E%99%EC%BB%A4%ED%94%BC-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%8A%A4%ED%84%B0%EB%94%94&quot; aria-label=&quot;️ 블랙커피 프론트엔드 스터디 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;☕️ 블랙커피 프론트엔드 스터디?&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+0lEQVQoz61RuY6DMBT0/7eU8AFUVHQLSGyxBQUgYDkKEBKQNrvhPmexJaIgJWELnjSasf00b2wTSZIgyzIURUGaplBVFa7rwrIs2LYNWvM8Y1kWpjd+VYTjOAiCAJ7noWka09RcFEW2pjVN0/8NcVCPBlQ/w+M5Gcfx6ZU27vsOX58fjN8N3fpZwmEYUNc1uq67g66bpsHt9ovQd/Bzva6mPdtv23aHXUIqiqKAYRjI8xxRFMH3fZimydjzvtfzC9NxHCMIgnXPQ5IkDGEY7lK+fEOakk6nKcuyvKemT/T2U6qqYo2Uj0CNj3pIlmU4E8RxHJwJous6zsQfG2QyA529jocAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;blackcoffee introduce&quot;
+        title=&quot;blackcoffee introduce&quot;
+        src=&quot;/static/d90aed515dd3f43fc77b37860aeed6cb/c1b63/blackcoffee-introduce.png&quot;
+        srcset=&quot;/static/d90aed515dd3f43fc77b37860aeed6cb/5a46d/blackcoffee-introduce.png 300w,
+/static/d90aed515dd3f43fc77b37860aeed6cb/0a47e/blackcoffee-introduce.png 600w,
+/static/d90aed515dd3f43fc77b37860aeed6cb/c1b63/blackcoffee-introduce.png 1200w,
+/static/d90aed515dd3f43fc77b37860aeed6cb/d61c2/blackcoffee-introduce.png 1800w,
+/static/d90aed515dd3f43fc77b37860aeed6cb/97a96/blackcoffee-introduce.png 2400w,
+/static/d90aed515dd3f43fc77b37860aeed6cb/6f860/blackcoffee-introduce.png 5532w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;블랙커피 프론트엔드 스터디는 &lt;a href=&quot;https://edu.nextstep.camp/&quot;&gt;nextstep&lt;/a&gt;이라는 플랫폼에서 운영되고 있는 스터디입니다.&lt;/p&gt;
+&lt;p&gt;프론트엔드 스터디 외에도 블로그 스터디도 활발하게 운영되고 있습니다! 블랙커피 프론트엔드 스터디가 궁금하시다면 &lt;a href=&quot;https://www.youtube.com/watch?v=hYjsaIdHDzM&quot;&gt;링크&lt;/a&gt;의 유튜브 영상을 참고하시면 더 많은 정보를 있습니다!(매 기수마다 업데이트 되고 있어서 참여하시는 시점과는 내용이 조금 달라졌을 수도 있습니다.)&lt;/p&gt;
+&lt;h2 id=&quot;♂️-스터디-참여-계기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E2%99%82%EF%B8%8F-%EC%8A%A4%ED%84%B0%EB%94%94-%EC%B0%B8%EC%97%AC-%EA%B3%84%EA%B8%B0&quot; aria-label=&quot;♂️ 스터디 참여 계기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🙋‍♂️ 스터디 참여 계기&lt;/h2&gt;
+&lt;p&gt;막 프론트엔드에 관심을 가지고 공부를 하던 중 같이 공부하는 친구에게 스터디를 추천 받았습니다. 추천을 받고 같은 관심사(프론트엔드)를 가진 사람들을 만나고 싶었고 같은 목표를 가진 사람들과 함께 공부하면 좋겠다는 생각으로 참여하게 됐습니다.&lt;/p&gt;
+&lt;h2 id=&quot;♂️-장수의-늪&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E2%99%82%EF%B8%8F-%EC%9E%A5%EC%88%98%EC%9D%98-%EB%8A%AA&quot; aria-label=&quot;♂️ 장수의 늪 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🏃‍♂️ 장수의 늪&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACZUlEQVQ4y31T227aUBD0X+ep9AfKC09VKvX2VhQ1EgpJJKT0IVLaqk1pCuISbK4mIGIINsZ3mJ5ZMElRlSMdrb0+O2dmZ62dnp7h4OAAmUwG2WwWpmliNBphOBzKvru7k83ceDzePDO3/TZ8EqfTKTTHcSRBIMbnVhzHEtfPnNEIks/nMZlMMBgM4LouKpUKjo6OhFGr1UIURSienODdh48w6zf4+ekQwcRE8ewcXy4upNYwDLlQm81mKBQKqFar6HQ6IGPSLxaLaDab6Ha78H0fjUYDX799h1H7A/3yHPHiAde/yiiVSuj3euj3+xvA1Wq1o8vCJEmwn+M793q9VvFRMM+mrQiCQL5rLNB1HfP5XNgxyagbusTFYiFFbDjZWpYF3/Mkl5rBc57KCSCRW/W6FKZNd2wbxu0tPN/bsZje36PXbu8YC+BAGanMDMNQ3pkXyYEfCOVkK4fAtv14K1cUxXKOxalo113CVUQkJ+1QgCzqqqaGCnA+tZBEoQA99tCTg5Q8Uq577gKuPcd6lfwzLgQUyRyLF5mXqN9c4+rtK1i/L3FdLiOXy8nI1Go1xS7E8fFnvD58g9rVBX68z8Id6BugrVkpqOYtl2IKp3/cbiIJPNiqyRwTNp2zGAS+mEElY7MPq2dgncQiPWW2A+TQ2soE9iHe9pCNp0mUymcxaulg5szUuQirJzL3o7jMcbhXLpItF8E6nbaMw3Kbe5g/oNfvSS/D7cz9b2uRurHb0hWIsxsROtdVvxLB0hGZWVOYSnLKOGW1b4xGCbSfkil/M/UhXAVGM9IcgZbK/fSdmwT291+G3m5nfZZPCwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;wow&quot;
+        title=&quot;wow&quot;
+        src=&quot;/static/b0d6c0e1a29a9a60e897b2f378f212c6/c1b63/wow.png&quot;
+        srcset=&quot;/static/b0d6c0e1a29a9a60e897b2f378f212c6/5a46d/wow.png 300w,
+/static/b0d6c0e1a29a9a60e897b2f378f212c6/0a47e/wow.png 600w,
+/static/b0d6c0e1a29a9a60e897b2f378f212c6/c1b63/wow.png 1200w,
+/static/b0d6c0e1a29a9a60e897b2f378f212c6/d61c2/wow.png 1800w,
+/static/b0d6c0e1a29a9a60e897b2f378f212c6/d544a/wow.png 1950w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;위 사진을 보시면 아시겠지만 레벨 1 스터디를 무려 4번이나 참여하고서야 겨우 모든 미션을 마칠 수 있었습니다. 어떤 생각을 가지고 스터디에 참여했고 어떤 일들이 있었는지 간략히 정리해 보겠습니다.&lt;/p&gt;
+&lt;h3 id=&quot;🥚-3기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%F0%9F%A5%9A-3%EA%B8%B0&quot; aria-label=&quot;🥚 3기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🥚 3기&lt;/h3&gt;
+&lt;p&gt;처음으로 스터디를 참여했던 기수입니다. 이 때는 제 코드를 다른 사람에게 보여주는 일에 대한 두려움이 굉장히 컸습니다. 블랙커피 스터디는 스터디 참여자들 간의 페어 프로그래밍과 코드 리뷰가 적극 권장 되는 스터디입니다.&lt;/p&gt;
+&lt;p&gt;그러나 저는 제 부족한 실력이 만천하에 드러나는 것만 같아서 페어 프로그래밍을 하는 것도, PR을 올려서 코드 리뷰를 받는 것도 무서워 했습니다. 이런 생각을 가지고 위축되다 보니 기능을 완성하고도 조금 더 개선하고 제출해야겠다는 다짐만 여러 번 반복 했습니다. 다짐만 반복하던 저는 결국 총 3개의 미션 중 단 하나의 미션도 마치지 못한 채 3기 스터디를 마무리 하게 됐습니다.&lt;/p&gt;
+&lt;h3 id=&quot;-4기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-4%EA%B8%B0&quot; aria-label=&quot; 4기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🐣 4기&lt;/h3&gt;
+&lt;p&gt;4기 스터디에 참여할 때는 조금 더 적극적으로 페어 프로그래밍과 코드 리뷰를 이용하자는 마음을 먹었습니다. 공개 코드 리뷰, 페어 프로그래밍을 통해 많은 피드백을 얻기 위해 노력했습니다.&lt;/p&gt;
+&lt;p&gt;당시 나나님과 여러번 페어 프로그래밍을 진행했는데 헬퍼인 준일님, 데브장님에게 많은 인사이트를 얻을 수 있었습니다. 특히 데브장님은 따로 시간을 내주시면서까지 추가로 여러가지 막혔던 부분들에 대해 보충 설명을 해주셔서 나나님과 함께 빠르게 성장할 수 있었습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;당시 작성했던 TIL의 일부&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 83.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAC2ElEQVQ4y6VUWWsTURS+qGnTNo1drHZNuqRW23TRtmoRxEdRakEEUaqIiFYsuKCCIC4IIvoPBF98EHzw91Qw20ySZpuZJJOmxSz9POcmk7b2qRj4cs4995zvfueemRHhcAQrK7/w2+eDz+/H+vo6yuUyiqUSSnsF1YlyuYRi4Q/KFCiXivjfn/j6/SeWX77Hi3ef8eztJzx59QGP94inrz9i6fkbfPn2A+L8wk0I0Q7h7IewdULYeyDqu3fCitV1bcG2zW/oJQ4Hzl1ehFi49RCibRjNgyfhIBwZP4uDw7NoO3Ya7cfPoHXkFA6NzsHpmYat24u6Hi/qe8cl2GfY+yYgHG7MLy5BzC8+IHUDcAycQGP/FDq8c2glMqdnBs7hGXlIy9FZWXiQbPPQtCRnNFEN7ze4JmUXl27cg7h4/T5Ekwv1fePY3zWKOjrZ7pqA3T1Jvhfi8Ig8yNYzJnMOdI9BtA4RPNRZFR0j8rouXLsLcfXOI+zrHEWLZxYNfZNodP0D91TV37JN7p1wDk5L4iu3lyEyZg5JzYBuZKCnM9CM9C6kaD+lG9B08iWMWsyySU1HJmtC8LOTy5lIpVKIx+NIGwbSaUa6hnw+Tzk5ZDN0qKYhQ5ZjGdrLmabcy6+tVZ7Dzc1NxGIxBAJBhEIKQooifUVVEY5EkEwmsUbJEkTC1iQSttlstrZm8BsmFSaoiIsVRYXP50c4HIaqhmVMvpIE9iMSUQSDIdpXpVJWx5ZRI4xRqxUSVRZw4erqqlQuSaKVGKvmWDyRQIJg0PVYYGLZMv9xsUqEUSrkj4XfH0AgyFcQkiQM9oMU4xxWyAI4ZtDQuHVuuVgsVgjjUmFEJsVicXkiJ/FAZDvk89pSwzEeoklPiEnKdL2Sv7GxUW2Z2uC7s9rjta7rlGTKYo0mmyLwAUzIayawLOck6QD+hEnCZHUorE6hKUfpCli+hUKhsAtWfHsOD+UvXs/+RX0XTCsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;1114&quot;
+        title=&quot;1114&quot;
+        src=&quot;/static/e4b82e9e943d4dc97838380fc6ebfbe4/c1b63/1114.png&quot;
+        srcset=&quot;/static/e4b82e9e943d4dc97838380fc6ebfbe4/5a46d/1114.png 300w,
+/static/e4b82e9e943d4dc97838380fc6ebfbe4/0a47e/1114.png 600w,
+/static/e4b82e9e943d4dc97838380fc6ebfbe4/c1b63/1114.png 1200w,
+/static/e4b82e9e943d4dc97838380fc6ebfbe4/5ba90/1114.png 1604w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;짧은 시간 동안 정말 많이 배운 알찬 스터디였습니다. 그러나 2단계 미션의 벽을 넘지 못 하고 스터디를 마치게 됐습니다.&lt;/p&gt;
+&lt;h3 id=&quot;-5기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-5%EA%B8%B0&quot; aria-label=&quot; 5기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🐥 5기&lt;/h3&gt;
+&lt;p&gt;돌이켜보면 지난 스터디를 기점으로 한참 빠르게 성장하던 시기였습니다. 시의적절하게 우아한 테크코스 프리코스에 참여하게 되면서 4기를 진행하면서 얻은 인사이트들을 온전히 제 것으로 체화할 수 있는 시간이었습니다.&lt;/p&gt;
+&lt;p&gt;스터디를 진행하면서 처음으로 코드를 작성하고 공개하는게 두렵지 않게 된 시기이기도 했습니다. 코드에 자신감이 붙은 것도 있지만 지난 4기 스터디의 경험으로 빠르게 성장하기 위해서는 피드백을 두려워해서는 안 된다는 생각이 더 컸습니다.&lt;/p&gt;
+&lt;p&gt;프리코스 중 짬을 내서 열심히 참여하려 했지만 아쉽게도 마지막 미션의 벽을 넘지 못 하고 스터디를 마치게 됐습니다.&lt;/p&gt;
+&lt;h3 id=&quot;-6기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-6%EA%B8%B0&quot; aria-label=&quot; 6기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🐓 6기&lt;/h3&gt;
+&lt;p&gt;처음 3기로 참여했을 때는 3단계의 미션 중 첫번째 미션도 아득하고 어렵게만 느껴졌었습니다. 그러나 6기로 스터디에 참여했을 때는 마지막 미션까지 구현에 큰 어려움을 느끼지 못 했습니다. 스터디에 참여하면서 많이 성장했다는걸 느낄 수 있었습니다.&lt;/p&gt;
+&lt;p&gt;지난 기수에서는 구현하기에도 벅차 다른 사람들의 코드를 많이 보지 못 했습니다. 6기에 참여하면서는 꼭 다른 사람의 코드를 많이 보자고 마음 먹었습니다. 그 결과 1단계, 2단계, 3단계에 올라온 모든 PR에 리뷰를 남길 수 있었습니다. 다른 스터디원들의 PR에 먼저 적극적으로 리뷰를 남기다보니 제 PR에도 많은 피드백을 받고 성장할 수 있었습니다.&lt;/p&gt;
+&lt;p&gt;그리고 드디어 블랙커피 프론트엔드 스터디 레벨1을 졸업할 수 있었습니다!🎉🎉🎉&lt;/p&gt;
+&lt;h2 id=&quot;-미션&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%AF%B8%EC%85%98&quot; aria-label=&quot; 미션 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🗂 미션&lt;/h2&gt;
+&lt;h3 id=&quot;-step1-todolist-with-crud&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step1-todolist-with-crud&quot; aria-label=&quot; step1 todolist with crud permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀 step1. TodoList with CRUD&lt;/h3&gt;
+&lt;h4 id=&quot;-기본-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EA%B8%B0%EB%B3%B8-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; 기본 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯 기본 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; todo list에 todoItem을 키보드로 입력하여 추가하기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; todo list의 체크박스를 클릭하여 complete 상태로 변경. (li tag 에 completed class 추가, input 태그에 checked 속성 추가)&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; todo list의 x버튼을 이용해서 해당 엘리먼트를 삭제&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; todo list를 더블클릭했을 때 input 모드로 변경. (li tag 에 editing class 추가) 단 이때 수정을 완료하지 않은 상태에서 esc키를 누르면 수정되지 않은 채로 다시 view 모드로 복귀&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; todo list의 item갯수를 count한 갯수를 리스트의 하단에 보여주기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; todo list의 상태값을 확인하여, 해야할 일과, 완료한 일을 클릭하면 해당 상태의 아이템만 보여주기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-심화-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%8B%AC%ED%99%94-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; 심화 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯🎯 심화 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; localStorage에 데이터를 저장하여, TodoItem의 CRUD를 반영하기. 따라서 새로고침하여도 저장된 데이터를 확인할 수 있어야 함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-후기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%ED%9B%84%EA%B8%B0&quot; aria-label=&quot; 후기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📝 후기&lt;/h4&gt;
+&lt;p&gt;처음 만나게 되는 미션입니다. 저는 최초 구현 후 localStorage에 데이터를 저장하는 부분에서 고생을 했습니다. 배열 혹은 객체를 통한 상태관리에 대해 배울 수 있었고 더불어 Web Storage의 사용법에 대해서도 익힐 수 있었습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/js-todo-list-step1-1/tree/yujo42&quot;&gt;전체 코드&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/next-step/js-todo-list-step1/pull/106&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-step2-todolist-with-ajax&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step2-todolist-with-ajax&quot; aria-label=&quot; step2 todolist with ajax permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀🚀 step2. TodoList with Ajax&lt;/h3&gt;
+&lt;h4 id=&quot;-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;User 추가하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;User의 투두리스트 불러오기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;User 삭제하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;todoItem 추가하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;todoItem 불러오기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;todoItem complete하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;todoItem 삭제하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;8&quot;&gt;
+&lt;li&gt;todoItem contents 내용 수정하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-심화-요구사항-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%8B%AC%ED%99%94-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-1&quot; aria-label=&quot; 심화 요구사항 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯🎯 심화 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;데이터를 불러오기전 로딩바를 이용해, 사용자가 데이터가 불러와지고 있다는 것을 보여줍니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;fetch api 사용하는 부분을 async await을 사용하여 리팩토링합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;github issue에서 라벨을 붙이는 것처럼, 우선순위에 따라서 badge를 추가합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt;&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;ES6 impot &amp;#x26; export를 이용해 자바스크립트 파일을 리팩토링합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-후기-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%ED%9B%84%EA%B8%B0-1&quot; aria-label=&quot; 후기 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📝 후기&lt;/h4&gt;
+&lt;p&gt;다양한 API 요청을 보내고 &lt;code class=&quot;language-text&quot;&gt;response&lt;/code&gt;를 받으면서 Ajax에 대해 공부해 볼 수 있었습니다. 처음 사용해보는 &lt;code class=&quot;language-text&quot;&gt;Fetch API&lt;/code&gt;에 많이 헤매기도 했습니다. 하지만 다른 분들의 PR에서 request를 모듈화 해서 재사용하는 방법, option들을 모듈화 해서 재사용하는 방법 등을 보며 많은 인사이트를 얻고 미션을 해결할 수 있었습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/js-todo-list-step2/tree/yujo42&quot;&gt;전체 코드&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/next-step/js-todo-list-step2/pull/45&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-step3-todolist-for-team&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step3-todolist-for-team&quot; aria-label=&quot; step3 todolist for team permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀🚀🚀 step3. TodoList For Team&lt;/h3&gt;
+&lt;h4 id=&quot;-indexhtml-팀-페이지-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-indexhtml-%ED%8C%80-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; indexhtml 팀 페이지 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯 index.html 팀 페이지 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 팀 추가하기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 팀 리스트 불러와서 화면에 보여주기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-kanbanhtml-팀의-투두리스트-페이지-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-kanbanhtml-%ED%8C%80%EC%9D%98-%ED%88%AC%EB%91%90%EB%A6%AC%EC%8A%A4%ED%8A%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; kanbanhtml 팀의 투두리스트 페이지 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯 kanban.html 팀의 투두리스트 페이지 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 팀에 멤버 추가하기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 팀원별 todoList 불러오기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 팀원별 todoItem 추가하기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 팀원별 todoItem 삭제하기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 팀원별 todoItem complete하기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 팀원별 todoItem contents 내용 수정하기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; todoItem의 우선 순위 정하기 (defulat값:0, 1순위:1, 2순위: 2)&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; todoList의 우측 하단의 전체 삭제버튼을 누르면 해당 유저의 아이템을 전체 삭제하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-kanbanhtml-심화-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-kanbanhtml-%EC%8B%AC%ED%99%94-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; kanbanhtml 심화 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯🎯 kanban.html 심화 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; todoItem의 우선 순위에 따라 정렬하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-후기-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%ED%9B%84%EA%B8%B0-2&quot; aria-label=&quot; 후기 2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📝 후기&lt;/h4&gt;
+&lt;p&gt;위의 step2 미션을 확장해서 팀을 위한 투두리스트를 만드는 미션입니다. step2에 비해 구현 상에 난이도가 크게 올라가진 않았습니다. 다만 관리해야 할 상태들이 많아지면서 상태관리에 조금 더 신경써야 됐는데 이 부분을 깔끔하게 처리하지 못한거 같아 아쉬움이 남습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/js-todo-list-step3/tree/yujo42&quot;&gt;전체 코드&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/next-step/js-todo-list-step3/pull/34&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;-마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot; 마치며 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎉 마치며&lt;/h2&gt;
+&lt;p&gt;공교롭게도 5기 때는 우테코 프리코스, 6기 때는 우테코 본과정을 병행하게 됐습니다. 그러다보니 기수가 끝날 때 쯤에는 항상 일정에 쫓겨 구현하기 급급해 아쉬움 남는 코드를 제출했습니다.&lt;/p&gt;
+&lt;p&gt;헬퍼 모집은 멈춘 것 같지만 블랙커피 스터디를 통해 많이 성장한만큼 어떤 식으로도 기여할 수 있는 기회가 생겼으면 좋겠다는 생각이 듭니다.&lt;/p&gt;
+&lt;p&gt;블랙커피 스터디에 참여할까말까 고민하고 계신 분이 있다면 참여하시는걸 적극 추천 드리고 싶습니다! 또한 참여하실 때 예전의 저처럼 두려움에 떨지 마시고 페어 프로그래밍과 코드 리뷰에 활발하게 참여하셔서 더 많은 성장을 하셨으면 좋겠네요!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨1 유튜브 강의실 step1 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯 step1 유튜브 검색 API…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step1-후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step1-후기/</guid><pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
   &lt;img width=&quot;200px;&quot; src=&quot;https://github.com/yujo11/javascript-youtube-classroom/raw/main/src/images/readme/laptop_with_youtube_logo.png&quot;&gt;
 &lt;/p&gt;
 &lt;h2 align=&quot;middle&quot;&gt;level1 - 나만의 유튜브 강의실&lt;/h2&gt;
