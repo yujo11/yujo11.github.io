@@ -1,6 +1,346 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 09 Mar 2021 04:13:41 GMT</lastBuildDate><item><title><![CDATA[window-opener]]></title><description><![CDATA[Window.opener() Window.opener()  인터페이스의 속성은 을 사용해 현재 열었던 창의 참조를 반환합니다.]]></description><link>https://yujo11.github.io/web/window-opener/</link><guid isPermaLink="false">https://yujo11.github.io/web/window-opener/</guid><pubDate>Mon, 08 Mar 2021 09:03:18 GMT</pubDate><content:encoded>&lt;h1 id=&quot;windowopener&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#windowopener&quot; aria-label=&quot;windowopener permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Window.opener()&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 13 Mar 2021 17:49:38 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨1 유튜브 강의실 step2 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯🎯 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step2-후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step2-후기/</guid><pubDate>Sun, 14 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+  &lt;img width=&quot;200px;&quot; src=&quot;https://github.com/yujo11/javascript-youtube-classroom/raw/main/src/images/readme/laptop_with_youtube_logo.png&quot;&gt;
+&lt;/p&gt;
+&lt;h2 align=&quot;middle&quot;&gt;level1 - 나만의 유튜브 강의실&lt;/h2&gt;
+&lt;p align=&quot;middle&quot;&gt;자바스크립트와 외부 API를 이용해 구현 하는 나만의 유튜브 강의실&lt;/p&gt;
+&lt;h2 id=&quot;0-구현-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot;0 구현 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 구현 요구사항&lt;/h2&gt;
+&lt;h3 id=&quot;-step2-강의실-관리-구현-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step2-%EA%B0%95%EC%9D%98%EC%8B%A4-%EA%B4%80%EB%A6%AC-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; step2 강의실 관리 구현 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯🎯 step2 강의실 관리, 구현 요구사항&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 가장 처음에는 저장된 영상이 없음으로, 비어있다는 것을 사용자에게 알려주는 상태를 보여준다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 이후 페이지를 방문했을 때 기본 메인 화면은 내가 &lt;strong&gt;볼 영상&lt;/strong&gt;들의 리스트를 보여준다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 영상 카드의 이모지 버튼을 클릭하여 아래와 같은 상태 변경이 가능해야 한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; ✅ 본 영상으로 체크&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 🗑️ 버튼으로 저장된 리스트에서 삭제할 수 있습니다. (삭제 시 사용자에게 정말 삭제할 것인지 물어봅니다.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자가 버튼을 클릭했을 때 해당 행위가 정상적으로 동작하거나, 실패하였음을 &lt;code class=&quot;language-text&quot;&gt;snackbar&lt;/code&gt;를 통해 보여준다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 본 영상, 볼 영상 버튼을 눌러 필터링 할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-구현-요구사항-외-구현-기능들&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-%EC%99%B8-%EA%B5%AC%ED%98%84-%EA%B8%B0%EB%8A%A5%EB%93%A4&quot; aria-label=&quot; 구현 요구사항 외 구현 기능들 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀🚀 구현 요구사항 외 구현 기능들&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 키보드를 활용해 다양한 조작이 가능하도록 해야한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; F1, F2, F3 키를 통해 볼 영상, 본 영상, 동영상 검색을 선택 가능해야 한다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 동영상 검색 모달 open시 input창에 focus가 되야 한다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; ‘Escape’ 키를 통해 동영삼 검색 모달 창을 닫을 수 있도록 해야한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; API key가 외부에 노출되지 않아야 한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; Netlify serverless 함수를 통해 API요청을 리다이렉션 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 영상을 저장했을 때 사용자에게 영상이 저장되었다는 피드백을 제공해야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-진행하며-고민하고-배운-점-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A7%84%ED%96%89%ED%95%98%EB%A9%B0-%EA%B3%A0%EB%AF%BC%ED%95%98%EA%B3%A0-%EB%B0%B0%EC%9A%B4-%EC%A0%90-&quot; aria-label=&quot;1 진행하며 고민하고 배운 점  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 진행하며 고민하고 배운 점 👨‍💻&lt;/h2&gt;
+&lt;h3 id=&quot;1-1-api-key-숨기기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-1-api-key-%EC%88%A8%EA%B8%B0%EA%B8%B0&quot; aria-label=&quot;1 1 api key 숨기기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-1. API Key 숨기기&lt;/h3&gt;
+&lt;p&gt;지난 1단계 미션을 진행하면서 클라이언트에서 코드를 완전히 숨기는게 불가능 하다는 것을 꺠달았습니다.&lt;/p&gt;
+&lt;p&gt;같은 미션을 진행하며 비슷한 고민을 한 크루들이 많이 있었습니다. 크루들이 진행한 내용을 글로 정리해서 올려준 덕분에 간단하게 Netlify를 통한 API Request 우회 서버를 구성할 수 있었습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://velog.io/@bigsaigon333/Client-Side%EC%97%90%EC%84%9C-Youtube-API-Key-%EC%88%A8%EA%B8%B0%EA%B8%B0&quot;&gt;동동 : Client-Side에서 Youtube API Key 숨기기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://365kim.tistory.com/93&quot;&gt;하루 : 쉽게 쓰인 유튜브 API 튜토리얼&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Netlify를 통해 사용한 코드는 다음 레포지토리에서 보실 수 있습니다!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/netlify-lambda&quot;&gt;netlify-lambda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;1-2-키보드를-통한-입력을-어떻게-처리할-것인가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-2-%ED%82%A4%EB%B3%B4%EB%93%9C%EB%A5%BC-%ED%86%B5%ED%95%9C-%EC%9E%85%EB%A0%A5%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%B2%98%EB%A6%AC%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80&quot; aria-label=&quot;1 2 키보드를 통한 입력을 어떻게 처리할 것인가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-2. 키보드를 통한 입력을 어떻게 처리할 것인가&lt;/h3&gt;
+&lt;p&gt;이전 미션인 행운의 로또 미션에서는 &lt;code class=&quot;language-text&quot;&gt;handleAccessibility&lt;/code&gt; 라는 함수를 만들어서 키보드를 통한 입력을 관리했습니다. 그런데 위 방법에는 두가지 문제가 있다고 생각했습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;모든 이벤트를 &lt;code class=&quot;language-text&quot;&gt;window&lt;/code&gt;에 등록하고 위임한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;handleAccessibility&lt;/code&gt;라는 이름이 가르키는 범위가 너무 광범위하다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;그래서 이번에는 이름을 조금 바꾸고 Object Literal을 통한 분기를 주는 방식을 적용했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../../utils/DOM.js&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; closeModal &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../../view/modal.js&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; onModalShow &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../modal/visibility/onModalShow.js&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; onToggleRenderedClips &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../main/onToggleRenderedClips.js&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; actions &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;F1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;onToggleRenderedClips&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; target&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;NAVIGATOR&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;UNWATCHED_BUTTON&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;F2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;onToggleRenderedClips&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; target&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;NAVIGATOR&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;WATCHED_BUTTON&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;F3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;
+    $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;SEARCH_MODAL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;CONTAINER&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;contains&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;open&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;closeModal&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;onModalShow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;Escape&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;
+    $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;SEARCH_MODAL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;CONTAINER&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;contains&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;open&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;closeModal&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;onWindowInput&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; key &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  actions&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;1-3-export-되는-함수의-관리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-3-export-%EB%90%98%EB%8A%94-%ED%95%A8%EC%88%98%EC%9D%98-%EA%B4%80%EB%A6%AC&quot; aria-label=&quot;1 3 export 되는 함수의 관리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-3. export 되는 함수의 관리&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;1-2&lt;/code&gt;에서 첨부한 함수를 보면 다음과 같은 구조로 되어있는걸 확인할 수 있습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;actions&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;onWindowInput&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; key &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  actions&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;key&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 코드를 작성하기 전 다른 크루의 미션 리뷰에 달린 다음 피드백을 발견할 수 있었습니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;상수가 함수 안에 있을 필요가 있을까요? 함수가 호출될 때마다 메모리에 할당되는게 비효율적인거 같아서요!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;이 피드백을 보고 최대한 export 하는 모듈들을 가볍게 만들면 어떨까라는 고민을 하면서 코드를 작성해봤습니다. 그러나 한편으로는 굳이 재사용되지 않는 &lt;code class=&quot;language-text&quot;&gt;actions&lt;/code&gt;를 밖에 둬야할까? 라는 생각도 하고 있습니다. 아직 import, export되는 모듈들에 포함된 변수들이 어떻게 할당, 재할당 되는지에 대한 레퍼런스를 찾지는 못 했기 때문에 머리가 조금 더 복잡해지는거 같습니다.&lt;/p&gt;
+&lt;p&gt;혹시 이 글을 보시는 분들 중 이와 관련된 레퍼런스나 아티클을 알고 계시다면 알려주시면 감사하겠습니다..😢&lt;/p&gt;
+&lt;h2 id=&quot;2-코드-리뷰-및-피드백-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-%ED%94%BC%EB%93%9C%EB%B0%B1-&quot; aria-label=&quot;2 코드 리뷰 및 피드백  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 코드 리뷰 및 피드백 📝&lt;/h2&gt;
+&lt;h3 id=&quot;2-1-html-tag들의-default-type&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-1-html-tag%EB%93%A4%EC%9D%98-default-type&quot; aria-label=&quot;2 1 html tag들의 default type permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-1. HTML tag들의 default type&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABfklEQVQoz32S626jMBCFef/32X/9v1XVbttITVZ7SaIQ0gA2d8zV/nYgjZSm0Q76NBifOfZgezpOSVRGXRqUStE6Y+hHhsFiB8cozOMvWHrJaVqQJjmJYEyL98vs+C1szIGgjHmvNclYkgpBHRGYkMxWN5k0cZsRNSlhk6C7Au+BJQ/ujcduiT9GHNDsnZKsWFZ7vocbXtWaV73lR7TmKfzLc7zhZ+mzE/1EINpA6t6d/jAUnvoVvo1PhrMg5k8bscgjVuVeTDe8CG+5z4sYLpItC1lkVfiygXjmYMVwLbvY1gHbIuBYapTJyMeK0hryoaJyRmj+SymaGanxhm6ka3rapqORnzplZx2fwl7gPrjxbarz7u++obT0fzxyDEPyokAlCbUxxErJyevZ0zl34vJxp4XLqsI0DdZavExFUqTY+f5MFKt5chxH2rab+WR4xRST9jz2amk5q1pp18g9MnK3eq7jXHgrLufs1HJRN7SD+yK63sXl+7XZOU+G/wCGZQPL72shaQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step2 symantic&quot;
+        title=&quot;step2 symantic&quot;
+        src=&quot;/static/e314ea2c3556c36cccd261c558fde138/c1b63/step2-symantic.png&quot;
+        srcset=&quot;/static/e314ea2c3556c36cccd261c558fde138/5a46d/step2-symantic.png 300w,
+/static/e314ea2c3556c36cccd261c558fde138/0a47e/step2-symantic.png 600w,
+/static/e314ea2c3556c36cccd261c558fde138/c1b63/step2-symantic.png 1200w,
+/static/e314ea2c3556c36cccd261c558fde138/a3767/step2-symantic.png 1210w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACR0lEQVQ4y5VUyY6cMBDl//8rlxznFml6hmZfvGBjFoPhpcp0jzqRMlIslV7hpdZXJH7b0fYCvVQw1pEuoY1FCAe2PWBnIf3CcO2F8PVt7Ailhyir35DwgZtmLMuKmWSa53hgphF29lB2Ra8GaDtBGYfRzRCG9xfat2h6jVYMqAn5PDmOg6IJYNz3Hc+1bh53UaCgR7fK4f1eI60E7mWHVq/oDGUmDcpWR2RhB8nTUIhpXAbP84w4LiOqQSIXHkWjUHUqoh2vaN28RhzGGXJwV8pscNu2R33+NCiNpggrOjvh9yM+2B+1ZWP8zbg8kPeT8zhx0gPGgx49V6DDXFZQTuN/VrJoAVN8wtU5XFfDO4PN2Yh5fcNHXiHPapRFiSwrUJcVSYHs44YiS9E0BVZr4KTA6kYk/S6RbjlSnyNfKgy7hTlGDGHEbcjwixqTygapalGYDs2kcedSmB6Z7khatE4gkwWEU5wyYqqccnhJmelUqBIt8Wx0RCOijXUe2h0YpzU2QQ4TBks00tyYhSjnn03xscPe+2jsOC/DilL/7Kgk1EVPjQvklBt0EH4RnEn/aChj4ibyQpOhtcYwDDDGfOm9UCgbiaKq0fU9lFJQUkKSsM7IdzmY4wiReslMhXz7+YMuaCpwCyEkpUcOyCA76/suRh75Gq5HT9kfA+HchGVdo55spNTpDXXT4P32gfR+hyDPPIqe+MXRcz2/W8/BYP7GGi7EZ0uFXlee5yUS/e/Fl/8lr3cS/qsYMraF7w28TtDr+es+429o/4j/fBpBZAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step2 symantic2&quot;
+        title=&quot;step2 symantic2&quot;
+        src=&quot;/static/703f5e84562a015773ff526c48a9aae9/c1b63/step2-symantic2.png&quot;
+        srcset=&quot;/static/703f5e84562a015773ff526c48a9aae9/5a46d/step2-symantic2.png 300w,
+/static/703f5e84562a015773ff526c48a9aae9/0a47e/step2-symantic2.png 600w,
+/static/703f5e84562a015773ff526c48a9aae9/c1b63/step2-symantic2.png 1200w,
+/static/703f5e84562a015773ff526c48a9aae9/cd78c/step2-symantic2.png 1236w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;step1을 진행할 때도 피드백 받았던 부분입니다.&lt;/p&gt;
+&lt;p&gt;매번 HTML tag들의 default type을 간과하고 코드를 작성하고 있는데 다시 한번 꼼꼼하게 확인해보는 습관을 들여야겠습니다.&lt;/p&gt;
+&lt;h3 id=&quot;2-2-네이밍&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-2-%EB%84%A4%EC%9D%B4%EB%B0%8D&quot; aria-label=&quot;2 2 네이밍 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-2. 네이밍&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABaElEQVQoz42RW2+cMBBG+f8/q1Jf8lBV3SiKEu0tmN0FjA0LGMzFp4PTVdO3jnQ0N814rC9ZlgVrLbqq0LrilheRtu0oYl4y+olpnpmmf/HTRGVqmTWR0XuS2q0c9czZLCgzcavukdy0FLajcQvtGISV+7BG/5Wt/8D5leQyW57GAz/8iV9DSmozsiplV5w46w8urmSnM/ZtgdxNHuTBtfnCZ34V7NKTqJDzxIvwzE/eSMcM5RRK/Hm8su9yjj7nrf/gtTmw91dOyw0l6xVl9BmaVHwVGhK3DByv7+jRUjpL3Ri6e03XCs6h5evd6OVLLWarzZ4xTHhmhvUzbn0v9QG/ziRBRNl9/4Y6K/bvB5TKohCXW44xlsPxSNM0LPPCKItd39N3PV7ih7l+iH0CJGsIsWhlyNZ1VLwoSipRvTImsqlfS19rTVlqirLk3rZxLvyZ32xdg1wo+b1WdMPfF//XHssefjvuN2vWZbAp86GbAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step2 name&quot;
+        title=&quot;step2 name&quot;
+        src=&quot;/static/1e1fb0653bcf0469bd98ef51c1ea02de/c1b63/step2-name.png&quot;
+        srcset=&quot;/static/1e1fb0653bcf0469bd98ef51c1ea02de/5a46d/step2-name.png 300w,
+/static/1e1fb0653bcf0469bd98ef51c1ea02de/0a47e/step2-name.png 600w,
+/static/1e1fb0653bcf0469bd98ef51c1ea02de/c1b63/step2-name.png 1200w,
+/static/1e1fb0653bcf0469bd98ef51c1ea02de/d8817/step2-name.png 1238w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;snackbar를 보여주는 동작을 하는 util함수인데 ‘동작’이 빠져 어색함이 있었습니다.&lt;/p&gt;
+&lt;p&gt;함수의 네이밍에 좀 더 신경써야겠다는 생각을 했습니다.&lt;/p&gt;
+&lt;h3 id=&quot;2-3-중첩되는-settimeout의-어색함&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-3-%EC%A4%91%EC%B2%A9%EB%90%98%EB%8A%94-settimeout%EC%9D%98-%EC%96%B4%EC%83%89%ED%95%A8&quot; aria-label=&quot;2 3 중첩되는 settimeout의 어색함 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-3. 중첩되는 setTimeout의 어색함&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACCklEQVQoz52T63KbMBCFef/naprGcdwmTWzHdo25I4wwloRA3E4XMc5kMv3VnflmdT06C5KjVQ0lKktZClzKKyrdQFUNtQXqxqDvRwzElPtuQNf2ltZ0EEJZJO2fxhxfpThdY/giQcwZ2DlBKTh4eYafpuDiCtEq5KpAoUuURkENNTRaGq+QyYK42KzaGs4Cb1hig6fhHV4TYR38xircY5WEWEQJ7oMY3yIf3/0d7oIjXq8ptqWLl2wH15AJcEuEHHwQcB6xxnLcYNVt4XUMP+MNiXi4J3ePWYQHluBHmmAtM/wqM7xLhi0L8Zq7eLt4CPtsFhxzFDfBp3FrBf2eYV/EWB72WPgBllmIZx7j+cKwFgy7igSJI4m7xFaE2KsIyWfBByp5MbnsNzh1CQ46xF3kkqMYf8wZh4ZE6szmg5lxa4ajJkxqy57KDXCeS16bIzbGxXvj2Z8T6xysEzR5xQUCBXH5QmGR1JY2T0J8FBCDhmPaAVVVo6arUlUaTd3AxoiPGIaBGD8Yv3BbP61zNqt78DzHOefIOYdU072SaNsW5ZWujJT4V4zj+IGQCm3XzYLebos4iuCePLjuCWnKEFI/CGf8IARjGV3yEjkdyouCKqms0C2MMbY/uXfIKCp6DU3TzNDktEHSqVrTp6jpJam5Lcmt1tq6vwl+FrYOFf0ISYv/J76KToJ/ATMLkr6VfpDlAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step2 snackbar&quot;
+        title=&quot;step2 snackbar&quot;
+        src=&quot;/static/e84bf01c92ea980ccd7919aa23a478f7/c1b63/step2-snackbar.png&quot;
+        srcset=&quot;/static/e84bf01c92ea980ccd7919aa23a478f7/5a46d/step2-snackbar.png 300w,
+/static/e84bf01c92ea980ccd7919aa23a478f7/0a47e/step2-snackbar.png 600w,
+/static/e84bf01c92ea980ccd7919aa23a478f7/c1b63/step2-snackbar.png 1200w,
+/static/e84bf01c92ea980ccd7919aa23a478f7/5148a/step2-snackbar.png 1228w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;setTimeout&lt;/code&gt;을 통해 snackbar를 보여주고 있는데 기존 실행되고 있는 timer때문에 연속으로 snackbar를 보여줘야 되는 상황에서는 어색한 지연이 생기는 문제가 있었습니다.&lt;/p&gt;
+&lt;p&gt;기존 함수는 다음과 같이 작성되어 있었습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./DOM.js&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;snackbar&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;SNACK_BAR&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;CONTINAER&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerText &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; message
+  $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;SNACK_BAR&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;CONTINAER&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;show&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;SNACK_BAR&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;CONTINAER&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;show&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 함수에 연속으로 snackbar가 호출될 경우 기존의 timer를 초기화 해주는 부분을 추가했습니다. 또한 기존처럼 innerText를 통해 변경했을 메세지가 바뀌고 빠르게 사라지는 오류를 발견하여 해당 부분도 수정하여 문제를 해결했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./DOM.js&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; $ &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./querySelector.js&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; id
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;showSnackbar&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  $&lt;span class=&quot;token constant&quot;&gt;DOM&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;SNACK_BAR&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;CONTAINER&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;snackbar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; $snackbarContainerMessage &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;[data-js=&quot;snackbar-container__message&quot;]&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+  $snackbarContainerMessage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;show&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;clearTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    $snackbarContainerMessage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toggle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;show&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;2-4-optional-chaning의-활용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-4-optional-chaning%EC%9D%98-%ED%99%9C%EC%9A%A9&quot; aria-label=&quot;2 4 optional chaning의 활용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-4. optional chaning의 활용&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABUElEQVQoz2WR226jMBRF+f+3Sv2odqS+JaO0YRIwYCBACDcDwXj1pIzmotpa2j6Wzra3jjebO9MwMw4T0zhjzIgZRoZh08fdPErdFJi2wt4XVuuwy/oXu+m6Ojy/VnxUAe/FmaBIOGURYakJLgmh1PpWUA4FUbYnyn/S3Dtaa2iW4Q/tstXGzng/2PPGgbf1wHnSJLYgpybjSiro36S0ojfiVcyF2JUkCG4joqB2Pd6LGL64Ha/LnvMYEZQ+v64+vujuotmlEftccWgVu+rIexdyHDPCJScWw1iMHsaKixh2eMchJLY5as4o5xu6uUjkBFVpolZ+JJEf5wd5X9E4iSg0/3CzPfXaYdYJ7/npmfAUksYSsqq3gfSG+7xQV1eh5r/lvtO1vQzLylmG0g89ZVURa02oFHGy6Yfvo9OUU6BIoiPOqK1fmr5t577eWkU/AcWJFBEvPhatAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step2 optional2&quot;
+        title=&quot;step2 optional2&quot;
+        src=&quot;/static/0cd320d56889f91e8ddba123badaa83f/c1b63/step2-optional2.png&quot;
+        srcset=&quot;/static/0cd320d56889f91e8ddba123badaa83f/5a46d/step2-optional2.png 300w,
+/static/0cd320d56889f91e8ddba123badaa83f/0a47e/step2-optional2.png 600w,
+/static/0cd320d56889f91e8ddba123badaa83f/c1b63/step2-optional2.png 1200w,
+/static/0cd320d56889f91e8ddba123badaa83f/f09ab/step2-optional2.png 1250w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그동안 Object Literal을 활용하여 코드를 작성할 때 다음과 key 값아 존재했을 때만 함수를 실행가능하도록 &lt;code class=&quot;language-text&quot;&gt;&amp;amp;&amp;amp;&lt;/code&gt; 논리 연산자를 통한 방어코드를 작성했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; actions &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;onButtonContainer&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; target &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  actions&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dataset&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;js&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; actions&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dataset&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;js&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이번 피드백을 통해 Optional Chaining으로도 위와 같은 방어코드를 작성 가능하다는걸 알게 됐습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; actions &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;onButtonContainer&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; target &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  actions&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dataset&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;js&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;사실 피드백을 받기 전 이전의 코드를 개선할 생각조차 못 해 조금 부끄럽기도 합니다. 관습적으로 사용하던 코드들을 살펴보고 개선할 방법이 있는지 찾아봐야겠습니다.&lt;/p&gt;
+&lt;h3 id=&quot;2-4-구형-브라우저에서의-optional-chaning&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-4-%EA%B5%AC%ED%98%95-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C%EC%9D%98-optional-chaning&quot; aria-label=&quot;2 4 구형 브라우저에서의 optional chaning permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-4. 구형 브라우저에서의 optional chaning&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABx0lEQVQoz31SWbKbMBD0/c/hu+QrH36LMcZGNsiPx66NRWydQdiVpCoVqKYHaabVGmnXqBZaGMhaQSliQkWxlJr+NYxpMNgOsuJQVYJ5mrDMIJ4xjX9jWRbsAhPBlzecRQSeczw4A/+6IfriCKIE4SNFnGZg3EeYeLjnMR4iRWIEil5CTGRgpMWndhP8gQ+s+Akf0ZjAry84iSu86oL3+oGDyODpFEeTwzMcb8UZh/yEdzLwRuN+n+GobzjVDPM8Y3eoPCr0cawCBClDWMQIyxjX4r5xycFou2scFhEYMXPxNnclvtF8acXmsNUtRCVdD0UtUVc1+q7HaAfC6Nj2FsMTf8YOa94wUl+XTfDzeITSGtoYtF2Hfk0aR8w02VuLkQ5hfdbk7cXGy+LGR8odn/lOcL/f436PEDKG7zRFUZbI8hx1LRBFsTvl/z0dGejIyPISXAezLMOVUc/YDcHlik/vhNM5cHHMuVskpZy8KOgqKRTEaVagVd9UPfzewSrYdQaqaWFUhmZlo9FRUSclxcY5lVI5NE3j3KysybltS7qQdmvDS7A1JERJ1iTU3AFdqzFR8SQkGhIfqI/DYDHNyz+3vDy/L8Ff2ZH7KSIdLbwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step2 optional&quot;
+        title=&quot;step2 optional&quot;
+        src=&quot;/static/9326337cf87710b2828b55b47d5da3b9/c1b63/step2-optional.png&quot;
+        srcset=&quot;/static/9326337cf87710b2828b55b47d5da3b9/5a46d/step2-optional.png 300w,
+/static/9326337cf87710b2828b55b47d5da3b9/0a47e/step2-optional.png 600w,
+/static/9326337cf87710b2828b55b47d5da3b9/c1b63/step2-optional.png 1200w,
+/static/9326337cf87710b2828b55b47d5da3b9/9239a/step2-optional.png 1246w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;위와 같은 피드백을 받고 찾아보니 다음과 같은 지원율을 보이고 있었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 26.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAABYklEQVQY0z2PS08aAQCE9+dp49mYXpqo/8EEObRRE2NiIL20aNEUNAajVRQbsiJdKKxB3QXcBVldsDz2AQi+fsDXLU17mMxkJpnJCGZuk/r5FtatjH0n45gF2rqIfSPRb5Z4aJV4cqq8dv+h8l+/uBV6TZVnt8qjW2PoVBBahSid8jd6dpluW2HQq+LUs/Q7lzw93DK0rr3SIr1fijegeqyOStzG1V/Py/7k/aYyYmHwatEQj2hsf8aWDqmGAriFFPX1APeJHWztpzdQ8HCBa1zSMhQcQ8a8lrCMMu3aFaae4V73Ht6oCO39L0T9b/HNv2F5aYr3c+MsLE3ywTfBnG+MlLiJlt7lLOQnG1ulqCcpat+paRJyLIgqRrnTcxilNKaWQbDiG5zFAyyIi8xEZni3Nct0ZJo1KUg4+5FTaYd0KkIsscJeMsiRvEE8HyafOeAk+YnU6VcuMsec/zhAySX4DeL1SMkYLriUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step2 optional3&quot;
+        title=&quot;step2 optional3&quot;
+        src=&quot;/static/69bebf0d2eeaff9e8d41fcae98142284/c1b63/step2-optional3.png&quot;
+        srcset=&quot;/static/69bebf0d2eeaff9e8d41fcae98142284/5a46d/step2-optional3.png 300w,
+/static/69bebf0d2eeaff9e8d41fcae98142284/0a47e/step2-optional3.png 600w,
+/static/69bebf0d2eeaff9e8d41fcae98142284/c1b63/step2-optional3.png 1200w,
+/static/69bebf0d2eeaff9e8d41fcae98142284/fbfd6/step2-optional3.png 1357w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;88%가 높은 지원율이 아닌만큼 크로스 브라우징을 고려할 경우 babel같은 트랜스파일러, 혹은 polyfil과 함께 사용해야 한다는 점을 알게 됐습니다.&lt;/p&gt;
+&lt;h3 id=&quot;3-코드-구조-시각화-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%BD%94%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EC%8B%9C%EA%B0%81%ED%99%94-&quot; aria-label=&quot;3 코드 구조 시각화  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 코드 구조 시각화 🔎&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAzElEQVQoz41R2QqEMAzs/3+fryr6IF6I962zTCBF3bpsYUjaJJNJauA453nefMWvXLXmLegiOY4D+76jaRqUZSn+U4C5FrtIWESQbF1X8UkWRRHatv0SYN7GYPG2bViWxfrzPIvNsgxxHItSVWkVMoGdGFTUdY0kSVAUhRAQqnCaJiFkjPc0TZHnudzJY5jAbr7vIwgChGGIruvszoZhwDiOopSWDauqQt/38sbRCc/zhMe4fu+6S1oSqyWJQlfCVdiRn0t9/vS/h82ID2LBcsU11UT6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;youtube step2 visual&quot;
+        title=&quot;youtube step2 visual&quot;
+        src=&quot;/static/b410e38763e50e04ba4da4962407df0d/c1b63/youtube_step2_visual.png&quot;
+        srcset=&quot;/static/b410e38763e50e04ba4da4962407df0d/5a46d/youtube_step2_visual.png 300w,
+/static/b410e38763e50e04ba4da4962407df0d/0a47e/youtube_step2_visual.png 600w,
+/static/b410e38763e50e04ba4da4962407df0d/c1b63/youtube_step2_visual.png 1200w,
+/static/b410e38763e50e04ba4da4962407df0d/d61c2/youtube_step2_visual.png 1800w,
+/static/b410e38763e50e04ba4da4962407df0d/97a96/youtube_step2_visual.png 2400w,
+/static/b410e38763e50e04ba4da4962407df0d/c32a6/youtube_step2_visual.png 4594w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-동작-화면gif-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EB%8F%99%EC%9E%91-%ED%99%94%EB%A9%B4gif-&quot; aria-label=&quot;4 동작 화면gif  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 동작 화면(GIF) 🎥&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/a3a942016397378f68a9a446edeb8a05/step2.gif&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;5-링크-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EB%A7%81%ED%81%AC-&quot; aria-label=&quot;5 링크  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 링크 🔗&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/javascript-youtube-classroom/tree/step1&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/javascript-youtube-classroom/pull/1&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[window-opener]]></title><description><![CDATA[Window.opener() Window.opener()  인터페이스의 속성은 을 사용해 현재 열었던 창의 참조를 반환합니다. 🗂 참고 자료 Window.open() / MDN]]></description><link>https://yujo11.github.io/web/window-opener/</link><guid isPermaLink="false">https://yujo11.github.io/web/window-opener/</guid><pubDate>Mon, 08 Mar 2021 09:03:18 GMT</pubDate><content:encoded>&lt;h1 id=&quot;windowopener&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#windowopener&quot; aria-label=&quot;windowopener permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Window.opener()&lt;/h1&gt;
 &lt;h2 id=&quot;windowopener-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#windowopener-1&quot; aria-label=&quot;windowopener 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Window.opener()&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Window&lt;/code&gt; 인터페이스의 &lt;code class=&quot;language-text&quot;&gt;opener&lt;/code&gt;속성은 &lt;code class=&quot;language-text&quot;&gt;open()&lt;/code&gt;을 사용해 현재 열었던 창의 참조를 반환합니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[블랙커피 프론트엔드 스터디 레벨1 후기]]></title><description><![CDATA[블랙커피 프론트엔드 스터디 레벨1 후기 ☕️ 블랙커피 프론트엔드 스터디?  블랙커피 프론트엔드 스터디는 nextstep…]]></description><link>https://yujo11.github.io/블랙커피/블랙커피-프론트엔드-스터디-레벨1-후기/</link><guid isPermaLink="false">https://yujo11.github.io/블랙커피/블랙커피-프론트엔드-스터디-레벨1-후기/</guid><pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Window&lt;/code&gt; 인터페이스의 &lt;code class=&quot;language-text&quot;&gt;opener&lt;/code&gt;속성은 &lt;code class=&quot;language-text&quot;&gt;open()&lt;/code&gt;을 사용해 현재 열었던 창의 참조를 반환합니다.&lt;/p&gt;
+&lt;h2 id=&quot;-참고-자료&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%B0%B8%EA%B3%A0-%EC%9E%90%EB%A3%8C&quot; aria-label=&quot; 참고 자료 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🗂 참고 자료&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/Window/open&quot;&gt;Window.open() / MDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[블랙커피 프론트엔드 스터디 레벨1 후기]]></title><description><![CDATA[블랙커피 프론트엔드 스터디 레벨1 후기 ☕️ 블랙커피 프론트엔드 스터디?  블랙커피 프론트엔드 스터디는 nextstep…]]></description><link>https://yujo11.github.io/블랙커피/블랙커피-프론트엔드-스터디-레벨1-후기/</link><guid isPermaLink="false">https://yujo11.github.io/블랙커피/블랙커피-프론트엔드-스터디-레벨1-후기/</guid><pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
