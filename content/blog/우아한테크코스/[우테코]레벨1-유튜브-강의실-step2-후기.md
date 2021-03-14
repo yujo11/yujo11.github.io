@@ -194,7 +194,7 @@ export const onButtonContainer = ({ target }) => {
 
 사실 피드백을 받기 전 이전의 코드를 개선할 생각조차 못 해 조금 부끄럽기도 합니다. 관습적으로 사용하던 코드들을 살펴보고 개선할 방법이 있는지 찾아봐야겠습니다.
 
-### 2-4. 구형 브라우저에서의 optional chaning
+### 2-5. 구형 브라우저에서의 optional chaning
 
 ![](./images/youtube/step2-optional.png)
 
@@ -203,6 +203,62 @@ export const onButtonContainer = ({ target }) => {
 ![](./images/youtube/step2-optional3.png)
 
 88%가 높은 지원율이 아닌만큼 크로스 브라우징을 고려할 경우 babel같은 트랜스파일러, 혹은 polyfil과 함께 사용해야 한다는 점을 알게 됐습니다.
+
+### 2-6. 모듈 간의 거리
+
+> 핸들러를 정의하는 부분과 실제로 등록되는 부분의 거리가 너무 멀어서 실제로 핸들러가 어떻게 동작하는지 파악하기 힘들다.
+
+기존 코드를 보면 아래와 같이 모듈들을 import 해서 사용한 경우가 있었습니다.
+
+```js
+import { onModalClose } from './handler/modal/visibility/onModalClose.js'
+```
+
+디렉토리 구조를 나누면서 실제 해당 모듈을 사용하는 부분과 정의하는 부분이 너무 멀어진 것이 문제였습니다. 핸들러의 하위 디렉토리마다 export를 다시 정의하는 모듈을 추가해 다음과 같이 코드를 변경했습니다.
+
+- src/js/handler/window/index.js
+
+```js
+import { onWindowInput } from './onWindowInput.js'
+import { onModalClose } from '../modal/visibility/onModalClose.js'
+
+export default function() {
+  window.addEventListener('keyup', onWindowInput)
+  window.addEventListener('click', onModalClose)
+}
+```
+
+- src/js/handler/index.js
+
+```js
+import initMainHandler from './main/index.js'
+import initModalHandler from './modal/index.js'
+import initWindowHandler from './window/index.js'
+
+export default function() {
+  initMainHandler()
+  initModalHandler()
+  initWindowHandler()
+}
+```
+
+- src/js/index.js
+
+```js
+import initHandler from './handler/index.js'
+
+export const YoutubeClassRoom = () => {
+  clearDeletedClip()
+  initDisplay()
+  initHandler()
+}
+
+window.onload = () => {
+  YoutubeClassRoom()
+}
+```
+
+위와 같이 export하는 모듈들을 한번씩 묶어주면서 모듈 간의 거리를 가깝게 하면서 가독성이 올라갔다고 느꼈습니다.
 
 ### 3. 코드 구조 시각화 🔎
 
