@@ -322,7 +322,7 @@
   actions<span class="token punctuation">[</span>target<span class="token punctuation">.</span>dataset<span class="token punctuation">.</span>js<span class="token punctuation">]</span><span class="token operator">?.</span><span class="token punctuation">(</span>target<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
 <p>사실 피드백을 받기 전 이전의 코드를 개선할 생각조차 못 해 조금 부끄럽기도 합니다. 관습적으로 사용하던 코드들을 살펴보고 개선할 방법이 있는지 찾아봐야겠습니다.</p>
-<h3 id="2-4-구형-브라우저에서의-optional-chaning" style="position:relative;"><a href="#2-4-%EA%B5%AC%ED%98%95-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C%EC%9D%98-optional-chaning" aria-label="2 4 구형 브라우저에서의 optional chaning permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2-4. 구형 브라우저에서의 optional chaning</h3>
+<h3 id="2-5-구형-브라우저에서의-optional-chaning" style="position:relative;"><a href="#2-5-%EA%B5%AC%ED%98%95-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C%EC%9D%98-optional-chaning" aria-label="2 5 구형 브라우저에서의 optional chaning permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2-5. 구형 브라우저에서의 optional chaning</h3>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; "
@@ -369,6 +369,50 @@
       />
     </span></p>
 <p>88%가 높은 지원율이 아닌만큼 크로스 브라우징을 고려할 경우 babel같은 트랜스파일러, 혹은 polyfil과 함께 사용해야 한다는 점을 알게 됐습니다.</p>
+<h3 id="2-6-모듈-간의-거리" style="position:relative;"><a href="#2-6-%EB%AA%A8%EB%93%88-%EA%B0%84%EC%9D%98-%EA%B1%B0%EB%A6%AC" aria-label="2 6 모듈 간의 거리 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2-6. 모듈 간의 거리</h3>
+<blockquote>
+<p>핸들러를 정의하는 부분과 실제로 등록되는 부분의 거리가 너무 멀어서 실제로 핸들러가 어떻게 동작하는지 파악하기 힘들다.</p>
+</blockquote>
+<p>기존 코드를 보면 아래와 같이 모듈들을 import 해서 사용한 경우가 있었습니다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> onModalClose <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./handler/modal/visibility/onModalClose.js'</span></code></pre></div>
+<p>디렉토리 구조를 나누면서 실제 해당 모듈을 사용하는 부분과 정의하는 부분이 너무 멀어진 것이 문제였습니다. 핸들러의 하위 디렉토리마다 export를 다시 정의하는 모듈을 추가해 다음과 같이 코드를 변경했습니다.</p>
+<ul>
+<li>src/js/handler/window/index.js</li>
+</ul>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> onWindowInput <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./onWindowInput.js'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> onModalClose <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'../modal/visibility/onModalClose.js'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  window<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'keyup'</span><span class="token punctuation">,</span> onWindowInput<span class="token punctuation">)</span>
+  window<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> onModalClose<span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<ul>
+<li>src/js/handler/index.js</li>
+</ul>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> initMainHandler <span class="token keyword">from</span> <span class="token string">'./main/index.js'</span>
+<span class="token keyword">import</span> initModalHandler <span class="token keyword">from</span> <span class="token string">'./modal/index.js'</span>
+<span class="token keyword">import</span> initWindowHandler <span class="token keyword">from</span> <span class="token string">'./window/index.js'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">initMainHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token function">initModalHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token function">initWindowHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<ul>
+<li>src/js/index.js</li>
+</ul>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> initHandler <span class="token keyword">from</span> <span class="token string">'./handler/index.js'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">YoutubeClassRoom</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token function">clearDeletedClip</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token function">initDisplay</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token function">initHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+window<span class="token punctuation">.</span><span class="token function-variable function">onload</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token function">YoutubeClassRoom</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>위와 같이 export하는 모듈들을 한번씩 묶어주면서 모듈 간의 거리를 가깝게 하면서 가독성이 올라갔다고 느꼈습니다.</p>
 <h3 id="3-코드-구조-시각화-" style="position:relative;"><a href="#3-%EC%BD%94%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EC%8B%9C%EA%B0%81%ED%99%94-" aria-label="3 코드 구조 시각화  permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. 코드 구조 시각화 🔎</h3>
 <p><span
       class="gatsby-resp-image-wrapper"
