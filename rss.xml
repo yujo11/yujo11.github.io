@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Mar 2021 04:36:34 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨1 유튜브 강의실 step2 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯🎯 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step2-후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step2-후기/</guid><pubDate>Sun, 14 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 15 Mar 2021 08:09:23 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨1 유튜브 강의실 step3 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯🎯🎯 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step3-후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step3-후기/</guid><pubDate>Mon, 15 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+  &lt;img width=&quot;200px;&quot; src=&quot;https://github.com/yujo11/javascript-youtube-classroom/raw/main/src/images/readme/laptop_with_youtube_logo.png&quot;&gt;
+&lt;/p&gt;
+&lt;h2 align=&quot;middle&quot;&gt;level1 - 나만의 유튜브 강의실&lt;/h2&gt;
+&lt;p align=&quot;middle&quot;&gt;자바스크립트와 외부 API를 이용해 구현 하는 나만의 유튜브 강의실&lt;/p&gt;
+&lt;h2 id=&quot;0-구현-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot;0 구현 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 구현 요구사항&lt;/h2&gt;
+&lt;h3 id=&quot;-step3-유저-경험-증가-기능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step3-%EC%9C%A0%EC%A0%80-%EA%B2%BD%ED%97%98-%EC%A6%9D%EA%B0%80-%EA%B8%B0%EB%8A%A5&quot; aria-label=&quot; step3 유저 경험 증가 기능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🎯🎯🎯 step3 유저 경험 증가 기능&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 👍 좋아요 버튼을 누른 데이터만 필터링해서 보여줄 수 있는 메뉴를 만든다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 👍 좋아요 버튼을 누른 경우, 로컬에서 데이터를 변경한다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 👍 좋아요 버튼을 다시 클릭해서 해지할 수 있어야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 스크롤 페이징 방식을 이용해서 Lazy loading을 개선한다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 반응형 웹: 유저가 사용하는 디바이스의 가로 길이에 따라 검색결과의 row 당 column 갯수를 변경한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;youtubeCard.css 파일에 있는 .video-wrapper의 css 속성 중 grid-template-columns의 속성을 auto-fill에서 아래의 요구사항에 맞게 변경한다.&lt;/li&gt;
+&lt;li&gt;1280px 이하: 4개&lt;/li&gt;
+&lt;li&gt;960px 이하: 3개&lt;/li&gt;
+&lt;li&gt;600px 이하: 2개&lt;/li&gt;
+&lt;li&gt;400px 이하: 1개&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-진행하며-고민하고-배운-점-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A7%84%ED%96%89%ED%95%98%EB%A9%B0-%EA%B3%A0%EB%AF%BC%ED%95%98%EA%B3%A0-%EB%B0%B0%EC%9A%B4-%EC%A0%90-&quot; aria-label=&quot;1 진행하며 고민하고 배운 점  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 진행하며 고민하고 배운 점 👨‍💻&lt;/h2&gt;
+&lt;h3 id=&quot;1-1-lazy-loading&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-1-lazy-loading&quot; aria-label=&quot;1 1 lazy loading permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-1. lazy loading&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;스크롤 페이징 방식을 이용해서 lazy loading을 개선한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;위 요구사항을 통해 처음으로 lazy loading을 접하게 됐다. 여러 자료들을 보면서 lazy loading을 어떻게 구현할지에 대해 고민하게 됐다.&lt;/p&gt;
+&lt;h4 id=&quot;lazy-loading이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lazy-loading%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;lazy loading이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;lazy loading이란?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;일반적으로 HTML에서 이미지 태그를 삽입할 때 &lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt;속성을 사용한다. HTML에서는 페이지가 열렸을 때 &lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt;속성을 가진 태그를 무조건 로드한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt;속성을 가진 태그가 몇 개 없을 때는 상관없지만 몇백, 몇천개가 있는 경우 심각한 성능상의 이슈를 초래할 수 있다.&lt;/li&gt;
+&lt;li&gt;이 때 로딩을 사전에 막는 것을 lazy loading이라고 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;lazy-loading을-사용하려면&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lazy-loading%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A0%A4%EB%A9%B4&quot; aria-label=&quot;lazy loading을 사용하려면 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;lazy loading을 사용하려면?&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Javascript Event를 활용한 방법&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;scroll, resize 등 이벤트 리스너를 등록하한다.&lt;/li&gt;
+&lt;li&gt;이벤트 리스너를 이용하여 viewport안에 특정 이미지가 들어왔는지 확인 후 미리 지정된 dataset을 이용하여 이미지를 로드한다.&lt;/li&gt;
+&lt;li&gt;모든 이미지가 로드되면 이벤트 리스너를 제거한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Intersection Observer API를 활용한 방법&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Intersection Observer API는 엘리먼트 요소가 뷰포트에 들어가는 것을 감지하고 액션을 취하는 것을 간단하게 할 수 있도록 도와준다.&lt;/li&gt;
+&lt;li&gt;이미지 로드를 지연시키기 위해 모든 이미지에 Obeserver를 부착시키고 뷰포트에 들어간 것을 감지하게 되면 dataset으로 지정한 속성을 src속성으로 옮겨 이미지를 로드한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Native Lazy loadng을 사용하는 방법&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;최신 브라우저에서 지원되는 Native lazy loading을 사용한다면 정말 쉽고 간단하게 구현이 가능하다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt;에 사용할 수 있는 해당 속성은 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;img loading=&amp;quot;lazy&amp;quot;&amp;gt;&lt;/code&gt; 이런식으로 사용할 수 있다.&lt;/li&gt;
+&lt;li&gt;그러나 Javascript event나 Intersection Observer API(지원율 93%) 에 비해 지원율이 낮다는 단점이 있다.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://caniuse.com/?search=lazy&quot;&gt;lazy 지원율 검색결과(73%) / Can I use?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;참고-자료&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0-%EC%9E%90%EB%A3%8C&quot; aria-label=&quot;참고 자료 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고 자료&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading&quot;&gt;Lazy loading / MDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/Intersection_Observer_API&quot;&gt;Intersection Observer API / MDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://meetup.toast.com/posts/183&quot;&gt;크롬 네이티브 레이지 로딩 / TOAST&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://web.dev/browser-level-image-lazy-loading/&quot;&gt;Browser-level image lazy-loading for the web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이번에는 크로스 브라우징 이슈를 고려하지 않아도 돼서 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt;에 &lt;code class=&quot;language-text&quot;&gt;lazy&lt;/code&gt;속성을 주는 것으로 구현을 마쳤다. 미션을 진행하면서 점점 크로스 브라우징을 신경써야 할텐데 &lt;code class=&quot;language-text&quot;&gt;webpack&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;babel&lt;/code&gt;을 공부하자.&lt;/p&gt;
+&lt;h3 id=&quot;1-2-반응형-웹과-media-query&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-2-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9%EA%B3%BC-media-query&quot; aria-label=&quot;1 2 반응형 웹과 media query permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-2. 반응형 웹과 Media Query&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;반응형 웹: 유저가 사용하는 디바이스의 가로 길이에 따라 검색결과의 row 당 column 갯수를 변경한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;위 요구사항을 구현하기 위해 midea query를 사용하게 됐다. 이번에는 간단하게 너비만을 조건으로 걸어서 간단하게 구현할 수 있었지만 복잡한 경우에는 꽤나 까다로울거 같다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout/Media_queries&quot;&gt;미디어 쿼리 초보자 안내서 / MDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;2-코드-리뷰-및-피드백-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-%ED%94%BC%EB%93%9C%EB%B0%B1-&quot; aria-label=&quot;2 코드 리뷰 및 피드백  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 코드 리뷰 및 피드백 📝&lt;/h2&gt;
+&lt;h3 id=&quot;2-1-불변-객체를-통한-상태관리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-1-%EB%B6%88%EB%B3%80-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%86%B5%ED%95%9C-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC&quot; aria-label=&quot;2 1 불변 객체를 통한 상태관리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-1. 불변 객체를 통한 상태관리&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA3klEQVQY032Ry04EIRBF+/8/y2j8AlcuJiZjHBneDd0UDVwL0IVmHJKTCnC59WB5eX7Ew+sTTvIMJRSMtXDOw/kV1jmsISDEiL5aazfRIUM4wlEqlrT1Bxvezu/4uAgo4wZSWzbbsFPGnvKMf0h0QFs/9J61pRv2zDkfkFJBXBVisCirQq1gGmr7hg/Kf5QZu24ZZfOGiJBSGvGgxEnySEQjZm6nTNNy27Tfda9Z4VHweZWMgpIagrkIOWZojIFmEie6N8cfhiHRzjPgj4iEqD28C3AhcQu/Deo96tR8AWlF07fZN/HJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step3 review&quot;
+        title=&quot;step3 review&quot;
+        src=&quot;/static/c706868fb3a2c11cbbc27e038e32ed43/c1b63/step3-review.png&quot;
+        srcset=&quot;/static/c706868fb3a2c11cbbc27e038e32ed43/5a46d/step3-review.png 300w,
+/static/c706868fb3a2c11cbbc27e038e32ed43/0a47e/step3-review.png 600w,
+/static/c706868fb3a2c11cbbc27e038e32ed43/c1b63/step3-review.png 1200w,
+/static/c706868fb3a2c11cbbc27e038e32ed43/07d37/step3-review.png 1790w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;3단계는 1, 2 단계와 비교하여 요구사항이 별로 없었다. 그러다보니 작성한 코드의 양도 많지 않았다.&lt;/p&gt;
+&lt;p&gt;리뷰어인 Jbee님에게 마지막으로 받은 피드백은 ‘객체를 불변으로 다뤄보는 습관’이다. 이번 미션을 진행하면서 대부분의 정보를 localStorage에서 관리하다보니 객체의 불변성에 대해 의식하지 못한 부분이 많았던거 같다.&lt;/p&gt;
+&lt;p&gt;다음 미션에서는 객체의 불변성을 유지하면서 상태를 관리할 수 있도록 노력해야겠다.&lt;/p&gt;
+&lt;h3 id=&quot;3-코드-구조-시각화-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%BD%94%EB%93%9C-%EA%B5%AC%EC%A1%B0-%EC%8B%9C%EA%B0%81%ED%99%94-&quot; aria-label=&quot;3 코드 구조 시각화  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 코드 구조 시각화 🔎&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAzElEQVQoz41R2QqEMAzs/3+fryr6IF6I962zTCBF3bpsYUjaJJNJauA453nefMWvXLXmLegiOY4D+76jaRqUZSn+U4C5FrtIWESQbF1X8UkWRRHatv0SYN7GYPG2bViWxfrzPIvNsgxxHItSVWkVMoGdGFTUdY0kSVAUhRAQqnCaJiFkjPc0TZHnudzJY5jAbr7vIwgChGGIruvszoZhwDiOopSWDauqQt/38sbRCc/zhMe4fu+6S1oSqyWJQlfCVdiRn0t9/vS/h82ID2LBcsU11UT6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;youtube step2 visual&quot;
+        title=&quot;youtube step2 visual&quot;
+        src=&quot;/static/b410e38763e50e04ba4da4962407df0d/c1b63/youtube_step2_visual.png&quot;
+        srcset=&quot;/static/b410e38763e50e04ba4da4962407df0d/5a46d/youtube_step2_visual.png 300w,
+/static/b410e38763e50e04ba4da4962407df0d/0a47e/youtube_step2_visual.png 600w,
+/static/b410e38763e50e04ba4da4962407df0d/c1b63/youtube_step2_visual.png 1200w,
+/static/b410e38763e50e04ba4da4962407df0d/d61c2/youtube_step2_visual.png 1800w,
+/static/b410e38763e50e04ba4da4962407df0d/97a96/youtube_step2_visual.png 2400w,
+/static/b410e38763e50e04ba4da4962407df0d/c32a6/youtube_step2_visual.png 4594w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-동작-화면gif-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EB%8F%99%EC%9E%91-%ED%99%94%EB%A9%B4gif-&quot; aria-label=&quot;4 동작 화면gif  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 동작 화면(GIF) 🎥&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/df7a20b9f7ece795f53de84d952ee0c0/step3.gif&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;5-링크-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EB%A7%81%ED%81%AC-&quot; aria-label=&quot;5 링크  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 링크 🔗&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/javascript-youtube-classroom/tree/step3&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/javascript-youtube-classroom/pull/47&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨1 유튜브 강의실 step2 후기]]></title><description><![CDATA[0. 구현 요구사항 🎯🎯 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step2-후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨1-유튜브-강의실-step2-후기/</guid><pubDate>Sat, 13 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
   &lt;img width=&quot;200px;&quot; src=&quot;https://github.com/yujo11/javascript-youtube-classroom/raw/main/src/images/readme/laptop_with_youtube_logo.png&quot;&gt;
 &lt;/p&gt;
 &lt;h2 align=&quot;middle&quot;&gt;level1 - 나만의 유튜브 강의실&lt;/h2&gt;
@@ -376,8 +516,8 @@ window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;p&gt;&lt;img src=&quot;/a3a942016397378f68a9a446edeb8a05/step2.gif&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;5-링크-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EB%A7%81%ED%81%AC-&quot; aria-label=&quot;5 링크  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 링크 🔗&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/javascript-youtube-classroom/tree/step1&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/javascript-youtube-classroom/pull/1&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/javascript-youtube-classroom/tree/step2&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/javascript-youtube-classroom/pull/27&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[window-opener]]></title><description><![CDATA[Window.opener() Window.opener()  인터페이스의 속성은 을 사용해 현재 열었던 창의 참조를 반환합니다. 🗂 참고 자료 Window.open() / MDN]]></description><link>https://yujo11.github.io/web/window-opener/</link><guid isPermaLink="false">https://yujo11.github.io/web/window-opener/</guid><pubDate>Mon, 08 Mar 2021 09:03:18 GMT</pubDate><content:encoded>&lt;h1 id=&quot;windowopener&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#windowopener&quot; aria-label=&quot;windowopener permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Window.opener()&lt;/h1&gt;
 &lt;h2 id=&quot;windowopener-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#windowopener-1&quot; aria-label=&quot;windowopener 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Window.opener()&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Window&lt;/code&gt; 인터페이스의 &lt;code class=&quot;language-text&quot;&gt;opener&lt;/code&gt;속성은 &lt;code class=&quot;language-text&quot;&gt;open()&lt;/code&gt;을 사용해 현재 열었던 창의 참조를 반환합니다.&lt;/p&gt;
