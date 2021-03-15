@@ -1,6 +1,6 @@
 ---
 title: '[우테코]레벨1 유튜브 강의실 step2 후기'
-date: 2021-03-14
+date: 2021-03-13
 category: '우아한 테크코스'
 draft: false
 ---
@@ -270,5 +270,5 @@ window.onload = () => {
 
 ## 5. 링크 🔗
 
-- [전체 코드 링크](https://github.com/yujo11/javascript-youtube-classroom/tree/step1)
-- [PR 링크](https://github.com/woowacourse/javascript-youtube-classroom/pull/1)
+- [전체 코드 링크](https://github.com/yujo11/javascript-youtube-classroom/tree/step2)
+- [PR 링크](https://github.com/woowacourse/javascript-youtube-classroom/pull/27)
