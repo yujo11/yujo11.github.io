@@ -5,8 +5,6 @@ category: 'web'
 draft: false
 ---
 
-# Javascript의 callback
-
 ## 1. 동기와 비동기
 
 Javascript는 동기적(synchronous)으로 동작합니다. Javascript 코드를 동작시키면 위에서부터 순차적으로 실행됩니다.
@@ -52,9 +50,9 @@ const timer = setInterval(mooyaho, 500)
 
 예시를 위해 위와 같은 함수를 작성해보았습니다. `setInterval`의 매개변수로 넘긴 `mooyaho`의 호출시점은 `setInterval`내에서 결정됩니다. 함수의 제어권을 `setInterval`이 가지게 된거죠.
 
-<!-- ### 2-2. Callback이 필요한 이유
+### 2-2. Callback이 필요한 이유
 
-자바스크립트에서 비동기처리를 하기 위해 Callback은 반드시 필요합니다. 동기적으로 실행되는 자바스크립트의 특성상 다음과 같은 코드를 작성할 경우 제대로 요청을 받을 수 없습니다.
+자바스크립트에서 비동기처리를 하기 위해 Callback이 필요합니다. 동기적으로 실행되는 자바스크립트의 특성상 다음과 같은 코드를 작성할 경우 제대로 요청을 받을 수 없습니다.
 
 ```js
 // ajax()는 ajax요청을 보내는 가상의 함수
@@ -64,7 +62,7 @@ console.log(response);
 > undefined
 ```
 
-위 코드에서 undefined가 출력되는 것은 response에 ajax의 응답값이 담기는걸 기다리지 않고 바로 다음 줄의 `console.log()`를 실행하기 때문입니다. 서버와의 요청을 주고받는 것처럼 요청에 대한 응답을 받은 후 다음 코드를 실행하기 위해 callback을 사용하게 됩니다. -->
+위 코드에서 undefined가 출력되는 것은 response에 ajax의 응답값이 담기는걸 기다리지 않고 바로 다음 줄의 `console.log()`를 실행하기 때문입니다. 서버와의 요청을 주고받는 것처럼 요청에 대한 응답을 받은 후 다음 로직을 실행하기 위한 경우 callback을 사용하게 됩니다.
 
 ## 3. 콜백 지옥
 
