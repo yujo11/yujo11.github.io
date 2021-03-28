@@ -5,8 +5,6 @@ category: '우아한 테크코스'
 draft: false
 ---
 
-# SQL BASIC
-
 ## 실습환경 : [W3Schools try mysql](https://www.w3schools.com/sql/trymysql.asp?filename=trysql_func_mysql_concat)
 
 ## 1. 간단한 데이터 조회하기🔎
@@ -197,7 +195,76 @@ FROM Customers
 
 ---
 
-## 3. SQL 읽기 📖
+## 3. 복수의 테이블 다루기
+
+### 3-1. 서브쿼리
+
+#### SELECT 절에 쿼리 추가하기
+
+- 고객(Customers) 중 국가가 Mexico인 사람과 Germany인 사람수를 조획한다.
+
+```sql
+SELECT Country, COUNT(*)
+FROM Customers
+WHERE Country IN ('Mexico', 'Germany')
+GROUP BY Country
+```
+
+- 위 데이터를 열로 표현하고 싶다면?
+
+```sql
+SELECT
+    (SELECT COUNT(*) FROM [Customers] WHERE Country = 'Germany')
+SELECT
+    (SELECT COUNT(*) FROM [Customers] WHERE Country = 'Mexico')
+```
+
+#### FROM 절에 쿼리 추가하기
+
+```sql
+SELECT Country, CustomerName
+FROM (SELECT * FROM Customers WHERE Country IN('Germany', 'Mexico'))
+```
+
+#### 연습
+
+- 상세 주문 데이터(OrderDetails) 중 수량(Quantity)이 가장 많은 데이터 조회
+
+```sql
+SELECT * FROM OrderDetails
+WHERE Quantity = (SELECT MAX(Quantity) FROM OrderDetails)
+```
+
+- 평균 가격(Price)보다 비싼 상품들(Products) 조회
+
+```sql
+SELECT  * FROM Products
+WHERE Price >= (SELECT AVG(Price) FROM Products)
+
+```
+
+### 3-2. JOIN
+
+- `JOIN`의 DEFAULT는 `INNER JOIN`(교집합)
+  `JOIN`문을 사용할 때는 각각의 테이블 중 어떤 열을 기준으로 합칠 것인지가 중요하다. 이 때, `ON` 명령어를 활용한다.
+
+#### INNER JOIN
+
+![](./images/inner-join.png)
+
+#### LEFT JOIN
+
+![](./images/left-join.png)
+
+#### RIGHT JOIN
+
+![](./images/right-join.png)
+
+####
+
+---
+
+## 4. SQL 읽기 📖
 
 노르웨이 국적이 아닌 고객의 국가이름과 고객명을 조회 (국가이름 순 정렬)
 
@@ -215,7 +282,7 @@ FROM Customers                -- (1)
 
 ---
 
-## 4. SQL 쓰기 ✍️
+## 5. SQL 쓰기 ✍️
 
 - 대소문자를 구별하지 않는다.
 - 한줄 또는 여러 줄로 작성할 수 있다.
