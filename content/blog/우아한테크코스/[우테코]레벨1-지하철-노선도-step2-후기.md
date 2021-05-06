@@ -58,15 +58,15 @@ draft: false
 
 ![](./images/subway/step2-util.png)
 
-컴포넌트 단위로 코드를 분리했는데 특정 컴포넌트에서만 쓰이지 않는(범용성 있는) 함수가 특정 컴포넌트의 메서드로 존재하고 있었다.
+컴포넌트 단위로 코드를 분리했는데 특정 컴포넌트에서만 쓰이지 않는(범용성 있는) 함수가 특정 컴포넌트의 메서드로 존재하고 있었습니다.
 
-재사용성과 함수의 역할에 대한 부분을 좀 더 고민하면서 코드를 작성해야겠다고 생각했다.
+재사용성과 함수의 역할에 대한 부분을 좀 더 고민하면서 코드를 작성해야겠다고 생각했습니다.
 
 ### 2-2. token의 위치
 
 ![](./images/subway/step2-token.png)
 
-컴포넌트 단위로 분리한 Class들에 다음과 같은 로직이 중복적으로 수행되고 있었다.
+컴포넌트 단위로 분리한 Class들에 다음과 같은 로직이 중복적으로 수행되고 있었습니다.
 
 ```js
 async render(token, sortedSectionList = []) {
@@ -74,11 +74,11 @@ async render(token, sortedSectionList = []) {
 }
 ```
 
-매번 컴포넌트에서 render로직을 수행할 때 token을 검증하고 그에 따른 로직을 수행하게 한 것이다.
+매번 컴포넌트에서 render로직을 수행할 때 token을 검증하고 그에 따른 로직을 수행하게 한 것입니다.
 
-사실 이런 설계가 나오게 된 배경에는 service layer의 잘못된 분리도 존재했다.
+사실 이런 설계가 나오게 된 배경에는 service layer의 잘못된 분리도 존재했습니다.
 
-service layer에서 API요청을 보낼 때 다음과 같이 token을 외부에서 넘겨받고 있었다.
+service layer에서 API요청을 보낼 때 다음과 같이 token을 외부에서 넘겨받고 있었습니다.
 
 ```js
  isValidToken: async (token) => {
@@ -93,11 +93,11 @@ service layer에서 API요청을 보낼 때 다음과 같이 token을 외부에�
   },
 ```
 
-service 로직에서 token을 요구하니 이 service 로직을 사용하는 컴포넌트들이 token을 알고 있어야 하는 상황이 왔고 악순환의 반복으로 비슷한 로직을 되풀이하고 있었다.
+service 로직에서 token을 요구하니 이 service 로직을 사용하는 컴포넌트들이 token을 알고 있어야 하는 상황이 왔고 악순환의 반복으로 비슷한 로직을 되풀이하고 있었습니다.
 
-service 로직 token을 자체적으로 얻어오도록 하는 방식으로 중복되는 코드들을 대폭 줄일 수 있었다.
+service 로직 token을 자체적으로 얻어오도록 하는 방식으로 중복되는 코드들을 대폭 줄일 수 있었습니다.
 
-기존 component에만 위임했던 render를 다음과 같이 token 유무에 따라 App에서도 직접 렌더하도록 수정했다.
+기존 component에만 위임했던 render를 다음과 같이 token 유무에 따라 App에서도 직접 렌더하도록 수정했습니다.
 
 ```js
 // 기존
@@ -128,7 +128,7 @@ this.router = {
 token ? await this.router[pathName]?.() : this.render()
 ```
 
-아직 전체 코드를 설계하고 책임과 역할을 분리시키는 일은 쉽지 않다. 코드를 작성하기 전 layer 분리에 대해 고민하면서 각 layer의 책임과 역할을 명확히 하자.
+아직 전체 코드를 설계하고 책임과 역할을 분리시키는 일은 쉽지 않다. 코드를 작성하기 전 layer 분리에 대해 고민하면서 각 layer의 책임과 역할을 명확히 하자는 생각을 했습니다.
 
 ## 3. 코드 구조 시각화 🔎
 
