@@ -2,7 +2,7 @@
 title: '[우테코]레벨2 React Lotto 후기'
 date: 2021-05-06
 category: '우아한 테크코스'
-draft: true
+draft: false
 ---
 
 <p align="middle" >
@@ -154,14 +154,27 @@ webpack, babel, eslint 등의 config가 궁금하시다면 아래의 링크를 �
 
 ## 2. 코드 리뷰 및 피드백
 
-## 3. 링크
+## 2-1. 네이밍
 
-### 3-1. step1 링크
+![](./images/react-lotto/naming1.png)
+![](./images/react-lotto/naming2.png)
+
+Component와 함수, 변수의 네이밍 등은 계속해서 신경 쓰려고 하지만 잘 만들기 어려운거 같습니다.
+
+좀 더 깊이 고민해보고 좋은 이름을 지을 수 있도록 노력해야겠습니다.
+
+## 3. 데모
+
+![](./images/react-lotto/demo.gif)
+
+## 4. 링크
+
+### 4-1. step1 링크
 
 - [전체 코드 링크](https://github.com/yujo11/react-lotto/tree/step1)
 - [PR 링크](https://github.com/woowacourse/react-lotto/pull/22)
 
-### 3-2. step2 링크
+### 4-2. step2 링크
 
 - [전체 코드 링크](https://github.com/yujo11/react-lotto/tree/step2)
 - [PR 링크](https://github.com/woowacourse/react-lotto/pull/57)
