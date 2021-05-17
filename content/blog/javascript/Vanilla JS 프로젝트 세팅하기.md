@@ -9,6 +9,8 @@ draft: false
 
 Vanilla JS로 프로젝트를 진행할 때 제가 자주 사용하는 세팅을 정리한 글입니다. 전체 코드 및 Boilerplate는 아래 링크의 레포지토리에서 확인하실 수 있습니다.
 
+- [vanilla-javascript-boilerplate](https://github.com/yujo11/vanilla-javascript-boilerplate)
+
 ## ⚙️ setting
 
 ### 1. yarn init
