@@ -1,7 +1,7 @@
 ---
 title: 'Javascript의 callback'
 date: 2021-03-22 09:03:18
-category: 'web'
+category: 'javascript'
 draft: false
 ---
 
