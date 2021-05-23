@@ -45,6 +45,14 @@ yarn add -D @babel/core @babel/eslint-parser @babel/preset-env
 
 ### 6. setting lint-staged & husky
 
+- [Husky 사용할 때 주의! / 김태곤님 블로그](https://taegon.kim/archives/10276)
+
+> 라이선스의 변화
+> Husky v4까지는 MIT 라이선스였기 때문에 사용하는 데 있어 아무런 제약이 없었다. 하지만 Husky v5에서는 약간의 변화가 생겼다. 현재 v5는 한시적인 기간, 조금 더 자세히 말하면 Early Access 기간에는 Parity License를 적용한다. 간단히 말해 "우리 저작물을 사용하려면 당신 저작물도 오픈하라"라는 것이다. GPL처럼 오픈하는 라이선스에 대해서는 제약을 두지 않고 있으나 결국 상업용 프로젝트에는 사용할 수 없다는 의미다.
+> 단, Husky 프로젝트에 후원한 단체/개인에 한해서는 코드를 공개하지 않고도 사용할 수 있다. 다시 말해, Husky v5는 현재 오픈소스 혹은 프로젝트 후원자의 상업용 프로젝트에만 사용할 수 있다. 그 외의 경우에는 라이선스 위반이 된다.
+
+프라이빗 레포에서 사용하실 경우 최신 버전이 아닌 4.X 버전을 사용하셔야 합니다!
+
 #### 6-1. install package
 
 ```
