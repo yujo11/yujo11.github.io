@@ -1,4 +1,286 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 31 May 2021 06:41:31 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨2 글쓰기 미션 - 우테코에서 찾은 나만의 효과적인 공부법]]></title><description><![CDATA[…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2-글쓰기미션/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2-글쓰기미션/</guid><pubDate>Mon, 31 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;우테코에-들어오기-전&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B0%ED%85%8C%EC%BD%94%EC%97%90-%EB%93%A4%EC%96%B4%EC%98%A4%EA%B8%B0-%EC%A0%84&quot; aria-label=&quot;우테코에 들어오기 전 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;우테코에 들어오기 전&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 06 Jun 2021 02:06:19 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨2 React Shopping Cart 후기]]></title><description><![CDATA[📝 구현 요구사항 📖 공통 요구사항 REQUIREMENTS.md에 요구 사항 도출 Mock Data 혹은 Mock API를 직접 만들어 사용 (Schema 설계까지) 🚀 Step1 상품 목록 장바구니 주문/결제 🚀🚀 Step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2-React-ShoppingCart-후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2-React-ShoppingCart-후기/</guid><pubDate>Sat, 05 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+  &lt;img src=&quot;https://techcourse-storage.s3.ap-northeast-2.amazonaws.com/3e6c6f30b11d4b098b5a3e81be19ce3a&quot; width=&quot;400&quot;&gt;
+&lt;/p&gt;
+&lt;h2 align=&quot;middle&quot;&gt;Level2 - 장바구니&lt;/h2&gt;
+&lt;p align=&quot;middle&quot;&gt;React &amp;amp; Redux 데스크탑 장바구니 애플리케이션&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-구현-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; 구현 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📝 구현 요구사항&lt;/h2&gt;
+&lt;h3 id=&quot;-공통-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EA%B3%B5%ED%86%B5-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; 공통 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📖 공통 요구사항&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; REQUIREMENTS.md에 요구 사항 도출&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; Mock Data 혹은 Mock API를 직접 만들어 사용 (Schema 설계까지)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-step1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step1&quot; aria-label=&quot; step1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀 Step1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 상품 목록&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 장바구니&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 주문/결제&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-step2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step2&quot; aria-label=&quot; step2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀🚀 Step2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 상품 상세&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 주문 상세&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-진행하며-고민하고-배운-점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A7%84%ED%96%89%ED%95%98%EB%A9%B0-%EA%B3%A0%EB%AF%BC%ED%95%98%EA%B3%A0-%EB%B0%B0%EC%9A%B4-%EC%A0%90&quot; aria-label=&quot;1 진행하며 고민하고 배운 점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 진행하며 고민하고 배운 점&lt;/h2&gt;
+&lt;h3 id=&quot;1-1-typescript&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-1-typescript&quot; aria-label=&quot;1 1 typescript permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-1. TypeScript&lt;/h3&gt;
+&lt;p&gt;그동안 defaultProps를 통해 타입을 체크해 오고 있었지만 미션으로 진행하는 프로젝트 규모가 점차 커짐에 따라 타입 체크에 대한 갈망이 생겼습니다.&lt;/p&gt;
+&lt;p&gt;타입 체크에 대한 갈망으로 TypeScript 도입에 대한 고민을 지속적으로 하고 있었으나 쉽사리 프로젝트에 도입하기는 쉽지 않았습니다. 매 미션마다 처음 사용해보는 라이브러리들을 도입하면서 TypeScript까지 적용할 수 있을지에 대한 고민이 컸기 떄문입니다.&lt;/p&gt;
+&lt;p&gt;그러던 중 이번 미션에서 페어로 만나게 된 지그가 기존 TypeScript 사용 경험이 있고 이번 미션에서도 TypeScript를 사용하고 싶다고 먼저 의견을 제시했습니다. 저는 좋은 기회라고 생각했고 이번 미션에서 처음으로 TypeScript를 사용하게 됐습니다.&lt;/p&gt;
+&lt;p&gt;TypeScript를 사용하면서 느낀 장점은 다음과 같습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;주로 Visual Studio Code에서 코드를 작성하는데 코드 자동 완성과 가이드가 생각보다 강력하다.&lt;/li&gt;
+&lt;li&gt;Type Check를 통한 휴먼 에러 방지가 가능하다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;단점이라고 할만한 점은 크게 찾지 못 했지만 TypeScript를 처음으로 사용하면서 제가 느낀 어려움들은 다음과 같습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;많은(세부적인) 타입들&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Primitive Type 몇가지만 익히면 금방 쓸 수 있지 않을까? 라고 생각한 것도 잠시 세부적으로 많은 타입들이 정의되어 있었고 Type이 유추되지 않을 때는 꽤 많은 시간을 검색에 쏟기도 했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;새로운 개념들&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interface와 Type의 차이, Generic 등 JavaScript만 사용해오던 저에게는 낯선 개념들이 등장해 약간의 러닝커브를 만들었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;이외에는 도입하지 않을 이유를 전혀 찾을 수 없었습니다. 아마 다음 번에도, 이후에도 TypeScript를 계속해서 사용하게 될거 같습니다.&lt;/p&gt;
+&lt;p&gt;아직 Generic, 상속, 하이브리드 타입 등의 고급 사용법(?)에 대해서는 잘 알지 못 하지만 앞으로의 프로젝트에서 의식적인 노력을 통해 능숙하게 사용하고 싶은 욕심이 생겼습니다.&lt;/p&gt;
+&lt;h3 id=&quot;1-2-redux--&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-2-redux--&quot; aria-label=&quot;1 2 redux   permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-2. Redux + ?&lt;/h3&gt;
+&lt;p&gt;이번 미션의 요구사항 중에는 &lt;code class=&quot;language-text&quot;&gt;Redux를 통한 전역 상태관리&lt;/code&gt;가 포함되어 있었습니다. Redux의 사용이 정해진 상태에서 어떤 Middleware를 사용할 것인지에 대한 고민을 했습니다.&lt;/p&gt;
+&lt;p&gt;Redux Saga, Redux Thunk 두 가지를 최종후보에 놓고 페어들과 함꼐 고민했습니다. 고민 끝에 이번 미션에서는 Redux Thunk를 사용하게 됐습니다. Redux, TypeScript도 처음 사용해보는 상황에서 Redux Saga까지 사용하는건 욕심이라는 판단이 들어&lt;/p&gt;
+&lt;h3 id=&quot;1-3-redux-thunk&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-3-redux-thunk&quot; aria-label=&quot;1 3 redux thunk permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-3. Redux Thunk&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createThunkMiddleware&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;extraArgument&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; getState &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; action &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;function&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; getState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; extraArgument&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; thunk &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createThunkMiddleware&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+thunk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;withExtraArgument &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; createThunkMiddleware
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; thunk&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Redux Thunk를 사용하면서 가장 놀란 점은 코드였습니다.&lt;/p&gt;
+&lt;p&gt;위의 10줄 남짓한 코드가 Redux Thunk의 전부였는데 currying을 사용해 간단한 코드로 비동기 처리를 멋지게 처리하는 모습에 감탄했습니다.&lt;/p&gt;
+&lt;p&gt;이렇게 짧은 코드로 전세계 수많은 사람들이 사용하는 라이브러리를 만들었다는게 정말 놀라웠습니다. 언젠가는 저도 멋진 라이브러리를 만들고 싶다는 욕심도 들었습니다.&lt;/p&gt;
+&lt;h3 id=&quot;1-4-mock-server&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-4-mock-server&quot; aria-label=&quot;1 4 mock server permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-4. Mock Server&lt;/h3&gt;
+&lt;p&gt;요구사항 중 하나인 Mock Server를 만드는 방식에 대해서도 고민 헀습니다. 그동안 Dummy Data들을 구성해 불러오는 식으로 사용한 적은 있었지만 API 요청을 주고 받을 수 있는 Mock Server를 구성하는건 처음이었기 때문입니다.&lt;/p&gt;
+&lt;p&gt;Firebase, JSON-Server 등의 후보를 두고 고민을 했고 가장 간단하게 구성할 수 있는 JSON-Server를 통해 Mock Server를 구축했습니다. 구축하고 사용하는 방법은 정말 간단했습니다. 앞으로 간단한 프로젝트를 진행하거나 협업을 하면서 Mock Server를 정말 요긴하게 사용할거 같습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/json-server&quot;&gt;json-server / npm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jesperorb/json-server-heroku&quot;&gt;json-server-heroku &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;2-코드-리뷰-및-피드백&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-%ED%94%BC%EB%93%9C%EB%B0%B1&quot; aria-label=&quot;2 코드 리뷰 및 피드백 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 코드 리뷰 및 피드백&lt;/h2&gt;
+&lt;h3 id=&quot;2-1-type-정의&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-1-type-%EC%A0%95%EC%9D%98&quot; aria-label=&quot;2 1 type 정의 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-1. type 정의&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAABzklEQVQoz62TWZPTMBCE/f9/F08UxwIbNiFOnPWtw5Yv2bFluxkNUMVRBfuAqr6Mo4xG3Z0kELZGVKdITIlSC2SqREJVmRxZ/gTVGwxuQv9Cgof9jFf4iDfLEYk44bN4wuv4Aw51iJM6460MEbkCCSTif5DsEkG4pjjsES5UdZMh63KIvkA5SYSdQNQLaLRQhNybv6K2BsHjpwPev3uAlJqpKgOtKyh6dvOC+3RndjcD+07gD/ZtxzTesa0bgnmZYIcOrdDohgFt28I0DRqq1lrUxqCqDRYraJ77NpNefscvX4N5tmhNhabUWOiGbdvgnMO6rlgWh5cuR/0rnQ36voeuKmhS4tUYQ1mQZV3VkEpjIJX2OwM5GMcR0zRxHQYLf967svTeiwl4OikSQkJICUVD8rzg4UprlKVAUZbIi4L3i6KkrBXSNGMhPcfUsSPvPDgeT3g8HFiVH9LQhz4/f7O/cVkWbv4Z51be/8UyiWKFXu7zc4xzeEEU3XAlwssVX84h798IryzNcsRxgjhJ+Lkg5ZdrxES3Z+KGkWJhy4MdqZH+LWmKjJq9HX/QN7ZdR3lNbM3n6eH8OFPL2f3IeKafGX3LPca+wV0Z/I/1FcoVlrIZPgjqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;type&quot;
+        title=&quot;type&quot;
+        src=&quot;/static/67e7f8afd46cdf875c78229916b9db3e/c1b63/type.png&quot;
+        srcset=&quot;/static/67e7f8afd46cdf875c78229916b9db3e/5a46d/type.png 300w,
+/static/67e7f8afd46cdf875c78229916b9db3e/0a47e/type.png 600w,
+/static/67e7f8afd46cdf875c78229916b9db3e/c1b63/type.png 1200w,
+/static/67e7f8afd46cdf875c78229916b9db3e/d61c2/type.png 1800w,
+/static/67e7f8afd46cdf875c78229916b9db3e/a1a4b/type.png 2054w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;여러 모듈에서 공통적으로 사용되는 타입을 &lt;code class=&quot;language-text&quot;&gt;types.ts&lt;/code&gt; 파일에서 정의하고 import 해서 사용했습니다. 위의 스크린샷에도 들어가 있는 것처럼 &lt;code class=&quot;language-text&quot;&gt;types.ts&lt;/code&gt;에 정의한 타입들은 &lt;code class=&quot;language-text&quot;&gt;T&lt;/code&gt; prefix를 통해 import 해온 것을 한번에 알 수 있어 좋다고 생각했습니다.&lt;/p&gt;
+&lt;p&gt;하지만 리뷰어 분의 피드백처럼 IDE의 더ㅗ움으로 함수, 변수, 타입을 명확히 구분할 수 있어 굳이 필요하지 않겠다는 생각을 했습니다.&lt;/p&gt;
+&lt;h3 id=&quot;2-2-custom-hook&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-2-custom-hook&quot; aria-label=&quot;2 2 custom hook permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-2. custom hook&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB/0lEQVQoz22R2XKbQBBF+f/P8ouTB2ezZFsbwyYBAoHYwcCcNEJ2ZFWgLrdrKE7fbgy3CNilLm4a4McBXnTAFQ9SD7VfElcJ56YhqXKpU6KqIG1L8r6+U0XZNxhPrHjUC5a94tAFbAqb5dlkVR3YZIp14bDO97xlHq+ZxbrxUX2IR4SrI7yrXI4EOsH4odd8H5csuwkYsi0dVrnNqjzgtb5ALd4KF/N9AsT4nEQJB/EPTWd7aRDqdAKu+HYF+lN3AS5OW16SLSsBTQlfMklZutjSULUBZrsXP2C/B1idj9nssSR1eEnImsdhwaI18WoZM9rIaIrXs+J34rAsfAHaPJ9MfkU+W1nFBLxABDaBd7V3WUN4O/KLJHRlRFX5OF2M3UaiWOqIvSRxh3lnt6N+HTmeR37SbzyOkrAz8eXDdaL4E+7YnmzMsycpjtLogCXv7OH4+RPu9flTnrXJz3HN5t3FH1KsIsIsQ9nXkVCWH1yUXj25fPQ/+fpErDOMoqlIi4xzkZMXBU3b0fWDqGfQ46f6cRAfvpx90fReZDw8PKBMRRTFFGVFVVXkeU5ZlkyX1np6zPV8MBc30qOmrhvGccSYimMUYTkOtu1giZRlYzuzm0qxUzZldoSxnhkCvb8/mhv9UJOdUlI/ompb6VRfus0+q6xqmjoTYPcPeCeu/hdrjI2zcMl68AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;custom hook&quot;
+        title=&quot;custom hook&quot;
+        src=&quot;/static/c9aecc6c55df1dcc10de2b03e02fb12f/c1b63/custom-hook.png&quot;
+        srcset=&quot;/static/c9aecc6c55df1dcc10de2b03e02fb12f/5a46d/custom-hook.png 300w,
+/static/c9aecc6c55df1dcc10de2b03e02fb12f/0a47e/custom-hook.png 600w,
+/static/c9aecc6c55df1dcc10de2b03e02fb12f/c1b63/custom-hook.png 1200w,
+/static/c9aecc6c55df1dcc10de2b03e02fb12f/d61c2/custom-hook.png 1800w,
+/static/c9aecc6c55df1dcc10de2b03e02fb12f/6052f/custom-hook.png 2030w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;반복되는 작업을 custom hook을 통해 추상화 해보라는 피드백을 받았습니다. React를 사용하면서 처음으로 custom hook을 사용하게 되었습니다.&lt;/p&gt;
+&lt;p&gt;Vanilla Javascript에서 util 함수들을 분리하듯이 간단하게 분리가 가능할 것이라고 생각했지만 저의 첫 Custom Hook을 작성하는데는 다음과 같은 이유들로 어려움을 겪었습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Component 내부에 있을 코드와 외부에 있을 코드를 구분하지 못 하고 있었다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Component들을 작성하면서 그동안 Component 안에 존재할 필요가 없는 코드들까지 모두 Component 내부에 작성하고 있었습니다.&lt;/li&gt;
+&lt;li&gt;Component 내, 외부의 코드를 구분하지 않고 작성하다보니 Custom Hook으로 Component 내부의 코드를 분리할 때에도 경계가 모호해져 저에게 더 큰 혼란을 일으켰습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hook에 대한 이해도가 떨어졌다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;그동안 useState, useEffect 등 다양한 Hook들을 사용해오면서도 Hook 자체에 대한 이해도가 떨어졌습니다.&lt;/li&gt;
+&lt;li&gt;부끄럽게도 이번에 Custom Hook을 작성하고 사용하면서 Hook은 Component 내부의 최상단에서만 선언 가능하단 사실도 처음으로 알게 되었습니다.&lt;/li&gt;
+&lt;li&gt;이렇게 Hook 자체에 대한 이해도가 떨어지다보니 custom hook이 해야할 역할, 사용되야 할 범위를 정확히 인지하지 못한 채 코드를 작성하게 됐고 그로 인한 어려움을 겪었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;custom hook을 작성화는건 쉽지 않았지만 그만큼 저의 무지함을 깨닫고 발전할 수 있었습니다. 그리고 React Component 내부에서 발생하는 반복되는 로직들을 custom hook을 통해 추상화 시켜 반복되는 코드들을 줄일 수 있다는 것도 알게 됐습니다.&lt;/p&gt;
+&lt;p&gt;앞으로는 더욱 적극적으로 custom hook을 활용해 우아한 코드를 작성하기 위해 노력해야겠다는 생각을 했습니다.&lt;/p&gt;
+&lt;h3 id=&quot;2-3-uiux&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-3-uiux&quot; aria-label=&quot;2 3 uiux permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-3. UI/UX&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;장바구니에 상품이 없을 때에는 선택삭제 버튼을 disable 하는게 좋을거 같아요!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;변경-전&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%80%EA%B2%BD-%EC%A0%84&quot; aria-label=&quot;변경 전 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;변경 전&lt;/h4&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABRklEQVQoz31Ry07DMBDMn/FvfAFfwJEjt0ocQAjOcCqHoqgSEg0piCZ23nFiDzumrqyq6kojr+317Iw3maYJfd+j67qT4N16vUaapj4/VzsMA5LBGJRKoW1bj6ZpDnmMqqqgtfb34THXUB/OEyMKWTiOA87FPM9SM/qcruq6PuzjSMhaqgq9gXQdfWeCxTGMOCGcc972rijQiLLZWkzSjGDThKy/X0s8317CDBpK16JYeYtWihkkIfiAQYufWYZZGoSwkre07Ak/HnB3dYFJCANBTBRskgjWoTQjlqrEe6WR1hVWsr6JCC3nSVDhu0gx90Qgi8GvYGRdi0W+wf13jsefrV8XeYZtLwpJp3cFVi+v/q+UTJxDOlYZ41z8W842eLq5FmXz/tidnDIHGBxZIbb7BnHuCcfRoFANnHUnFQXQwfGgjvEHsZEJVCcf3mIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;before&quot;
+        title=&quot;before&quot;
+        src=&quot;/static/dbf7ba545e20f29a5af8dea00611f031/c1b63/before.png&quot;
+        srcset=&quot;/static/dbf7ba545e20f29a5af8dea00611f031/5a46d/before.png 300w,
+/static/dbf7ba545e20f29a5af8dea00611f031/0a47e/before.png 600w,
+/static/dbf7ba545e20f29a5af8dea00611f031/c1b63/before.png 1200w,
+/static/dbf7ba545e20f29a5af8dea00611f031/d61c2/before.png 1800w,
+/static/dbf7ba545e20f29a5af8dea00611f031/97a96/before.png 2400w,
+/static/dbf7ba545e20f29a5af8dea00611f031/3162c/before.png 2750w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;변경-후&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%80%EA%B2%BD-%ED%9B%84&quot; aria-label=&quot;변경 후 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;변경 후&lt;/h4&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABUElEQVQoz41Sy07DMBD0H/IZ/A1XLnwB4tgDZ0AqEhUnQDkiJCTybGI3juM8Bo9bQxtSlZVGttfj3dldC5wway2yLEPXdfiPCSklqqqahVIKcRwjiiK/8nyMW5YlmqaBqBypbVuvgGqmoH8cR082xnhf3/cYhuGAxxj0i6IofAYSpsZABO9I5p4mHT/Pcx8o8H5LVjU22sK4DHVdQ2vtEdTMqS1dm7J1AevOPZM5GN5ToVbvuLk4Q/axQmN6SFmBfQ3Zg1FlqILqkiQ5HF6zFSCs/sTq+hzV1+tsyWFlDwnam5J4KDI85qnHfZpg6c4NFQ7uDZ9xbVvz09zQvwD6wtd5Kde4S2M8uSCrIsdyF1i7e9HaDs+3C2jlvslm4we03+z9wcwN7s8/7NzjxdUlate7Y8aAVB4SDUwwA/IEs9ZmO61xp2JaLsFyOfmp8im+AdCBWBxsnTLcAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;after&quot;
+        title=&quot;after&quot;
+        src=&quot;/static/67907dbf2892fbd6cb5bc68c602eed61/c1b63/after.png&quot;
+        srcset=&quot;/static/67907dbf2892fbd6cb5bc68c602eed61/5a46d/after.png 300w,
+/static/67907dbf2892fbd6cb5bc68c602eed61/0a47e/after.png 600w,
+/static/67907dbf2892fbd6cb5bc68c602eed61/c1b63/after.png 1200w,
+/static/67907dbf2892fbd6cb5bc68c602eed61/d61c2/after.png 1800w,
+/static/67907dbf2892fbd6cb5bc68c602eed61/97a96/after.png 2400w,
+/static/67907dbf2892fbd6cb5bc68c602eed61/6149e/after.png 2784w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;정말 간단하게 처리할 수 있는 부분인데 놓치고 있었습니다. 선택된 상품이 없을 때 ‘주문하기’ 버튼이 disabled 되도록 했지만 ‘선택 삭제’ 버튼은 disabled 되지 않고 있었습니다.&lt;/p&gt;
+&lt;p&gt;나름의 UX를 쓰려고 했지만 작은 부분을 놓치고 있었다는 생각이 듭니다. 조금 더 사용자 친화적인 어플리케이션을 작성하기 위해 고민하고 노력해야겠습니다.&lt;/p&gt;
+&lt;h3 id=&quot;2-4-내장-객체-메서드의-활용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-4-%EB%82%B4%EC%9E%A5-%EA%B0%9D%EC%B2%B4-%EB%A9%94%EC%84%9C%EB%93%9C%EC%9D%98-%ED%99%9C%EC%9A%A9&quot; aria-label=&quot;2 4 내장 객체 메서드의 활용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-4. 내장 객체 메서드의 활용&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 88.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAACwklEQVQ4y5VUaY/TMBDt//9TCD4ggUDsspRm0zNtk+a+nPhM8hg721W3rJBw9DQzrjvHe04WeVkiLwhlhbyqnC3rGnaf9T2aKkJdRtDG/BOKMI4jFt+Vhwfh4yAihDzGvgsRkD30EfY9xX2IUEdIpsohfrEzytc4ngqIUWHxAxt8mzwchgtCEcLvAuxkhHV/woqdseYZDirBXkW0H+JgYmdnP3HxXifYEPpBYvH58QsyTiM3BRhryJbIavIljSsFWi7R0uitYKj7Fp3izm84Qys5es2RM4as66GHAYvdZocsK5ARj0XTgksJIRX+Z1nuJotpwsJtBBHUMQJbrVEQ2DZAs94j9wPkDx6axyX65y3a3z6kv0O32qBZ+hDeFjoIgaYDjTGLoozCttvgmG1x3i3hPT/A8x/hb5/w03uCt/MRNyQKT3FhMSElilLk4ooMucxQqWpOKCeNr/DgI0SECgGptazP8MQZy+6IXzzBklRfsgArHmIlUzqT4oTc4Uw4IsMF5ZxwpJE7CJJcQpLsYlDouHCiMNmhJxEsbKyouH2stecq3qLsGgeuJSUkDo3pMTCBUQ3vMz7d+VfQn40ZoJVxlvSYE1ZVgjLOwFoGqTUkqawUdUlXZRjeFrEquufFXpcxxsGpXJY1LkmCOCGCiwJxPPuJjfMCLRWq6FUUQvzVsk1wTWiLv16bLMuRpCnSNHPWJirpvY6pkPUvcezOVLRX1y0MW2NS6Tz9NN3cR8uhyGGG0Sk0vFxO648v/uuoBNuF68QwTIO4tvn6+2g7/PTxA5q6QlUW6PsOnPfURe14tIcs4ddEtsg9p3bZs5r4dyPXDcNzkMDbx/APMTbHGOvtHr6/nnkkXguHkgo1bzqe7hK7DrXRCE4JTpeCvoEZqdxC6cGpfcvPfVfvxY5DIQroqqV7+P4HYbrh6J7T2/ia8A/1Nmrwi5t/rgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;method&quot;
+        title=&quot;method&quot;
+        src=&quot;/static/a81976dad9aea992e77e0c9a4b932764/c1b63/method.png&quot;
+        srcset=&quot;/static/a81976dad9aea992e77e0c9a4b932764/5a46d/method.png 300w,
+/static/a81976dad9aea992e77e0c9a4b932764/0a47e/method.png 600w,
+/static/a81976dad9aea992e77e0c9a4b932764/c1b63/method.png 1200w,
+/static/a81976dad9aea992e77e0c9a4b932764/1e1c3/method.png 1670w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; totalPrice &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; order&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;items&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;acc&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; curr&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; CartItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; acc &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; curr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;product&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;price &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; curr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;quantity&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;구매한 상품들의 총 가격을 구하기 위해 위와 같은 코드를 사용했습니다. &lt;code class=&quot;language-text&quot;&gt;reduce&lt;/code&gt;를 통해 전체 배열을 한번만 순회하며 원하는 값을 얻을 수 있는 코드라고 생각했습니다. type이 붙어 코드가 길어보이긴 하지만 당시에는 코드에서 나는 악취를 맡지 못 했습니다.&lt;/p&gt;
+&lt;p&gt;리뷰어 님의 피드백을 받고나서야 제 코드에서 나는 악취를 맡을 수 있었습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; totalPrice &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; order&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;items
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; item&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;product&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;price &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; item&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;quantity&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;acc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; price&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; acc &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; price&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;같은 로직을 수행하는 코드이지만 기존에 작성한 코드와 비교했을 때 어느 쪽이 보기 좋은지는 한눈에 확연히 드러나고 있습니다.&lt;/p&gt;
+&lt;p&gt;내장 객체 메서드를 적게만 사용하는게 능사가 아니라는걸 다시 한번 깨달을 수 있었던 리뷰였습니다. 크리스 님께서 추천 받은 강의를 우테코 레벨 2 방학 기간 동안 들으며 공부하고 정리 해봐야겠다는 목표가 하나 생겼습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.inflearn.com/course/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D#&quot;&gt;자바스크립트로 알아보는 함수형 프로그래밍 (ES5) / 유인동님&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;3-데모&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EB%8D%B0%EB%AA%A8&quot; aria-label=&quot;3 데모 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 데모&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/e3250810843cc5b45dab19feee856e9f/demo.gif&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4--링크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4--%EB%A7%81%ED%81%AC&quot; aria-label=&quot;4  링크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 🔗 링크&lt;/h2&gt;
+&lt;h3 id=&quot;4-1-step1-링크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-1-step1-%EB%A7%81%ED%81%AC&quot; aria-label=&quot;4 1 step1 링크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4-1. step1 링크&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/react-shopping-cart/tree/step1&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/react-shopping-cart/pull/20&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;4-2-step2-링크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-2-step2-%EB%A7%81%ED%81%AC%1E&quot; aria-label=&quot;4 2 step2 링크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4-2. step2 링크&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/react-shopping-cart/tree/step1&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/react-shopping-cart/pull/48&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;5--user-flow-chart&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5--user-flow-chart&quot; aria-label=&quot;5  user flow chart permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 📊 User Flow Chart&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAABl0lEQVQ4y32UjY6CQAyEef8HhEQQBUUURQXEP5Car7mSxfNuk2ZhodOZTsGTnzUMg+5930uaprJYLKQoCrndbnK9XuVyucjz+ZS/luV7nwfs6/VakiTR/Xg8SlmWCr7dbqVtW2maZgwKvV6vMdezCwsWLwFAclVV4/3pdNLnXdepEhagXwHdlee5+L6vUnlGsjEkmQC0rmvZ7XaqYpTsSiXO57PEcSyz2Uwlw8rk09fNZqNA+/1ewjDUZ5wbY2UIk9VqpWY8Hg8Fpm9UhxmRZZmC0wZawE5x2LrtUkBASKYqL1KNAgZOUBRm7uKed1yFnmsE15gwn88liiLt5f1+V7Y2SlYUtkEQyHK5nJpigLhFow0cAIAoQBwOB2VkhjCTFDMVXwGRSgLJmIJ7JDLctIT4nAhX7sRlA7QvBVcBBgzGuEtfTYUL4gJ/lcyOXHoFINIAxZjPhSJT9ouhuUmjkQwrzgFnNjnHDMAJrjnHQNRMAGm4NZneESRxTzBzOAwbFJgxFMQ0cieAHABq0ggbYgv7Gv7747wB/N2JE4+YkuoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;step2&quot;
+        title=&quot;step2&quot;
+        src=&quot;/static/88474ead15277603769f1d91f3bead08/c1b63/step2.png&quot;
+        srcset=&quot;/static/88474ead15277603769f1d91f3bead08/5a46d/step2.png 300w,
+/static/88474ead15277603769f1d91f3bead08/0a47e/step2.png 600w,
+/static/88474ead15277603769f1d91f3bead08/c1b63/step2.png 1200w,
+/static/88474ead15277603769f1d91f3bead08/d61c2/step2.png 1800w,
+/static/88474ead15277603769f1d91f3bead08/42b11/step2.png 2364w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨2 글쓰기 미션 - 우테코에서 찾은 나만의 효과적인 공부법]]></title><description><![CDATA[…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2-글쓰기미션/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2-글쓰기미션/</guid><pubDate>Mon, 31 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;우테코에-들어오기-전&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B0%ED%85%8C%EC%BD%94%EC%97%90-%EB%93%A4%EC%96%B4%EC%98%A4%EA%B8%B0-%EC%A0%84&quot; aria-label=&quot;우테코에 들어오기 전 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;우테코에 들어오기 전&lt;/h2&gt;
 &lt;p&gt;프로그래밍을 접하기 전 의식적으로 하던 공부들은 보통 목적지가 명확했습니다. 수능, 자격증 시험, 토익 등 원하는 자격이나 점수를 얻기 위해 공부하던 경우가 대부분이었죠.&lt;/p&gt;
 &lt;p&gt;그러나 프로그래밍은 이전에 하던 공부들과는 조금 달랐습니다. 프로그래밍을 ‘잘’ 하고 싶다는 욕심이 있었지만 어떻게 해야 ‘잘’ 할 수 있는지에 대해서는 계속 의문이 남았습니다.&lt;/p&gt;
 &lt;ul&gt;
