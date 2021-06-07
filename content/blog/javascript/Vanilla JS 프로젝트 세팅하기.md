@@ -1,7 +1,7 @@
 ---
 title: 'Vanilla JS 프로젝트 세팅하기'
 date: 2021-05-10 09:03:18
-category: 'javascript'
+category: 'JavaScript'
 draft: false
 ---
 
