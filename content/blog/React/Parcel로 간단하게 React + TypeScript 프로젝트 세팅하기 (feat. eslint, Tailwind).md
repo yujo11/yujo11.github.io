@@ -97,7 +97,7 @@ yarn add react react-dom
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>it-article-archive</title>
+    <title>Hello Parcel Bundler</title>
   </head>
   <body>
     <noscript>You need to enable Javascript to run this application.</noscript>
@@ -163,11 +163,11 @@ module.exports = {
     node: true,
   },
   extends: [
-    'prettier',
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -244,7 +244,7 @@ import './index.css'
 
 render(
   <StrictMode>
-    <h1 className="font-5xl text-red-300">Hello Parcel Bundler</h1>
+    <h1 className="text-red-300">Hello Parcel Bundler</h1>
   </StrictMode>,
   document.getElementById('root')
 )
