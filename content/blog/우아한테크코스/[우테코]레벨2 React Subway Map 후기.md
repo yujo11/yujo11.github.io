@@ -6,10 +6,10 @@ draft: false
 ---
 
 <p align="middle" >
-  <img src="https://techcourse-storage.s3.ap-northeast-2.amazonaws.com/0fefce79602043a9b3281ee1dd8f4be6" width="400">
+  <img width="200px;" src="https://github.com/yujo11/javascript-subway/raw/step1-component/src/images/subway_emoji.png"/>
 </p>
-<h2 align="middle">Level2 - 페이먼츠</h2>
-<p align="middle">React 모바일 페이먼츠 애플리케이션</p>
+<h2 align="middle">Level2 - 지하철 노선도</h2>
+<p align="middle">React 지하철 노선도 SPA</p>
 </p>
 
 ## 📝 요구사항
