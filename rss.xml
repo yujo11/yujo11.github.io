@@ -1,4 +1,262 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 07 Jun 2021 13:34:19 GMT</lastBuildDate><item><title><![CDATA[Parcel로 간단하게 React + TypeScript 프로젝트 세팅하기 (feat. eslint, Tailwind)]]></title><description><![CDATA[📝 description Parcel을 사용해 React + TypeScript 프로젝트를 세팅하는 방법을 정리하는 글입니다. 제가 좋아하는 Tailwind를 세팅하는 법까지 추가로 정리했습니다. Parcel…]]></description><link>https://yujo11.github.io/React/Parcel로 간단하게 React + TypeScript 프로젝트 세팅하기 (feat. eslint, Tailwind)/</link><guid isPermaLink="false">https://yujo11.github.io/React/Parcel로 간단하게 React + TypeScript 프로젝트 세팅하기 (feat. eslint, Tailwind)/</guid><pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;-description&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-description&quot; aria-label=&quot; description permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📝 description&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Jun 2021 17:35:44 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨2 React Subway Map 후기]]></title><description><![CDATA[📝 요구사항 🚀 step1 👨‍👩‍👧‍👦 협업 요구사항 백엔드 페어와 협업을 위해 필요한 사항들을 논의합니다. step1에서 사용할 API의 배포 일정, 이후 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</guid><pubDate>Wed, 09 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+  &lt;img src=&quot;https://techcourse-storage.s3.ap-northeast-2.amazonaws.com/0fefce79602043a9b3281ee1dd8f4be6&quot; width=&quot;400&quot;&gt;
+&lt;/p&gt;
+&lt;h2 align=&quot;middle&quot;&gt;Level2 - 페이먼츠&lt;/h2&gt;
+&lt;p align=&quot;middle&quot;&gt;React 모바일 페이먼츠 애플리케이션&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📝 요구사항&lt;/h2&gt;
+&lt;h3 id=&quot;-step1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step1&quot; aria-label=&quot; step1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀 step1&lt;/h3&gt;
+&lt;h4 id=&quot;-협업-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%ED%98%91%EC%97%85-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; 협업 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;👨‍👩‍👧‍👦 협업 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;백엔드 페어와 협업을 위해 필요한 사항들을 논의합니다.&lt;/li&gt;
+&lt;li&gt;step1에서 사용할 API의 배포 일정, 이후 step2에서의 추가 개발을 위한 설계 논의, 그 외 필요한 사항들 있는 지 확인&lt;/li&gt;
+&lt;li&gt;배포한 API 4개 중 하나를 무작위로 연결하더라도 어플리케이션이 정상 동작해야 합니다.&lt;/li&gt;
+&lt;li&gt;무작위 연결을 확인해볼 수 있는 방법은 페어와 자율적으로 결정합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-구현-요구사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD&quot; aria-label=&quot; 구현 요구사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📝 구현 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;요구사항 명세를 먼저 작성합니다.&lt;/li&gt;
+&lt;li&gt;상태 관리 방법을 스스로 선택합니다. 선택한 상태 관리 방법이 적절하다고 생각한 이유를 명시해주세요.&lt;/li&gt;
+&lt;li&gt;레벨 1에서 구현했던 기능들을 React로 다시 구현해보는 작업입니다. 레벨 1에서 개발했던 어플리케이션을 다시 확인해보세요.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;
+&lt;summary&gt; &lt;b&gt; step1 요구사항 정의 &lt;/b&gt;  &lt;/summary&gt;
+&lt;div markdown=&quot;1&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;메인 페이지&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 로그인 되지 않은 사용자가 접속할 경우 로그인 페이지로 리다이렉션 한다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 로그인 된 사용자가 접속할 경우 메인 페이지를 보여준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;로그인/회원가입 페이지&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 회원 가입을 할 수 있다.&lt;/li&gt;
+&lt;li&gt;필요 정보: 이름, 이메일, 비밀번호, 비밀번호 확인 정보&lt;/li&gt;
+&lt;li&gt;가입시 이미 가입한 이메일인지 중복 확인&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 가입한 계정으로 로그인을 할 수 있다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 로그인하여 지하철 노선도 관리 페이지에 접근할 수 있다.&lt;/li&gt;
+&lt;li&gt;로그인되지 않은 상태로 접근시 로그인 페이지로 리다이렉션 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;역 관리 페이지&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 지하철 역을 추가할 수 있다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 지하철 역을 삭제할 수 있다.&lt;/li&gt;
+&lt;li&gt;노선에 등록되어 있는 역인 경우 삭제할 수 없어야 한다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 등록되어 있는 전체 지하철 역 목록을 조회할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;노선 관리 페이지&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 지하철 노선을 추가할 수 있다.&lt;/li&gt;
+&lt;li&gt;필요 정보: 노선 이름, 상행역, 하행역, (최초 상행역과 하행역 구간의)거리, (최초 상행역과 하행역 구간 통행에 걸리는)시간, 색상&lt;/li&gt;
+&lt;li&gt;상행역, 하행역: 기존에 등록되어 있는 지하철 역 목록 중에서 선택&lt;/li&gt;
+&lt;li&gt;색상: 미리 지정되어 있는 10가지 색상 중 한 색상 선택. 다른 노선에서 사용하는 색은 선택 불가능&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 등록되어 있는 지하철 노선을 삭제할 수 있다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 등록되어 있는 전체 지하철 노선 목록을 조회할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;구간 관리 페이지&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 특정 노선의 전체 구간 목록을 확인할 수 있다.&lt;/li&gt;
+&lt;li&gt;[x]사용자는 특정 지하철 노선에 구간을 추가할 수 있다.&lt;/li&gt;
+&lt;li&gt;하나의 역은 여러 개 노선에 중복되어 포함될 수 있음&lt;/li&gt;
+&lt;li&gt;역과 역 사이에 새로운 역 추가 가능&lt;/li&gt;
+&lt;li&gt;하나의 노선에서 갈래길은 생길 수 없음&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자는 노선에 등록되어 있는 구간을 삭제할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;h3 id=&quot;-step2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-step2&quot; aria-label=&quot; step2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀🚀 step2&lt;/h3&gt;
+&lt;h4 id=&quot;-협업-요구사항-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%ED%98%91%EC%97%85-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-1&quot; aria-label=&quot; 협업 요구사항 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;👨‍👩‍👧‍👦 협업 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;백엔드 개발자와 API 설계 논의부터 함께합니다.&lt;/li&gt;
+&lt;li&gt;배포한 API 4개 중 하나를 무작위로 연결하더라도 어플리케이션이 정상 동작해야 합니다.&lt;/li&gt;
+&lt;li&gt;무작위 연결을 확인해볼 수 있는 방법은 페어와 자율적으로 결정합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-구현-요구사항-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EA%B5%AC%ED%98%84-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-1&quot; aria-label=&quot; 구현 요구사항 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📝 구현 요구사항&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;추가 기능을 위한 UI는 직접 설계하고 만듭니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;
+&lt;summary&gt; &lt;b&gt; step2 요구사항 정의 &lt;/b&gt;  &lt;/summary&gt;
+&lt;div markdown=&quot;1&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;전체 보기 페이지&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 전체 노선을 확인할 수 있어야 한다.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 로그인 되지 않은 사용자도 전체 노선을 볼 수 있어야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-진행하며-고민한-점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EC%A7%84%ED%96%89%ED%95%98%EB%A9%B0-%EA%B3%A0%EB%AF%BC%ED%95%9C-%EC%A0%90&quot; aria-label=&quot;1 진행하며 고민한 점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 진행하며 고민한 점&lt;/h2&gt;
+&lt;h3 id=&quot;1-1-백엔드-크루들과의-협업&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-1-%EB%B0%B1%EC%97%94%EB%93%9C-%ED%81%AC%EB%A3%A8%EB%93%A4%EA%B3%BC%EC%9D%98-%ED%98%91%EC%97%85&quot; aria-label=&quot;1 1 백엔드 크루들과의 협업 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-1. 백엔드 크루들과의 협업&lt;/h3&gt;
+&lt;p&gt;우테코 과정 중 처음으로 백엔드 크루들과 협업을 하게 됐습니다. 그동안 이미 구현 된 API를 사용해 본 적은 있었지만 직접적으로 Schema 설계에 관여하고 API를 요청하는 경험은 없었습니다.&lt;/p&gt;
+&lt;p&gt;백엔드 크루들과 협업을 위해 회의를 하고 함께 API 명세를 정의하는 과정은 무척 의미있는 경험이었습니다. 주어진 API만을 사용할 떄와는 달리 API의 response message, status code, 등을 함께 고민할 수 있었습니다.&lt;/p&gt;
+&lt;h3 id=&quot;1-2-redux-toolkit&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-2-redux-toolkit&quot; aria-label=&quot;1 2 redux toolkit permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-2. Redux Toolkit&lt;/h3&gt;
+&lt;p&gt;지난 미션에서 Redux, Redux Thunk를 사용해서 상태를 관리 했습니다. 코드를 작성하다 보니 코드가 굉장히 길어지고 Action과 Reducer를 분리해서 정의하면서 불편하다는 생각이 들었습니다.&lt;/p&gt;
+&lt;p&gt;이번 미션을 시작하며 상태관리에 대해 페어와 논의한 결과 다음과 같은 이유들로 Redux Toolkit 사용을 결정했습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;전역으로 관리해야할 상태가 많았다. (AccessToken, 역 목록, 노선 목록)&lt;/li&gt;
+&lt;li&gt;기존 Redux, Redux Thunk로 전역 상태관리를 하면서 불편한 점들이 있었다.&lt;/li&gt;
+&lt;li&gt;일정에 압박이 있어 최대한 빠르게 도구를 선택하고 싶었다. (Redux에서 공식적으로 Redux Toolkit 사용을 추천)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;이전 Redux, Redux Thunk를 사용할 때와 비교해 느낀 장점은 다음과 같습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Redux, Redux Thunk를 사용할 때에 비해 코드량이 줄어들었다.&lt;/li&gt;
+&lt;li&gt;Action, Reducer를 다른 파일에 작성할 필요가 없어 개발 속도가 빨라졌다.&lt;/li&gt;
+&lt;li&gt;공식문서에 정리가 잘 되어있다. + (TS 작성 예시까지 정리가 잘 되어 있다.)&lt;/li&gt;
+&lt;li&gt;러닝커브가 낮다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;백엔드 크루들과 협업을 하며 진행하는 미션인만큼 평소보다 타이트하게 일정을 잡았습니다. 일정 내에 구현을 마치기 위해서 Redux Toolkit을 선택했고 만족하며 사용할 수 있었습니다.&lt;/p&gt;
+&lt;p&gt;하지만 추상화가 많이 이루어져 있고 Thunk, Immer 등이 내장되어 있어 나중에 Toolkit없이 Redux를 사용할 때 Redux 자체에 대한 이해도가 떨어질 수 있겠다는 생각이 들었습니다.&lt;/p&gt;
+&lt;h3 id=&quot;1-3-uiux&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-3-uiux&quot; aria-label=&quot;1 3 uiux permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-3. UI/UX&lt;/h3&gt;
+&lt;p&gt;지난 미션들에서는 Figma로 작성 된 UI가 공유되었습니다. 하지만 이번 미션은 작성된 디자인 시안이 없었기 때문에 디자인 또한 직접 정해야 했습니다. 다행히 페어인 &lt;a href=&quot;https://github.com/jum0&quot;&gt;주모(@jum0)&lt;/a&gt;가 뛰어난 디자인 감각을 가지고 있어 주모 덕분에 빠르게 Primary Color를 정하고 전체적인 UI를 구성할 수 있었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 997px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABLUlEQVQoz52S3W6DMAyF8/7Ps/Wqf1IfYeOqKnStWmktECiQFEI4swORKtCmtZE+QmznJLYjUFWAUkBRwGbZa+R5P5OW0CQW7XYoyIiuQ9e2gLXPQ/t4r6hIMAgCSDqBhyXRV+gGREuqSZJQxiWkzKG1BtuMMU/RNI3bJ/gnDEMSlUhT6YR9wP8xqOu6F+RPfI2dEKNUf0OP5frQMK2ltXXrR7+HL8E+wXmPh7d97SMcDwea98guWyrJlWqd9jEj/D4n2A0deoQ7Z+o7JNU3+PjEMdpClTeyaedzMQM+3gnaktJcraAWiwl6uUS9XuMym+H77R13imPbJHY+h95sYKmhwnIN6EFOoIP4oZZxjPh0Qno+Q6UprOp941ierW+KYTjFX2gpFeavmGZozg+pZ1O6+mgmqgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;login&quot;
+        title=&quot;login&quot;
+        src=&quot;/static/3f6cc134940a698ecb6355ee153c671b/ec3e2/login.png&quot;
+        srcset=&quot;/static/3f6cc134940a698ecb6355ee153c671b/5a46d/login.png 300w,
+/static/3f6cc134940a698ecb6355ee153c671b/0a47e/login.png 600w,
+/static/3f6cc134940a698ecb6355ee153c671b/ec3e2/login.png 997w&quot;
+        sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;다만, 구현과정에서 UI/UX 적으로도 계속 욕심이 생겼는데 일정 안에 구현을 마치기 위해 포기한 부분이 많아 아쉬웠습니다. 구현 속도가 빠르지 않아 생긴 일인거 같습니다. 일정을 지키며 퀄리티 있는 코드와 퀄리티 있는 UI/UX를 모두 구현할 수 있는 개발자가 되기 위해 노력해야겠습니다.&lt;/p&gt;
+&lt;h2 id=&quot;2-코드-리뷰-및-피드백&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-%ED%94%BC%EB%93%9C%EB%B0%B1&quot; aria-label=&quot;2 코드 리뷰 및 피드백 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 코드 리뷰 및 피드백&lt;/h2&gt;
+&lt;h2 id=&quot;2-1-semantic-tag&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-1-semantic-tag&quot; aria-label=&quot;2 1 semantic tag permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-1. semantic tag&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABUklEQVQoz4VS7W6DMAzk/Z9sP6ZKW1tpLVRru8IIJHyTOBByMzB10iZ1kU62E8u+sxMIKZEXBYqyhCxKNG0DKSKURQwaRsYAbcxiDVkYa2HHEYNzf8H3wRPtsKEDLvUVp+SAffmOTRrhOQ6xFUfsGK/cYK/OHEd4ESdsJed2McL6grD5wKm9IexuuFKGoLIdamrRkubOFiMcrPcw0wQz0gLrHTS/kWOWjN4S9EBsNcMsvuH3GcH5+IYsVxBphrpu0PcaVVnBaIP78Xh4/ORheRyeiQRKZkjiBKkQyHOep1SL33XdmsxJD4HVOlY0zQXJ1OhEAef+ofGb1b3ZT9OJmQbpZwKRZZCqQMlSJTOcrRAZiDc68uaI5RDxLDme7/zQAK67T8Lxho2htWCv9VIky3OWKxfZir/RbKuqQtO0SyzV2kgVFcYmwtRfvtmtUleGE74AlDlpuzZaxcEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;semantic&quot;
+        title=&quot;semantic&quot;
+        src=&quot;/static/b7a026b8c12acd085f78d6f9f6ffbc7b/c1b63/semantic.png&quot;
+        srcset=&quot;/static/b7a026b8c12acd085f78d6f9f6ffbc7b/5a46d/semantic.png 300w,
+/static/b7a026b8c12acd085f78d6f9f6ffbc7b/0a47e/semantic.png 600w,
+/static/b7a026b8c12acd085f78d6f9f6ffbc7b/c1b63/semantic.png 1200w,
+/static/b7a026b8c12acd085f78d6f9f6ffbc7b/5fc9a/semantic.png 1648w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;HTML 코드를 작성할 때 Semantic하게 작성해야 하는데 ‘Title’이라는 Component의 이름과 역할에 맞지 않는 태그를 사용한 부분이 있었습니다.&lt;/p&gt;
+&lt;p&gt;semantic한 web application을 만들기 위해 더 신경써야겠다고 다시 한번 생각 했습니다.&lt;/p&gt;
+&lt;h2 id=&quot;2-2-component&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-2-component&quot; aria-label=&quot;2 2 component permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-2. component&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABn0lEQVQoz5VRXXObMBDk//+yvPQlM+1DbcexsUEgxKeQhARsV3LiSTp9qWZ27m45rfaOTDsDoSREI1FUNUqpcBMCslFo+558A7M4uOD/idk5dOOIhr3Oe2SHLcdL+IlXd8TJCBxtjfdFILcl3omrr1BCodgJfMeTJ/JNYthnZCd++oHf+LWeUTqB83zDSee4hhpnW+Bs7jiRu/CRk76l/G2+4438Ybzg4kocxyvN3NC4HpmUvHQ5QLQSDcdu+w7d0EO2iiMsTyxxxL9qy1X4lWNbg1FPzAMyzx0o2aC4CwjusJZRuEHFPMa27RK6rmetoFTLuk2cZO+2bkhnf4TMBwszKRg14n/Pvu9PbNuWYmbmGUVR0F2VXMkPF0JUyYWxFpo9WmvGBdosGPlXnVuewuu6pjoJRsLyUlmKBPkxbl3XqIjIxTWUosbYHGGGnMIG3n8K7t8cZ27x6IcRXT/QxYzZGEyTTq4muprIGRNdWgQrsfsuScQRA52t3GFECI88G8YJiqNF4W3bsbIxxq94cLzE/fuVCIFYk8gnUs0H/gC9TwGAJvrHhQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;component&quot;
+        title=&quot;component&quot;
+        src=&quot;/static/a50da1d0578f0014526b500d312fe302/c1b63/component.png&quot;
+        srcset=&quot;/static/a50da1d0578f0014526b500d312fe302/5a46d/component.png 300w,
+/static/a50da1d0578f0014526b500d312fe302/0a47e/component.png 600w,
+/static/a50da1d0578f0014526b500d312fe302/c1b63/component.png 1200w,
+/static/a50da1d0578f0014526b500d312fe302/569c6/component.png 1674w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이번 미션을 진행 하면서 마음에 걸렸던 부분이 몇 군데 있었습니다. 어느정도 예상은 했었지만 리뷰를 받고 확신이 들었습니다.&lt;/p&gt;
+&lt;p&gt;유연하지 못한 Button Component 때문에 비슷한 코드를 중복적으로 작성하고 있었고, props로 함수를 넘겨 처리하는 과정 또한 문제가 있었습니다.&lt;/p&gt;
+&lt;p&gt;기존에 유연하지 못 했던 Button Component를 다음과 같이 개선하였습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ButtonProps&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ButtonHTMLAttributes&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;HTMLButtonElement&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  bgColor&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;
+  hoverBgColor&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;
+  children&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ReactNode
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Button&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; className&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;props &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ButtonProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;
+      &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;rounded focus:outline-none &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;bgColor&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt; hover:&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;hoverBgColor&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;className&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token spread&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+Button&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;defaultProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  bgColor&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;bg-red-300&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  hoverBgColor&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;bg-red-400&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Button Component에게 기본적으로 사용할 Style만 제공하고 말랑말랑하게 만들어 전체 코드에서 사용할 수 있도록 개선하였습니다. 기존 작성했던 Button Component는 너무 많은 일을 하게 하려는 욕심 때문에 유연하게 사용하지 못 했었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 21.999999999999996%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAq0lEQVQY022OgQ6DIAxE/f+PXOY2EbGgojDA4Q2rS5ZsTR5XrldCNYwWl+sN9UOAzIiODEzxQnrhGVNh/Uso+JAgleY93in5yjmHRrSQsoP3HimtiGUQYmQ9iCenn4qGyNmcty8yKjsvuDcCopVQPUGbAaQNOqVguNfoi0+k+a5Uj2EY0RPBWou9tm3bD9bKLR1m/4SdBSxNmGqJ9YiBc/itj7c/kE+4L798AxANNcHCpHRnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;think&quot;
+        title=&quot;think&quot;
+        src=&quot;/static/7131d14df9947fe424f8b458eaeecb0b/c1b63/think.png&quot;
+        srcset=&quot;/static/7131d14df9947fe424f8b458eaeecb0b/5a46d/think.png 300w,
+/static/7131d14df9947fe424f8b458eaeecb0b/0a47e/think.png 600w,
+/static/7131d14df9947fe424f8b458eaeecb0b/c1b63/think.png 1200w,
+/static/7131d14df9947fe424f8b458eaeecb0b/a2792/think.png 1462w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;리뷰어님이 merge를 해주시면서 남겨주신 피드백처럼 앞으로 추상화 레벨이 높은 컴포넌트들은 재사용성을 중점으로 고려하며 작성하기 위해 노력해야겠습니다.&lt;/p&gt;
+&lt;h2 id=&quot;3-데모&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EB%8D%B0%EB%AA%A8&quot; aria-label=&quot;3 데모 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 데모&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/0fad0dd4fd7955376bba1a9cf68fb62a/demo.gif&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-링크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EB%A7%81%ED%81%AC&quot; aria-label=&quot;4 링크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 링크&lt;/h2&gt;
+&lt;h3 id=&quot;4-1-step1-링크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-1-step1-%EB%A7%81%ED%81%AC&quot; aria-label=&quot;4 1 step1 링크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4-1. step1 링크&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/react-subway-map/tree/step1&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/react-subway-map/pull/24&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;4-2-step2-링크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-2-step2-%EB%A7%81%ED%81%AC%1E&quot; aria-label=&quot;4 2 step2 링크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4-2. step2 링크&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/yujo11/react-subway-map/tree/step2&quot;&gt;전체 코드 링크&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woowacourse/react-subway-map/pull/32&quot;&gt;PR 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Parcel로 간단하게 React + TypeScript 프로젝트 세팅하기 (feat. eslint, Tailwind)]]></title><description><![CDATA[📝 description Parcel을 사용해 React + TypeScript 프로젝트를 세팅하는 방법을 정리하는 글입니다. 제가 좋아하는 Tailwind를 세팅하는 법까지 추가로 정리했습니다. Parcel…]]></description><link>https://yujo11.github.io/React/Parcel로 간단하게 React + TypeScript 프로젝트 세팅하기 (feat. eslint, Tailwind)/</link><guid isPermaLink="false">https://yujo11.github.io/React/Parcel로 간단하게 React + TypeScript 프로젝트 세팅하기 (feat. eslint, Tailwind)/</guid><pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;-description&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-description&quot; aria-label=&quot; description permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📝 description&lt;/h2&gt;
 &lt;p&gt;Parcel을 사용해 React + TypeScript 프로젝트를 세팅하는 방법을 정리하는 글입니다.&lt;/p&gt;
 &lt;p&gt;제가 좋아하는 Tailwind를 세팅하는 법까지 추가로 정리했습니다.&lt;/p&gt;
 &lt;p&gt;Parcel에 대한 정보는 아래 링크를 통해 확인하실 수 있습니다.&lt;/p&gt;
