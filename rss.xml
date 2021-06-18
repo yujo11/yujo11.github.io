@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Jun 2021 17:39:18 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨2 React Subway Map 후기]]></title><description><![CDATA[📝 요구사항 🚀 step1 👨‍👩‍👧‍👦 협업 요구사항 백엔드 페어와 협업을 위해 필요한 사항들을 논의합니다. step1에서 사용할 API의 배포 일정, 이후 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</guid><pubDate>Wed, 09 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 18 Jun 2021 04:47:21 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨2 React Subway Map 후기]]></title><description><![CDATA[📝 요구사항 🚀 step1 👨‍👩‍👧‍👦 협업 요구사항 백엔드 페어와 협업을 위해 필요한 사항들을 논의합니다. step1에서 사용할 API의 배포 일정, 이후 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</guid><pubDate>Wed, 09 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
   &lt;img width=&quot;200px;&quot; src=&quot;https://github.com/yujo11/javascript-subway/raw/step1-component/src/images/subway_emoji.png&quot;&gt;
 &lt;/p&gt;
 &lt;h2 align=&quot;middle&quot;&gt;Level2 - 지하철 노선도&lt;/h2&gt;
@@ -20,7 +20,7 @@
 &lt;li&gt;레벨 1에서 구현했던 기능들을 React로 다시 구현해보는 작업입니다. 레벨 1에서 개발했던 어플리케이션을 다시 확인해보세요.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;details&gt;
-&lt;summary&gt; &lt;b&gt; step1 요구사항 정의 &lt;/b&gt;  &lt;/summary&gt;
+&lt;summary&gt; &lt;b&gt; (클릭)step1 요구사항 정의 &lt;/b&gt;  &lt;/summary&gt;
 &lt;div markdown=&quot;1&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -87,7 +87,7 @@
 &lt;li&gt;추가 기능을 위한 UI는 직접 설계하고 만듭니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;details&gt;
-&lt;summary&gt; &lt;b&gt; step2 요구사항 정의 &lt;/b&gt;  &lt;/summary&gt;
+&lt;summary&gt; &lt;b&gt; (클릭)step2 요구사항 정의 &lt;/b&gt;  &lt;/summary&gt;
 &lt;div markdown=&quot;1&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
