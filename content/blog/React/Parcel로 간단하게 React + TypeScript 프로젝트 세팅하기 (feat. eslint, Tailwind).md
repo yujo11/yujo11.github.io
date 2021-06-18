@@ -1,5 +1,5 @@
 ---
-title: 'Parcel로 간단하게 React + TypeScript 프로젝트 세팅하기 (feat. eslint, Tailwind)'
+title: 'Parcel로 간단하게 React + TypeScript + Tailwind 프로젝트 세팅하기'
 date: 2021-06-07
 category: 'React'
 draft: false
@@ -60,7 +60,7 @@ yarn add react react-dom
     "target": "es5",
     "module": "esnext",
     "lib": ["ESNext", "DOM"],
-    "jsx": "react",
+    "jsx": "react-jsxdev",
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "node",

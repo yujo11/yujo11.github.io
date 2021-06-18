@@ -30,7 +30,7 @@ draft: false
 - 레벨 1에서 구현했던 기능들을 React로 다시 구현해보는 작업입니다. 레벨 1에서 개발했던 어플리케이션을 다시 확인해보세요.
 
 <details>
-<summary> <b> step1 요구사항 정의 </b>  </summary>
+<summary> <b> (클릭)step1 요구사항 정의 </b>  </summary>
 <div markdown="1">
 
 - 메인 페이지
@@ -88,7 +88,7 @@ draft: false
 - 추가 기능을 위한 UI는 직접 설계하고 만듭니다.
 
 <details>
-<summary> <b> step2 요구사항 정의 </b>  </summary>
+<summary> <b> (클릭)step2 요구사항 정의 </b>  </summary>
 <div markdown="1">
 
 - 전체 보기 페이지
