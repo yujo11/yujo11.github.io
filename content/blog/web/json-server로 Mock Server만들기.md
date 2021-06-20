@@ -1,5 +1,5 @@
 ---
-title: 'JSON server로 간단하게 Mock Server 만들기'
+title: 'json-server로 간단하게 Mock Server 만들어서 사용하기'
 date: 2021-06-19 09:03:18
 category: 'web'
 draft: false
@@ -23,6 +23,9 @@ yarn add -D json-server
 
 ### 1-2. script 추가
 
+- `--watch {target}` : {target}을 DB로 사용합니다.
+- `--port {port number}` : {port number}를 sever로 사용합니다.
+
 ```json
 "scripts": {
     "server": "json-server --watch db.json --port 3003"
@@ -36,8 +39,6 @@ yarn server
 ```
 
 ![](./images/json-server/json-run.png)
-
----
 
 ## 2. json-server example app
 
@@ -158,8 +159,7 @@ function useSelector() {
 
 새로운 글을 등록해보겠습니다.
 
-![](./images/json-server/ex2.png)
-![](./images/json-server/ex3.png)
+![](./images/json-server/post.gif)
 
 새로운 글이 잘 등록되었습니다. `db.json` 파일을 확인해보면 `db.json` 파일에도 데이터가 잘 추가된 것을 확인할 수 있습니다.
 
