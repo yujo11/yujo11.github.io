@@ -74,6 +74,10 @@
 <h3 id="1-1-json-server-package-설치" style="position:relative;"><a href="#1-1-json-server-package-%EC%84%A4%EC%B9%98" aria-label="1 1 json server package 설치 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-1. json-server package 설치</h3>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">yarn</span> <span class="token function">add</span> -D json-server</code></pre></div>
 <h3 id="1-2-script-추가" style="position:relative;"><a href="#1-2-script-%EC%B6%94%EA%B0%80" aria-label="1 2 script 추가 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-2. script 추가</h3>
+<ul>
+<li><code class="language-text">--watch {target}</code> : {target}을 DB로 사용합니다.</li>
+<li><code class="language-text">--port {port number}</code> : {port number}를 sever로 사용합니다.</li>
+</ul>
 <div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
     <span class="token property">"server"</span><span class="token operator">:</span> <span class="token string">"json-server --watch db.json --port 3003"</span>
 <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
@@ -234,17 +238,17 @@
     >
       <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 69.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAABvUlEQVQ4y41U167CMAy9//8j8IgE/AVbSJRZZillqKyOdPj6WE0oEndEOjh27WPHTvjK85z00nstHcehxWJBm82G9vs9rddrQZqm9Gkh7gsbpRSFYWiMmtD3fTqfz3S5XGR/PB7pdDpRkiSUZZkQa+gYIUTAZDKh3W4nFWy3W5HQkQgESKolbGUEQWAKEsL77UYOBz/ud7pyJWUEzyeFHCBBPwA+cRy/CK9MZM1mfCSPYj5Kxra0QFLIrNh/gmKESr0I1eNBATc/sG0Kl8s3RIwrJ/OnU6O/YbWS2JB7bQhzVpJGg5JmU6QqAbpbrZJTqVBcr7991zGqVqOMSYVQpkq/L8fzyOar89cy1wZ3zRqNaMqTxvXAJOMooogBiaHduc/QMZyIJ4q94kFgGNrXHFlf4BX3A7IM2IAl92s+n9OIE8MOHbC579BRiCG0LIva7TZ1Oh3q9XoiW62WAHq32xUJfTAYiO9wOBS/fr8v+owHJ0fGD14AqkA2/byQFTocpzxhVAcJaNt4PBY7/MBhKoQB2eCAFwOJqhHouq4Ab/lwOMje4yEBsOGd6/6ZoaCxYdFoDeiquKz/Wfo/4BsNSiGESimPEAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    style="padding-bottom: 69.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9klEQVQ4y42T627iQAyFef8H6e6/SqUvsSvuoiLcEhIgBBJouGVIQuasz5DQUlW7O9KHxx6Px7FNTWuNaukv0vd92I6D+WKBVRDAm88N12uB7xbv1bjJwjXU0gMO79DvW+h4Cwix52BrT7BzpohdB+F0hEjIozWKXYjrnQg6DIBrfgu4s8cYvfWxlEw8d4aF5xm5lGzU+Yw8TZFdLjcpqORs7BVJkkAFSyDPbgGPkp0vQU6nE/Zx/EDCS3LBXLqjoFQJz+SxNNp8BNwvXFhDC2EUIS0KsELXkryURbn/jkxQDJilZQ0XHpLGLySdFlT3kYuwb/5GLOeV/kgbSbsBNXyTruhbQL3dIq/Xkb++CnVk9Q9oD37+gP/0hPTlxeifz3gne35GIdPAVePYaPx9+ZsNHGnQv5auMrRtG9ZggPFohFgakWUZUin0hcUWjocDjsej0dmcizSDe3Y8JaUvqjk0AyxBXdc18jO0kdlshul0ioE8TDt14sinUmci94CWZaHZbKLVaqHT6RjZaDQM1NvttpHUe72e8e33+8av2+0afTKZ3D6ZP2EYmiz4msehFvgqdTqOx2OTHSWpbMPh0Njpxxj3DGnga3QYSR0pmTUvBvIfJqvVCuv12uw30iRC21yaVdXv3hQWVpWFrqDO5vzvMtMi/AHXlBuwDYo05wAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
         alt="ex2"
         title="ex2"
-        src="/static/1246b9d07dafa7dcef0a66a5a1282b83/c1b63/ex2.png"
-        srcset="/static/1246b9d07dafa7dcef0a66a5a1282b83/5a46d/ex2.png 300w,
-/static/1246b9d07dafa7dcef0a66a5a1282b83/0a47e/ex2.png 600w,
-/static/1246b9d07dafa7dcef0a66a5a1282b83/c1b63/ex2.png 1200w,
-/static/1246b9d07dafa7dcef0a66a5a1282b83/45662/ex2.png 1410w"
+        src="/static/b37a048d1715656d44cbfcb0d32869b8/c1b63/ex2.png"
+        srcset="/static/b37a048d1715656d44cbfcb0d32869b8/5a46d/ex2.png 300w,
+/static/b37a048d1715656d44cbfcb0d32869b8/0a47e/ex2.png 600w,
+/static/b37a048d1715656d44cbfcb0d32869b8/c1b63/ex2.png 1200w,
+/static/b37a048d1715656d44cbfcb0d32869b8/45662/ex2.png 1410w"
         sizes="(max-width: 1200px) 100vw, 1200px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -256,17 +260,17 @@
     >
       <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 77.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB0ElEQVQ4y5VU2W4bMQzM/39SnoLkIXDiE77t9R1fdX3vveudchhI3WydFhUwICVSI5IS9ZBlGb4bq9UK3W4Xw+EQ8/kco9EIvV4PURTd9SfXA5U4jrHf75GmKZIksQiCwCIMQ/i+D8/zvvgYcC+HEtL5eDyqLJIUwejyPgQPorSEnKwlvYibSHQHwTfrCiFklr8JhciTsEOpQXC7ISyArgkzKdhVlzVf0nUZoalhylPKZYRvb4je3//A/uUFP56fEYg9Ltq57/UV8cfHZ4R6xxId6nWgWkUmDqlsTMWZuJHw6Qmrx0fEpZLO0zzoL4SZlMym7MrNXSTKk9QiufMcjq4LZzrFP4dJebPZwJG3NpZ39nO3w/VyUXhCROler7icz6qfTyfVKWmnjeu+BGXfIR9tVdJtNptoNBqoVCooSyqUdSkFbZS1Wg0lSdvM6UudfmwCS7iTqMbjsWI2m2EymajuOA6mkirBdXYMddo5Z+csFgv14zzLp9xut7XN+v2+bmSLEYPBQNeJTqdjfShbrZZKHnKWMthL2W63SsgTCUZnojmxZlIjI/MgyeFw0Nb70svr9dqSmXSN5NrfPpD8x2Aj5MewXC7hyq0Z4//C7PsFrm9wRCkFPEUAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    style="padding-bottom: 77.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACDUlEQVQ4y5VU2XLiQAzM/39SnlLJQwrCGYIN+MDcDreNb2z3qofgJGxSW+uqLmmknkaaGXFXliV++5bLJXRdh2EYmE6nsCwLg8EAaZr+yKfWHZ0sy7Db7ZDnOc7nc4U4jiskSYIoihCG4TfOFdzLTwmSfDgclL0VuQWr+8oh+EO0lSAXK2kv5SYK/YD4l7iCCLLLT0ERCqXsRM4gLgokNyD1zE5u8sqXWCTtBqzweoY5f6XRQFKvI315+Qu7pyesHx8RSz67zXPf8zOy+fxSobpjqQ6dDtBqoRRCLhtzIRMFBR8esLy/R1arqXX+FeSLYClHVrUcyM35UuVRzuL8w3M4BAFMx8E/v2vLruvClLdmyzvbbjY4+b5CKEK0wekE3/OU7x2PyqdlnjnGIymqeod8tC1pt9frodvtotlsoiGt0HbkKJijbbfbqEnb1zW59MnjEFSCG6nKtm1V4WQywZi+wDRNONKq44xVnBPD9Xgsa7GcnJkUQx7zHLpLy+s1+jJi+nCIoWHC4IiNRgIDIyEzTmgD2pFwDLV+0zToEnOmM3ie/3kp77Mp+o06rLeegt3vwXjtwNH7OK4W8N9XH9ZVvrJrF567xH4xx9k/AkWOUgmKs9JeYWl9WCI01jXY4l8tY2UUysDLH0KafEeWXOKxXMhhK6IFBQvsrBEWEwfBfquIZRL/N3DcoxStPyfqbOYl/mEWAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
         alt="ex3"
         title="ex3"
-        src="/static/1a1c92077ccb7518f38dd84f18f2fa8d/c1b63/ex3.png"
-        srcset="/static/1a1c92077ccb7518f38dd84f18f2fa8d/5a46d/ex3.png 300w,
-/static/1a1c92077ccb7518f38dd84f18f2fa8d/0a47e/ex3.png 600w,
-/static/1a1c92077ccb7518f38dd84f18f2fa8d/c1b63/ex3.png 1200w,
-/static/1a1c92077ccb7518f38dd84f18f2fa8d/cf8e5/ex3.png 1402w"
+        src="/static/b94c9940a82d9b3389a35e76cb2598f8/c1b63/ex3.png"
+        srcset="/static/b94c9940a82d9b3389a35e76cb2598f8/5a46d/ex3.png 300w,
+/static/b94c9940a82d9b3389a35e76cb2598f8/0a47e/ex3.png 600w,
+/static/b94c9940a82d9b3389a35e76cb2598f8/c1b63/ex3.png 1200w,
+/static/b94c9940a82d9b3389a35e76cb2598f8/cf8e5/ex3.png 1402w"
         sizes="(max-width: 1200px) 100vw, 1200px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"

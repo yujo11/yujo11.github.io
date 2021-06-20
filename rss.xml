@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 20 Jun 2021 09:06:15 GMT</lastBuildDate><item><title><![CDATA[json-server로 간단하게 Mock Server 만들어서 사용하기]]></title><description><![CDATA[1. json-server로 Mock Server 만들기 프론트엔드 개발을 하다보면, Mock Server가 필요한 순간들이 종종 생깁니다. Recoil과 같은 상태관리 라이브러리를 새로 도입하기 위해 Test할 때도, Project…]]></description><link>https://yujo11.github.io/web/json-server로 Mock Server만들기/</link><guid isPermaLink="false">https://yujo11.github.io/web/json-server로 Mock Server만들기/</guid><pubDate>Sat, 19 Jun 2021 09:03:18 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-json-server로-mock-server-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-json-server%EB%A1%9C-mock-server-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;1 json server로 mock server 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. json-server로 Mock Server 만들기&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 20 Jun 2021 11:16:15 GMT</lastBuildDate><item><title><![CDATA[json-server로 간단하게 Mock Server 만들어서 사용하기]]></title><description><![CDATA[1. json-server로 Mock Server 만들기 프론트엔드 개발을 하다보면, Mock Server가 필요한 순간들이 종종 생깁니다. Recoil과 같은 상태관리 라이브러리를 새로 도입하기 위해 Test할 때도, Project…]]></description><link>https://yujo11.github.io/web/json-server로 Mock Server만들기/</link><guid isPermaLink="false">https://yujo11.github.io/web/json-server로 Mock Server만들기/</guid><pubDate>Sat, 19 Jun 2021 09:03:18 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-json-server로-mock-server-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-json-server%EB%A1%9C-mock-server-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;1 json server로 mock server 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. json-server로 Mock Server 만들기&lt;/h2&gt;
 &lt;p&gt;프론트엔드 개발을 하다보면, Mock Server가 필요한 순간들이 종종 생깁니다.&lt;/p&gt;
 &lt;p&gt;Recoil과 같은 상태관리 라이브러리를 새로 도입하기 위해 Test할 때도, Project를 진행하는 중 API 명세만 나와있는 경우 등이 그렇습니다.&lt;/p&gt;
 &lt;p&gt;이번에는 JSON server를 통해 간단하고 빠르게 Mock Server 만드는 방법을 다뤄보겠습니다.&lt;/p&gt;
@@ -8,6 +8,10 @@
 &lt;h3 id=&quot;1-1-json-server-package-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-1-json-server-package-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;1 1 json server package 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-1. json-server package 설치&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; -D json-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&quot;1-2-script-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-2-script-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;1 2 script 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-2. script 추가&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--watch {target}&lt;/code&gt; : {target}을 DB로 사용합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--port {port number}&lt;/code&gt; : {port number}를 sever로 사용합니다.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token property&quot;&gt;&quot;server&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;json-server --watch db.json --port 3003&quot;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -168,17 +172,17 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 69.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAABvUlEQVQ4y41U167CMAy9//8j8IgE/AVbSJRZZillqKyOdPj6WE0oEndEOjh27WPHTvjK85z00nstHcehxWJBm82G9vs9rddrQZqm9Gkh7gsbpRSFYWiMmtD3fTqfz3S5XGR/PB7pdDpRkiSUZZkQa+gYIUTAZDKh3W4nFWy3W5HQkQgESKolbGUEQWAKEsL77UYOBz/ud7pyJWUEzyeFHCBBPwA+cRy/CK9MZM1mfCSPYj5Kxra0QFLIrNh/gmKESr0I1eNBATc/sG0Kl8s3RIwrJ/OnU6O/YbWS2JB7bQhzVpJGg5JmU6QqAbpbrZJTqVBcr7991zGqVqOMSYVQpkq/L8fzyOar89cy1wZ3zRqNaMqTxvXAJOMooogBiaHduc/QMZyIJ4q94kFgGNrXHFlf4BX3A7IM2IAl92s+n9OIE8MOHbC579BRiCG0LIva7TZ1Oh3q9XoiW62WAHq32xUJfTAYiO9wOBS/fr8v+owHJ0fGD14AqkA2/byQFTocpzxhVAcJaNt4PBY7/MBhKoQB2eCAFwOJqhHouq4Ab/lwOMje4yEBsOGd6/6ZoaCxYdFoDeiquKz/Wfo/4BsNSiGESimPEAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 69.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9klEQVQ4y42T627iQAyFef8H6e6/SqUvsSvuoiLcEhIgBBJouGVIQuasz5DQUlW7O9KHxx6Px7FNTWuNaukv0vd92I6D+WKBVRDAm88N12uB7xbv1bjJwjXU0gMO79DvW+h4Cwix52BrT7BzpohdB+F0hEjIozWKXYjrnQg6DIBrfgu4s8cYvfWxlEw8d4aF5xm5lGzU+Yw8TZFdLjcpqORs7BVJkkAFSyDPbgGPkp0vQU6nE/Zx/EDCS3LBXLqjoFQJz+SxNNp8BNwvXFhDC2EUIS0KsELXkryURbn/jkxQDJilZQ0XHpLGLySdFlT3kYuwb/5GLOeV/kgbSbsBNXyTruhbQL3dIq/Xkb++CnVk9Q9oD37+gP/0hPTlxeifz3gne35GIdPAVePYaPx9+ZsNHGnQv5auMrRtG9ZggPFohFgakWUZUin0hcUWjocDjsej0dmcizSDe3Y8JaUvqjk0AyxBXdc18jO0kdlshul0ioE8TDt14sinUmci94CWZaHZbKLVaqHT6RjZaDQM1NvttpHUe72e8e33+8av2+0afTKZ3D6ZP2EYmiz4msehFvgqdTqOx2OTHSWpbMPh0Njpxxj3DGnga3QYSR0pmTUvBvIfJqvVCuv12uw30iRC21yaVdXv3hQWVpWFrqDO5vzvMtMi/AHXlBuwDYo05wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ex2&quot;
         title=&quot;ex2&quot;
-        src=&quot;/static/1246b9d07dafa7dcef0a66a5a1282b83/c1b63/ex2.png&quot;
-        srcset=&quot;/static/1246b9d07dafa7dcef0a66a5a1282b83/5a46d/ex2.png 300w,
-/static/1246b9d07dafa7dcef0a66a5a1282b83/0a47e/ex2.png 600w,
-/static/1246b9d07dafa7dcef0a66a5a1282b83/c1b63/ex2.png 1200w,
-/static/1246b9d07dafa7dcef0a66a5a1282b83/45662/ex2.png 1410w&quot;
+        src=&quot;/static/b37a048d1715656d44cbfcb0d32869b8/c1b63/ex2.png&quot;
+        srcset=&quot;/static/b37a048d1715656d44cbfcb0d32869b8/5a46d/ex2.png 300w,
+/static/b37a048d1715656d44cbfcb0d32869b8/0a47e/ex2.png 600w,
+/static/b37a048d1715656d44cbfcb0d32869b8/c1b63/ex2.png 1200w,
+/static/b37a048d1715656d44cbfcb0d32869b8/45662/ex2.png 1410w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -190,17 +194,17 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 77.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB0ElEQVQ4y5VU2W4bMQzM/39SnoLkIXDiE77t9R1fdX3vveudchhI3WydFhUwICVSI5IS9ZBlGb4bq9UK3W4Xw+EQ8/kco9EIvV4PURTd9SfXA5U4jrHf75GmKZIksQiCwCIMQ/i+D8/zvvgYcC+HEtL5eDyqLJIUwejyPgQPorSEnKwlvYibSHQHwTfrCiFklr8JhciTsEOpQXC7ISyArgkzKdhVlzVf0nUZoalhylPKZYRvb4je3//A/uUFP56fEYg9Ltq57/UV8cfHZ4R6xxId6nWgWkUmDqlsTMWZuJHw6Qmrx0fEpZLO0zzoL4SZlMym7MrNXSTKk9QiufMcjq4LZzrFP4dJebPZwJG3NpZ39nO3w/VyUXhCROler7icz6qfTyfVKWmnjeu+BGXfIR9tVdJtNptoNBqoVCooSyqUdSkFbZS1Wg0lSdvM6UudfmwCS7iTqMbjsWI2m2EymajuOA6mkirBdXYMddo5Z+csFgv14zzLp9xut7XN+v2+bmSLEYPBQNeJTqdjfShbrZZKHnKWMthL2W63SsgTCUZnojmxZlIjI/MgyeFw0Nb70svr9dqSmXSN5NrfPpD8x2Aj5MewXC7hyq0Z4//C7PsFrm9wRCkFPEUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 77.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACDUlEQVQ4y5VU2XLiQAzM/39SnlLJQwrCGYIN+MDcDreNb2z3qofgJGxSW+uqLmmknkaaGXFXliV++5bLJXRdh2EYmE6nsCwLg8EAaZr+yKfWHZ0sy7Db7ZDnOc7nc4U4jiskSYIoihCG4TfOFdzLTwmSfDgclL0VuQWr+8oh+EO0lSAXK2kv5SYK/YD4l7iCCLLLT0ERCqXsRM4gLgokNyD1zE5u8sqXWCTtBqzweoY5f6XRQFKvI315+Qu7pyesHx8RSz67zXPf8zOy+fxSobpjqQ6dDtBqoRRCLhtzIRMFBR8esLy/R1arqXX+FeSLYClHVrUcyM35UuVRzuL8w3M4BAFMx8E/v2vLruvClLdmyzvbbjY4+b5CKEK0wekE3/OU7x2PyqdlnjnGIymqeod8tC1pt9frodvtotlsoiGt0HbkKJijbbfbqEnb1zW59MnjEFSCG6nKtm1V4WQywZi+wDRNONKq44xVnBPD9Xgsa7GcnJkUQx7zHLpLy+s1+jJi+nCIoWHC4IiNRgIDIyEzTmgD2pFwDLV+0zToEnOmM3ie/3kp77Mp+o06rLeegt3vwXjtwNH7OK4W8N9XH9ZVvrJrF567xH4xx9k/AkWOUgmKs9JeYWl9WCI01jXY4l8tY2UUysDLH0KafEeWXOKxXMhhK6IFBQvsrBEWEwfBfquIZRL/N3DcoxStPyfqbOYl/mEWAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ex3&quot;
         title=&quot;ex3&quot;
-        src=&quot;/static/1a1c92077ccb7518f38dd84f18f2fa8d/c1b63/ex3.png&quot;
-        srcset=&quot;/static/1a1c92077ccb7518f38dd84f18f2fa8d/5a46d/ex3.png 300w,
-/static/1a1c92077ccb7518f38dd84f18f2fa8d/0a47e/ex3.png 600w,
-/static/1a1c92077ccb7518f38dd84f18f2fa8d/c1b63/ex3.png 1200w,
-/static/1a1c92077ccb7518f38dd84f18f2fa8d/cf8e5/ex3.png 1402w&quot;
+        src=&quot;/static/b94c9940a82d9b3389a35e76cb2598f8/c1b63/ex3.png&quot;
+        srcset=&quot;/static/b94c9940a82d9b3389a35e76cb2598f8/5a46d/ex3.png 300w,
+/static/b94c9940a82d9b3389a35e76cb2598f8/0a47e/ex3.png 600w,
+/static/b94c9940a82d9b3389a35e76cb2598f8/c1b63/ex3.png 1200w,
+/static/b94c9940a82d9b3389a35e76cb2598f8/cf8e5/ex3.png 1402w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -258,7 +262,32 @@
 &lt;ul&gt;
 &lt;li&gt;ref&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;3-custom-hook-custom-hook-vs-util&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-custom-hook-custom-hook-vs-util&quot; aria-label=&quot;3 custom hook custom hook vs util permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Custom Hook, (Custom Hook VS Util)&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨2 학습로그(1) - Virtual DOM, JSX, Component]]></title><description><![CDATA[1. Virtual DOM DOM(Document Object Model - 문서 객체 모델) DOM은 웹 페이지에 대한 인터페이스다. 문서의 구조화된 표현을 제공하며 프로그래밍 언어가 DOM…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(1)/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(1)/</guid><pubDate>Fri, 18 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;h3 id=&quot;3-custom-hook-custom-hook-vs-util&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-custom-hook-custom-hook-vs-util&quot; aria-label=&quot;3 custom hook custom hook vs util permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Custom Hook, (Custom Hook VS Util)&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨2 학습로그(3) - Context API, Redux, Redux Thunk, Redux Toolkit]]></title><description><![CDATA[1. Context API 2. Redux 3. Redux Thunk 4. Redux Toolkit]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(3)/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(3)/</guid><pubDate>Fri, 18 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAACC0lEQVQoz12RXUiTURzGve/Giy7LGzOwtsrsoigqiAYayAo3t7lNUbMtMWZZhMVkSetrrcxaUVORKIyiwqWTNaPSm76EKChGVJgz+piwd5tjue3X3tlbWw8cnnMO5/z+z/mfgnQ6jSjJRcXjcQRBIJlM5u1L+hkKEZyeJvT9B59nvjGVGdHMeVEFEky6GIlEiMVieUWmPnzk1DkXVkc31wdu8jU4w5dgEPejUez3uum84eDxm9f5QCnZ3Nxcdp5KpbIenp1FYzlI9SEL7SePsrqqkks9VxiefE6XbRfe4xvp0Mmpd57gV4ZTIMHE54nppALiWtSI14fa3MhYfzee811YrYepUmvpcJ6hSV3GMU05Vw8oaGvT8S4Q+Aecn5//my4X6HngpcWoYcR1Gud+M7Z2C0pVNbc8IzQ3KRg9q8du2MKgqYo+e0N+QuFPY3PbEA4L7NbqOFJTSa/FiGZzOQ7nBYTABHu2LeFyZyv7GlRslRWzqaJ4AZjbw3A4TCKRyCYW9fLVJObmFhr19ZiMBnZsV+DuHeB+n4Na/VJMjjr0tp2sVcopLCpc+JTcRGLSaDSadb/PR4/rGkO+Jwz7x/E8HOf2kI/Bu16a9pqQ15SwwbwSuaqEMu0KSiuW5Sf83/vdbi5mgP6nz3gx+Zb3gU/cyQCHxyYwaGtZXLSI9XWrWKeTsUZViky5nN+6pDy/aDtodgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;woowa&quot;
+        title=&quot;woowa&quot;
+        src=&quot;/static/f53d597a0397bb2ffb2b277e9edaced2/c1b63/woowa.png&quot;
+        srcset=&quot;/static/f53d597a0397bb2ffb2b277e9edaced2/5a46d/woowa.png 300w,
+/static/f53d597a0397bb2ffb2b277e9edaced2/0a47e/woowa.png 600w,
+/static/f53d597a0397bb2ffb2b277e9edaced2/c1b63/woowa.png 1200w,
+/static/f53d597a0397bb2ffb2b277e9edaced2/2a333/woowa.png 1484w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-context-api&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-context-api&quot; aria-label=&quot;1 context api permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Context API&lt;/h3&gt;
+&lt;h3 id=&quot;2-redux&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-redux&quot; aria-label=&quot;2 redux permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Redux&lt;/h3&gt;
+&lt;h3 id=&quot;3-redux-thunk&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-redux-thunk&quot; aria-label=&quot;3 redux thunk permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Redux Thunk&lt;/h3&gt;
+&lt;h3 id=&quot;4-redux-toolkit&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-redux-toolkit&quot; aria-label=&quot;4 redux toolkit permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Redux Toolkit&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨2 학습로그(1) - Virtual DOM, JSX, Component]]></title><description><![CDATA[1. Virtual DOM DOM(Document Object Model - 문서 객체 모델) DOM은 웹 페이지에 대한 인터페이스다. 문서의 구조화된 표현을 제공하며 프로그래밍 언어가 DOM…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(1)/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(1)/</guid><pubDate>Fri, 18 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
@@ -286,26 +315,53 @@
 &lt;p&gt;DOM(Document Object Model - 문서 객체 모델)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;DOM은 웹 페이지에 대한 인터페이스다. 문서의 구조화된 표현을 제공하며 프로그래밍 언어가 DOM 구조에 접근할 수 있는 방법을 제공하여 문서 구조, 스타일, 내용을 변경할 수 있게 돕는다.&lt;/li&gt;
-&lt;li&gt;-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Virtual DOM&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VDOM(Virtual DOM)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Virtual DOM (VDOM)은 UI의 이상적인 또는 “가상”적인 표현을 메모리에 저장하고 ReactDOM과 같은 라이브러리에 의해 “실제” DOM과 동기화하는 프로그래밍 개념. 이 과정을 재조정이라고 한다.&lt;/li&gt;
+&lt;li&gt;이 접근방식이 React의 선언적 API를 가능하게 한다. React에게 원하는 UI의 상태를 알려주면 DOM이 그 상태와 일치하도록 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Diffing Alogorithm&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Virtual DOM이 업데이트 되면, React는 Virtual DOM을 업데이트 이전의 Virtual DOM 스냅샷과 비교하여 정확히 어떤 Virtual DOM이 바뀌었는지 검사한다.&lt;/li&gt;
+&lt;li&gt;두 개의 트리를 비교할 때, React는 두 엘리먼트의 루트(root) 엘리먼트부터 비교합니다. 이후의 동작은 루트 엘리먼트의 타입에 따라 달라집니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Virtual DOM은 항상 빠를까? NO&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;유저 인터랙션이 발생하지 않는 페이지에서는 일반 DOM의 성능이 더 좋을 수 있다. -&gt; SPA로 제작된 큰 규모의 웹 페이지에서는 Virtual DOM을 사용해서 브라우저의 연산을 줄여 성능을 개선할 수 있다.&lt;/li&gt;
+&lt;li&gt;Dan 트위터
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 595px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1klEQVQoz2WSaZLaMBCFuf9RkgPkBqkkEBbvNgbMAAa825IXDDMv3QJ7aio/PrpbLT09t5j0PzS8f59ipVv4NZvjz98FdNeH5QcKLzjApLg9hIiyAmGcIowSIsXpGqtctDdF1XSYsODHtyk008Hv+RIr04bheFjoJuaaoeB6aVjQbQ+zpQZvGyiht/CC4yVSQrLrlehE9HfI+wPBOcbudMUujFDW7bhh3ExwzjT9A+39Hd3jQyHafnQ5kfQjaSHNYiTJmbggy66vGEHKXCFE9oq56pdFgpz6nPN6XRcQTUMOWbC7o6ANlrlUONYKpjEnFrAp59p1NBj6HBvfRnjajRzefBT5FU2dkWA9CPbPm5MQokq+UJWxQoqUXEVomwL3XqK/CQXnt64iwfwpyJ/M86nrEseDT050eK6BtWcS1lgz/tpCsPOwD9YUXZUPMYlPNLr2JdiyYIXTcYvtxlGfxQw5C/EFHFl46O22rlrj+j/BpqmoaWI2/akO80HH1ka3Ns2W5/l0bpDg54XncI8sPUPyo4wOG0ED3pDLgNzmNKuS5lLQRa/Yls98gNdUv0Crel9emf42lURGcB7lparjokJSCsgbPZp3gNhf6VBLBjqK3WccIK1/UDgyYg/g9D0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;dan tweet&quot;
+        title=&quot;dan tweet&quot;
+        src=&quot;/static/05c6773e5b882251955436469dd753b0/3dd3e/dan-tweet.png&quot;
+        srcset=&quot;/static/05c6773e5b882251955436469dd753b0/5a46d/dan-tweet.png 300w,
+/static/05c6773e5b882251955436469dd753b0/3dd3e/dan-tweet.png 595w&quot;
+        sizes=&quot;(max-width: 595px) 100vw, 595px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;참고 문서&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://reactjs.org/docs/faq-internals.html&quot;&gt;Virtual DOM and Internals / REACT 공식 문서 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://reactjs.org/docs/faq-internals.html&quot;&gt;Virtual DOM and Internals / React 공식 문서 &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction&quot;&gt;Introduction to the DOM / MDN&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://poiemaweb.com/js-dom&quot;&gt;문서 객체 모델(Document Object Model) / poiemaweb&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PN_WmsgbQCo&quot;&gt;[10분 테코톡]지그의 Virtual DOM / Youtube&lt;/a&gt;&lt;/li&gt;
@@ -314,32 +370,67 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;2-jsx&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-jsx&quot; aria-label=&quot;2 jsx permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. JSX&lt;/h3&gt;
-&lt;h3 id=&quot;3-component&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-component&quot; aria-label=&quot;3 component permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Component&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨2 학습로그(3) - Context API, Redux, Redux Thunk, Redux Toolkit]]></title><description><![CDATA[1. Context API 2. Redux 3. Redux Thunk 4. Redux Toolkit]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(3)/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(3)/</guid><pubDate>Fri, 18 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 44.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAACC0lEQVQoz12RXUiTURzGve/Giy7LGzOwtsrsoigqiAYayAo3t7lNUbMtMWZZhMVkSetrrcxaUVORKIyiwqWTNaPSm76EKChGVJgz+piwd5tjue3X3tlbWw8cnnMO5/z+z/mfgnQ6jSjJRcXjcQRBIJlM5u1L+hkKEZyeJvT9B59nvjGVGdHMeVEFEky6GIlEiMVieUWmPnzk1DkXVkc31wdu8jU4w5dgEPejUez3uum84eDxm9f5QCnZ3Nxcdp5KpbIenp1FYzlI9SEL7SePsrqqkks9VxiefE6XbRfe4xvp0Mmpd57gV4ZTIMHE54nppALiWtSI14fa3MhYfzee811YrYepUmvpcJ6hSV3GMU05Vw8oaGvT8S4Q+Aecn5//my4X6HngpcWoYcR1Gud+M7Z2C0pVNbc8IzQ3KRg9q8du2MKgqYo+e0N+QuFPY3PbEA4L7NbqOFJTSa/FiGZzOQ7nBYTABHu2LeFyZyv7GlRslRWzqaJ4AZjbw3A4TCKRyCYW9fLVJObmFhr19ZiMBnZsV+DuHeB+n4Na/VJMjjr0tp2sVcopLCpc+JTcRGLSaDSadb/PR4/rGkO+Jwz7x/E8HOf2kI/Bu16a9pqQ15SwwbwSuaqEMu0KSiuW5Sf83/vdbi5mgP6nz3gx+Zb3gU/cyQCHxyYwaGtZXLSI9XWrWKeTsUZViky5nN+6pDy/aDtodgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;woowa&quot;
-        title=&quot;woowa&quot;
-        src=&quot;/static/f53d597a0397bb2ffb2b277e9edaced2/c1b63/woowa.png&quot;
-        srcset=&quot;/static/f53d597a0397bb2ffb2b277e9edaced2/5a46d/woowa.png 300w,
-/static/f53d597a0397bb2ffb2b277e9edaced2/0a47e/woowa.png 600w,
-/static/f53d597a0397bb2ffb2b277e9edaced2/c1b63/woowa.png 1200w,
-/static/f53d597a0397bb2ffb2b277e9edaced2/2a333/woowa.png 1484w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&quot;1-context-api&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-context-api&quot; aria-label=&quot;1 context api permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Context API&lt;/h3&gt;
-&lt;h3 id=&quot;2-redux&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-redux&quot; aria-label=&quot;2 redux permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Redux&lt;/h3&gt;
-&lt;h3 id=&quot;3-redux-thunk&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-redux-thunk&quot; aria-label=&quot;3 redux thunk permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Redux Thunk&lt;/h3&gt;
-&lt;h3 id=&quot;4-redux-toolkit&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-redux-toolkit&quot; aria-label=&quot;4 redux toolkit permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Redux Toolkit&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨2 React Subway Map 후기]]></title><description><![CDATA[📝 요구사항 🚀 step1 👨‍👩‍👧‍👦 협업 요구사항 백엔드 페어와 협업을 위해 필요한 사항들을 논의합니다. step1에서 사용할 API의 배포 일정, 이후 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</guid><pubDate>Wed, 09 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;JSX란?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JSX는 Javascript 언어 구문의 확장.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JSX는 표현식이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JSX를 컴파일하면 JSX 표현식이 자바스크립트의 함수를 호출한다.&lt;/li&gt;
+&lt;li&gt;따라서 if나 for 문 내에 JSX를 사용할 수 있고, 변수에 할당하거나 매개 변수로 전달하는 것 또한 가능하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;sayHello&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;hello &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JSX의 변환 과정&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;JSX 코드&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; element &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;greeting&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;Hello, world!&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;React.createElement로 변환&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; element &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&apos;h1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; className&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;greeting&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&apos;Hello, world!&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Object로 변환&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; element &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;h1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+props&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  className&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;greeting&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  children&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Hello, world&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;React에서는 반드시 JSX를 사용해야 하는가? NO&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React는 JSX 사용을 필수로 하지 않는다. 하지만 자바스크립트 코드 내부의 UI로 작업할 때 시각적으로 더 도움된다고 생각한다.&lt;/li&gt;
+&lt;li&gt;또한, React가 도움이 되는 에러 및 경고 메세지를 표시해준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;참고 문서&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ko.reactjs.org/docs/jsx-in-depth.html&quot;&gt;JSX 이해하기 / React 공식 문서&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;3-component&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-component&quot; aria-label=&quot;3 component permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Component&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[[우테코]레벨2 React Subway Map 후기]]></title><description><![CDATA[📝 요구사항 🚀 step1 👨‍👩‍👧‍👦 협업 요구사항 백엔드 페어와 협업을 위해 필요한 사항들을 논의합니다. step1에서 사용할 API의 배포 일정, 이후 step…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2 React Subway Map 후기/</guid><pubDate>Wed, 09 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;middle&quot;&gt;
   &lt;img width=&quot;200px;&quot; src=&quot;https://github.com/yujo11/javascript-subway/raw/step1-component/src/images/subway_emoji.png&quot;&gt;
 &lt;/p&gt;
 &lt;h2 align=&quot;middle&quot;&gt;Level2 - 지하철 노선도&lt;/h2&gt;
