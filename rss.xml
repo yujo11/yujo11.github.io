@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 22 Jun 2021 06:18:20 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨2 학습로그]]></title><description><![CDATA[1. Virtual DOM DOM(Document Object Model - 문서 객체 모델) DOM은 웹 페이지에 대한 인터페이스다. 문서의 구조화된 표현을 제공하며 프로그래밍 언어가 DOM…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(1)/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(1)/</guid><pubDate>Tue, 22 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[yujolog]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://yujo11.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 22 Jun 2021 06:28:20 GMT</lastBuildDate><item><title><![CDATA[[우테코]레벨2 학습로그]]></title><description><![CDATA[1. Virtual DOM DOM(Document Object Model - 문서 객체 모델) DOM은 웹 페이지에 대한 인터페이스다. 문서의 구조화된 표현을 제공하며 프로그래밍 언어가 DOM…]]></description><link>https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(1)/</link><guid isPermaLink="false">https://yujo11.github.io/우아한테크코스/[우테코]레벨2-학습로그(1)/</guid><pubDate>Tue, 22 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
@@ -274,20 +274,47 @@ props&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=
 &lt;li&gt;
 &lt;p&gt;Redux Thunk 특징&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Redux에서 공식적으로 추천하는 Redux를 사용하는 방법.&lt;/li&gt;
+&lt;li&gt;currying을 이용한 미들웨어&lt;/li&gt;
+&lt;li&gt;간단한 코드&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Redux Thunk의 장점&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Redux 작업을 단순화 해준다.&lt;/li&gt;
+&lt;li&gt;Redux Thunk Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createThunkMiddleware&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;extraArgument&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; getState &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; action &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;function&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; getState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; extraArgument&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; thunk &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createThunkMiddleware&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+thunk&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;withExtraArgument &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; createThunkMiddleware
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; thunk&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;코드가 간단한만큼 사용이 간단하다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;10-redux-toolkit&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#10-redux-toolkit&quot; aria-label=&quot;10 redux toolkit permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;10. Redux Toolkit&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Redux Toolkit 특징&lt;/li&gt;
-&lt;li&gt;Redux Toolkit의 장점&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Redux Toolkit 특징&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redux에서 공식적으로 추천하는 Redux를 사용하는 방법.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Redux Toolkit의 장점&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;immer, thunk 등 Redux를 간단하게 사용할 수 있는 라이브러리들이 내장되어 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[json-server로 간단하게 Mock Server 만들어서 사용하기]]></title><description><![CDATA[1. json-server로 Mock Server 만들기 프론트엔드 개발을 하다보면, Mock Server가 필요한 순간들이 종종 생깁니다. Recoil과 같은 상태관리 라이브러리를 새로 도입하기 위해 Test할 때도, Project…]]></description><link>https://yujo11.github.io/web/json-server로 Mock Server만들기/</link><guid isPermaLink="false">https://yujo11.github.io/web/json-server로 Mock Server만들기/</guid><pubDate>Sat, 19 Jun 2021 09:03:18 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-json-server로-mock-server-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-json-server%EB%A1%9C-mock-server-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;1 json server로 mock server 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. json-server로 Mock Server 만들기&lt;/h2&gt;
 &lt;p&gt;프론트엔드 개발을 하다보면, Mock Server가 필요한 순간들이 종종 생깁니다.&lt;/p&gt;
 &lt;p&gt;Recoil과 같은 상태관리 라이브러리를 새로 도입하기 위해 Test할 때도, Project를 진행하는 중 API 명세만 나와있는 경우 등이 그렇습니다.&lt;/p&gt;
