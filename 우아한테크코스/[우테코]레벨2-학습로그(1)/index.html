@@ -325,13 +325,27 @@ props<span class="token operator">:</span> <span class="token punctuation">{</sp
 <li>
 <p>Redux의 특징</p>
 <ul>
-<li>자바스크립트 앱을 위한 예측 가능한 상태 컨테이너입니다.</li>
+<li>Store는 단 한개만 존재한다.</li>
+<li>상태를 직접 변경할 수 없다. 상태를 변경하기 위해서는 Action 객체를 전달하는 방법 밖에 없다.</li>
+<li>Action 객체는 reducer에 의해 처리 된다. reducer는 반드시 순수 함수로 작성되어야 한다.</li>
+<li>Store</li>
+<li>Redux를 구성하는 여러가지 메서드 제공</li>
+<li>애플리케이션의 모든 상태는 하나의 Store 안에 하나의 객체 트리 구조로 저장</li>
+<li>Action</li>
+<li>상태 변경에 대한 정보를 담고 있는 Object</li>
+<li>어떤 타입의 액션이 실행될지에 대한 type을 가져야 한다.</li>
+<li>Reducer</li>
+<li>이전 상태와 Action을 받아 다음 상태를 반환하는 순수 함수.</li>
+<li>API호출, 라우팅 전환 같은 사이드 이펙드를 발생시키면 안 된다</li>
+<li>Dispatch</li>
+<li>Application의 어디에서든 호출 가능</li>
+<li>상태 변경을 일으키기 위한 유일한 방법, Action을 발행한다.</li>
 </ul>
 </li>
 <li>
 <p>Redux의 장점</p>
 <ul>
-<li>Redux는 일관적으로 동작하고, 서로 다른 환경에서 작동하고, 테스트하기 쉬운 앱을 작성하도록 도와준다.</li>
+<li>단방향 데이터 흐름에 따라 오류 제어와 상태관리에 이점</li>
 </ul>
 </li>
 </ul>
