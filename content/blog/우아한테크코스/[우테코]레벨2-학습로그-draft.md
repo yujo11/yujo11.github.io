@@ -1,8 +1,8 @@
 ---
 title: '[우테코]레벨2 학습로그'
-date: 2021-06-21
+date: 2021-06-22
 category: '우아한 테크코스'
-draft: false
+draft: true
 ---
 
 ![](./images/woowa.png)
@@ -174,24 +174,59 @@ draft: false
 
 - Redux의 특징
 
-  - 자바스크립트 앱을 위한 예측 가능한 상태 컨테이너입니다.
+  - Store는 단 한개만 존재한다.
+  - 상태를 직접 변경할 수 없다. 상태를 변경하기 위해서는 Action 객체를 전달하는 방법 밖에 없다.
+  - Action 객체는 reducer에 의해 처리 된다. reducer는 반드시 순수 함수로 작성되어야 한다.
+  - Store
+    - Redux를 구성하는 여러가지 메서드 제공
+    - 애플리케이션의 모든 상태는 하나의 Store 안에 하나의 객체 트리 구조로 저장
+  - Action
+    - 상태 변경에 대한 정보를 담고 있는 Object
+    - 어떤 타입의 액션이 실행될지에 대한 type을 가져야 한다.
+  - Reducer
+    - 이전 상태와 Action을 받아 다음 상태를 반환하는 순수 함수.
+    - API호출, 라우팅 전환 같은 사이드 이펙드를 발생시키면 안 된다
+  - Dispatch
+    - Application의 어디에서든 호출 가능
+    - 상태 변경을 일으키기 위한 유일한 방법, Action을 발행한다.
 
 - Redux의 장점
-
-  - Redux는 일관적으로 동작하고, 서로 다른 환경에서 작동하고, 테스트하기 쉬운 앱을 작성하도록 도와준다.
+  - 단방향 데이터 흐름에 따라 오류 제어와 상태관리에 이점
 
 ### 9. Redux Thunk
 
 - Redux Thunk 특징
 
-  - Redux에서 공식적으로 추천하는 Redux를 사용하는 방법.
+  - 간단한 코드와 간단한 사용법
 
 - Redux Thunk의 장점
 
-  - Redux 작업을 단순화 해준다.
+  - Redux Thunk Code
+
+  ```js
+  function createThunkMiddleware(extraArgument) {
+    return ({ dispatch, getState }) => next => action => {
+      if (typeof action === 'function') {
+        return action(dispatch, getState, extraArgument)
+      }
+
+      return next(action)
+    }
+  }
+  const thunk = createThunkMiddleware()
+  thunk.withExtraArgument = createThunkMiddleware
+
+  export default thunk
+  ```
+
+  - 코드가 간단한만큼 사용이 간단하다.
 
 ### 10. Redux Toolkit
 
 - Redux Toolkit 특징
 
+  - Redux에서 공식적으로 추천하는 Redux를 사용하는 방법.
+
 - Redux Toolkit의 장점
+
+  - immer, thunk 등 Redux를 간단하게 사용할 수 있는 라이브러리들이 내장되어 있다.
