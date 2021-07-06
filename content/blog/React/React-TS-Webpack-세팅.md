@@ -1,5 +1,5 @@
 ---
-title: 'Webpack으로 React + TypeScript 세팅하기'
+title: 'Webpack으로 React + TypeScript + Styled Component + Storybook 세팅하기'
 date: 2021-07-05
 category: 'React'
 draft: false
@@ -7,14 +7,20 @@ draft: false
 
 ## 📝 description
 
-Webpack을 이용해서 React + Typescript 세팅하는 방법을 정리한 글입니다.
+Webpack을 이용해서 React + Typescript + Styled Components, 그리고 Storybook 세팅하는 방법을 정리한 글입니다.
 
-대표적으로 사용한 라이브러리는 아래 링크를 참고하시면 좋을거 같습니다.
+위에 언급한 라이브러리들이 궁금하시다면 아래 링크를 참고해보시면 좋을거 같습니다!
 
+- [Webpack](https://webpack.js.org/)
 - [React](https://ko.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Webpack](https://webpack.js.org/)
 - [ESlint](https://eslint.org/)
+- [Styled Components](https://styled-components.com/)
+- [Storybook](https://storybook.js.org/)
+
+이 글에서 사용 된 코드들은 아래 레포를 통해 확인하실 수 있습니다.
+
+- [react-ts-boilerplate](https://github.com/yujo11/react-ts-boilerplate)
 
 ## 🌏 React + TypeScript 기본 설정
 
