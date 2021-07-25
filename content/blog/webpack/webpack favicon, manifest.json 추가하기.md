@@ -11,9 +11,7 @@ draft: false
 
 [HTMLWebpackPlugin](https://www.npmjs.com/package/html-webpack-plugin)에는 다음과 같은 옵션이 있습니다.
 
-| Name          | Type     | Default                                             | Description |
-| ------------- | -------- | --------------------------------------------------- | ----------- |
-| **`favicon`** | {String} | `` | Adds the given favicon path to the output HTML |
+![](./images/favicon/html-favicon.png)
 
 해당 옵션을 사용해 아래와 같이 `favicon`을 등록할 수 있습니다.
 
