@@ -1,5 +1,5 @@
 ---
-title: 'webpack plugin을 이용한 favicon, manifest.json 추가하기'
+title: 'webpack plugin을 이용한 favicon, manifest 추가 방법'
 date: 2021-07-25
 category: 'webpack'
 draft: false
@@ -130,6 +130,8 @@ plugins: [
 ```
 
 ### 2. `favicons` 설정 추가
+
+`FaviconsWebpackPlugin`은 [favicons](https://github.com/itgalaxy/favicons#usage)의 설정들을 사용할 수 있습니다.
 
 - webpack.config.js
 
