@@ -39,3 +39,53 @@ PNG와 JPG는 래스터(Raster) 파일을 사용하는 대표적인 예입니다
 | 저장 및 표현 방식 |     화소의 집합     | XML 기반의 마크업 코드 |
 |     파일 크기     |      비교적 큼      |      비교적 작음       |
 |  확대 시 렌더링   |        깨짐         |        안 깨짐         |
+
+### 4. PNG와 SVG의 렌더링 비교
+
+#### case 1.
+
+- code
+
+```html
+<div style="display: flex">
+  <div>
+    <p>PNG</p>
+    <img
+      src="./outline_settings_black_24dp.png"
+      style="width: 24px; margin-right: 24px"
+    />
+  </div>
+  <div>
+    <p>SVG</p>
+    <img src="./settings_black_24dp.svg" style="width: 24px" />
+  </div>
+</div>
+```
+
+- result
+
+![](./images/24px.png)
+
+#### case 2.
+
+- code
+
+```html
+<div style="display: flex">
+  <div>
+    <p>PNG</p>
+    <img
+      src="./outline_settings_black_24dp.png"
+      style="width: 240px; margin-right: 24px"
+    />
+  </div>
+  <div>
+    <p>SVG</p>
+    <img src="./settings_black_24dp.svg" style="width: 240px" />
+  </div>
+</div>
+```
+
+- result
+
+![](./images/240px.png)
