@@ -53,19 +53,23 @@ Next.js는 SSR를 구축하는데 사용됩니다. 그러면서도 정적 페이
 
 1. 이미지 최적화
 
-- 빌드 시 이미지를 자동으로 최적화 해줍니다. (`next/image`)
+   - 빌드 시 이미지를 자동으로 최적화 해줍니다. (`next/image`)
 
 2. zero config
 
-- 자동 컴파일 및 번들링, 핫 리로드 등 Next.js에서 제공하는 기능은 좋은 개발자 경험을 얻을 수 있게 해줍니다.
+   - 자동 컴파일 및 번들링, 핫 리로드 등 Next.js에서 제공하는 기능은 좋은 개발자 경험을 얻을 수 있게 해줍니다.
 
 3. 정적 페이지 생성
 
-- SSR 이외에도 정적 페이지 생성을 완벽하게 지원합니다.
+   - SSR 이외에도 정적 페이지 생성을 완벽하게 지원합니다.
 
 ## 3. 차이점
 
 1. Next.js는 배포하기 위해 서버가 필요하지만(SSR을 사용하는 경우) Gatsby는 서버가 없어도 실행할 수 있다.
 2. Next.js는 런타임에서 HTML/JS/CSS를 생성할 수 있지만 Gatsby는 빌드시에만 HTML/JS/CSS를 생성한다.
 
-- 추가 정보: [Gatsby vs Next / Gatsby 공식 문서](https://www.gatsbyjs.com/features/jamstack/gatsby-vs-nextjs)
+## 참고자료
+
+- [Next.js 공식 문서](https://nextjs.org/)
+- [Gatsby 공식 문서](https://www.gatsbyjs.com/)
+  - [Gatsby vs Next](https://www.gatsbyjs.com/features/jamstack/gatsby-vs-nextjs)
