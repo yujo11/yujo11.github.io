@@ -2,7 +2,7 @@
 title: '[우테코]레벨1 유튜브 강의실 step2 후기'
 date: 2021-03-13
 category: '우아한 테크코스'
-draft: false
+draft: true
 ---
 
 <p align="middle" >

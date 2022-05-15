@@ -2,7 +2,7 @@
 title: '[우테코]레벨2 React Lotto 후기'
 date: 2021-05-06
 category: '우아한 테크코스'
-draft: false
+draft: true
 ---
 
 <p align="middle" >

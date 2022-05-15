@@ -2,7 +2,7 @@
 title: '[우테코]레벨1 행운의 로또 step2 후기'
 date: 2021-02-24
 category: '우아한 테크코스'
-draft: false
+draft: true
 ---
 
 <p align="middle" >

@@ -2,7 +2,7 @@
 title: '[우테코]레벨 1 cypress 사용해보기(초간단 미션)'
 date: 2021-02-03
 category: '우아한 테크코스'
-draft: false
+draft: true
 ---
 
 ![](./images/simple-counter.png)
